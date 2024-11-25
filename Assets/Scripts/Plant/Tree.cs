@@ -48,7 +48,7 @@ public class Tree : MonoBehaviour
         {
             time += Time.deltaTime;
             
-            body.transform.RotateAround(transform.position+new Vector3(-0.01f,-2.747f*2),Vector3.forward,-1.18f);
+            body.transform.RotateAround(transform.position,Vector3.forward,-1.18f);
             yield return null;
         }
 

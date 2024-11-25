@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     public float speed = 5f;
+    Vector2 move;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,15 +20,15 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        Vector2 move = new Vector2 (Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
+        move = new Vector2 (Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
         move.Normalize();
-        rb.MovePosition(rb.position+move*speed*Time.deltaTime);
+        
 
         animator.SetFloat("Horizontal",move.x);
         animator.SetFloat("Vertical",move.y);
         animator.SetFloat("Speed",move.sqrMagnitude);
     }
     void FixedUpdate(){
-        spriteRenderer.sortingOrder = -(int)transform.position.y;
+        rb.MovePosition(rb.position+move*speed*Time.deltaTime);
     }
 }
