@@ -9,7 +9,11 @@ public class Tree : MonoBehaviour
     private BoxCollider2D thistree;
     private Transform body;
     private Vector3 mousePos;
-    public float health = 4;
+    public float health = 8;
+    private bool fell=false;
+
+    [SerializeField]private GameObject treeBody;
+    [SerializeField]private GameObject treeRoot;
     public Vector2 targetPosition = new Vector2(3f, -2.8f);
     public float fallSpeed = 5;
     private SpriteRenderer spriteRendererBody;
@@ -18,9 +22,11 @@ public class Tree : MonoBehaviour
     {
         thistree = GetComponent<BoxCollider2D>();
         body = transform.Find("Body").GetComponent<Transform>();
+
         spriteRendererBody = transform.Find("Body").GetComponent<SpriteRenderer>();
-        spriteRendererBody.sortingOrder = (int)transform.position.y;
         spriteRendererRoot = transform.Find("Root").GetComponent<SpriteRenderer>();
+
+        spriteRendererBody.sortingOrder = (int)transform.position.y;
         spriteRendererRoot.sortingOrder = (int)transform.position.y;
     }
 
@@ -31,11 +37,19 @@ public class Tree : MonoBehaviour
             
     }
     void OnMouseDown(){
-        health--;
-        if (health <= 0)
+        
+        if (PlayerStats.instance.itemsusing.ToString() == "axe"){
+            health--;
+        }
+        if (health<=0 && fell == true){
+            PlayerStats.instance.wood +=2;
+            Destroy(gameObject);
+        }
+        if (health <= 3 && fell ==false)
             {
                 StartCoroutine(FallDown());
-                //body.transform.position = Vector2.Lerp(body.transform.position,targetPosition,1f);
+                fell = true;
+                PlayerStats.instance.wood +=4;
             }
 
     }   
@@ -50,8 +64,10 @@ public class Tree : MonoBehaviour
             
             body.transform.RotateAround(transform.position,Vector3.forward,-1.18f);
             yield return null;
+            
         }
-
+        yield return null;
+        treeBody.SetActive(false);
         
     }
 

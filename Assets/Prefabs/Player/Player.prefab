@@ -103,12 +103,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5334727042687186564}
   - component: {fileID: 8588688315833618672}
-  - component: {fileID: 7973850671587815051}
   - component: {fileID: 4214073519479732774}
   - component: {fileID: 6453576520425077803}
   - component: {fileID: 6735432385367918645}
   - component: {fileID: 8670358115268389903}
   - component: {fileID: 7752528438140583067}
+  - component: {fileID: 7043057645007201834}
+  - component: {fileID: 7831278309534718746}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -189,19 +190,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7973850671587815051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281071209504756237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 872bb6ed839433d47815c866e296c08a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!95 &4214073519479732774
 Animator:
   serializedVersion: 5
@@ -326,6 +314,35 @@ MonoBehaviour:
   - spriteRenderer: {fileID: 8588688315833618672}
     relativeOrder: -1
   _sortOffsetMarker: {fileID: 5302479661645968806}
+--- !u!114 &7043057645007201834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281071209504756237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a11f9b4049b5046b56c1fc76f13e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsusing: 0
+  wood: 0
+  food: 0
+  tired: 0
+--- !u!114 &7831278309534718746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281071209504756237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872bb6ed839433d47815c866e296c08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &5507819033512505857
 GameObject:
   m_ObjectHideFlags: 0

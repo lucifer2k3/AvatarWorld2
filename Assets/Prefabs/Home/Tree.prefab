@@ -93,7 +93,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494c4117f77ad81478edc1bb23974481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
+  health: 7
+  treeBody: {fileID: 7582218296558369543}
+  treeRoot: {fileID: 8010236675434609880}
   targetPosition: {x: 3, y: -2.8}
   fallSpeed: 5
 --- !u!114 &1020035483385002090
