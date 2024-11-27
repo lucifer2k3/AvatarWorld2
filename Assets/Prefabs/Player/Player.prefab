@@ -330,6 +330,7 @@ MonoBehaviour:
   wood: 0
   food: 0
   tired: 0
+  woodRemain: {fileID: 0}
 --- !u!114 &7831278309534718746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,6 +344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  itemImage: []
+  usingItemImage: {fileID: 0}
+  purpleRadish: {fileID: 4558243359859274156, guid: 6f241f7fa5d879749b461c607020bc12, type: 3}
 --- !u!1 &5507819033512505857
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +453,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 0}
+  m_BackGroundColor: {r: 0.015686275, g: 0.007843138, b: 0.015686275, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

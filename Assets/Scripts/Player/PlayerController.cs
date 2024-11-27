@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]public Sprite[] itemImage;
     [SerializeField]public Image usingItemImage;
     Vector2 move;
+    public GameObject purpleRadish;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,8 +38,18 @@ public class PlayerController : MonoBehaviour
             PlayerStats.instance.itemsusing = PlayerStats.itemusing.seed;
             usingItemImage.sprite = itemImage[1];
         }
+        if (PlayerStats.instance.itemsusing.ToString()=="seed"){
+            if (Input.GetKeyDown(KeyCode.Mouse0)){
+                PlantTree();
+            }
+        }
     }
     void FixedUpdate(){
         rb.MovePosition(rb.position+move*speed*Time.deltaTime);
+    }
+    void PlantTree(){
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);;
+        mousePos.z = 0f;
+        Instantiate(purpleRadish, mousePos, Quaternion.identity);
     }
 }
