@@ -38,18 +38,18 @@ public class Tree : MonoBehaviour
     }
     void OnMouseDown(){
         
-        if (PlayerStats.instance.itemsusing.ToString() == "axe"){
+        // if (PlayerStats.instance.itemsusing.ToString() == "axe"){
             health--;
-        }
+        //}
         if (health<=0 && fell == true){
-            PlayerStats.instance.wood +=2;
+            // PlayerStats.instance.wood +=2;
             Destroy(gameObject);
         }
         if (health <= 3 && fell ==false)
             {
                 StartCoroutine(FallDown());
                 fell = true;
-                PlayerStats.instance.wood +=4;
+                // PlayerStats.instance.wood +=4;
             }
 
     }   

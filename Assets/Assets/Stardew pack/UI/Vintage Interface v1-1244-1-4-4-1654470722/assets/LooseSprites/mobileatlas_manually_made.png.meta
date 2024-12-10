@@ -1,0 +1,1401 @@
+fileFormatVersion: 2
+guid: b88084ac9f711bb4aaa8e28cb73459a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee3e76ada65a24e9dd50ffd020a781
+      internalID: 1211036550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 492
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5c4c55df280ab4fa5292ff36d3a2c6
+      internalID: 948668650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 491
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2423d0eed0ab3e4fa882b5baed3e285
+      internalID: 537588077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 495
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82737d0f0088e49905f8641de60a6a
+      internalID: -2052722200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 493
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b208ee2d365e5f14e8972e340333404f
+      internalID: 1102350490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 493
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a1e63e4eb82c9498636a05df2de064
+      internalID: 1137966063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 500
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef173ea5ad497e418604bc899b93099
+      internalID: 1325835821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 475
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e2d63a9565654cb51c514b13f9a79
+      internalID: 1787276679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f0ea5762c852743b74f3240946cea9
+      internalID: 778073595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 468
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c691c893eb73f468b41f3af81d12b7
+      internalID: 763579744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 474
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2873b938eb3444b39e5e4dd72ecc7
+      internalID: -92032157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 470
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1f255cc845c0142a69dd5538c1b0e3
+      internalID: -1032409609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b784c1a7ce8d2a746adea9bc861c3e24
+      internalID: -1626986443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 452
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a14d5c248911c84a80bf34b697add31
+      internalID: -214870147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 452
+        width: 65
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7e383adbde42040bf3114321591cb6
+      internalID: 1316482369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 452
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bce0ef37675cad44986e4374cd5f228
+      internalID: 556135101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 435
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7460694af3ea4304d9ea9b7afddcfa61
+      internalID: 623901162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 435
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d96825dcbe97a4f99f747eac4072e9
+      internalID: -361054918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 437
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec191a9721cbea479c56a5d7ff7e77b
+      internalID: 661810325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 437
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5646d45b4496cb34d93bdcedd5ae128c
+      internalID: -1450989359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 416
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed91947d65fbb458cf1da179812b43
+      internalID: 1048500579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_56
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a98873419e1e4cae5c7962e5bdb4a
+      internalID: 727082057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_57
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ac1ee00475944b9aec223c2d1b820
+      internalID: -725267821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 417
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbb61d751464e24d91e4c23eff88cef
+      internalID: 1825447779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 417
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7ac2dd754470a418f687b7a7f539ed
+      internalID: 1007084653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_60
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 415
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9e3edc71a8ad9408dacaeb7ecaa942
+      internalID: 925894391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_61
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 417
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4269eddce47f5a243911573b3ff59846
+      internalID: 1125455422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9755ac115c25f4599c0dcb65ab9294
+      internalID: 1740019998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_65
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 396
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42598eed7bcece4aac841e180527e93
+      internalID: -31051564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_66
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 396
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190f181e79ce6ae44ad89790b570b182
+      internalID: 97202805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 396
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed7804b7fa705646880c51947b33135
+      internalID: 7793226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 396
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62af47f330bdc545a02d40bef711125
+      internalID: 580249482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_69
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 396
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba2c2ffbf9c5b54fbf10ba9c5252386
+      internalID: -1887496416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 92
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08385cf1d28d8fb4a853c70f45e4cc36
+      internalID: -909060045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed1b4ef08dc484498ef9bec477939a
+      internalID: -1131791329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_106
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 311
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1373a7d0b098d4db8c48f2f63eee31
+      internalID: -1135893678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_108
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 311
+        width: 20
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49515533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d87974f7840054488e923b6a2d54124
+      internalID: 793018040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 311
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df79c2adf6033f4f8fafdd3c4f134a3
+      internalID: -810418011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_115
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 311
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f47db624558d954c88aad4e3c722222
+      internalID: 1247447312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 311
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69aa2dc087ded54285fa80f990da548
+      internalID: 620226868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48474f5f9989d3a459234f213021360c
+      internalID: 400004015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_256
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63c5c17ea12514d8a282bd29707571
+      internalID: -904641589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838c6b958f81254c91a3963055311e6
+      internalID: 708787276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800154ba7db7c59448f142c7270a2def
+      internalID: -1686379382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f619158d70997f42a8c0cbfa8aefbe6
+      internalID: -650730065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab95c87567bb444db21d33e16c9e3d6
+      internalID: 1472688135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mobileatlas_manually_made_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86507c322c3b344d82b5427e1489b0d
+      internalID: 1644574836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mobileatlas_manually_made_0: 1211036550
+      mobileatlas_manually_made_1: 948668650
+      mobileatlas_manually_made_10: 1472688135
+      mobileatlas_manually_made_100: -749464525
+      mobileatlas_manually_made_101: -1613241733
+      mobileatlas_manually_made_102: 1384923639
+      mobileatlas_manually_made_103: -1131791329
+      mobileatlas_manually_made_104: 458268211
+      mobileatlas_manually_made_105: 1083413724
+      mobileatlas_manually_made_106: -1135893678
+      mobileatlas_manually_made_107: 472675098
+      mobileatlas_manually_made_108: 793018040
+      mobileatlas_manually_made_109: -142959756
+      mobileatlas_manually_made_11: 1644574836
+      mobileatlas_manually_made_110: -1667536649
+      mobileatlas_manually_made_111: 1272703371
+      mobileatlas_manually_made_112: -2096095283
+      mobileatlas_manually_made_113: -810418011
+      mobileatlas_manually_made_114: 1703358025
+      mobileatlas_manually_made_115: 1247447312
+      mobileatlas_manually_made_116: 149687652
+      mobileatlas_manually_made_117: 1093746555
+      mobileatlas_manually_made_118: 1048427386
+      mobileatlas_manually_made_119: 620226868
+      mobileatlas_manually_made_12: 1078037818
+      mobileatlas_manually_made_120: 91831927
+      mobileatlas_manually_made_121: 449072270
+      mobileatlas_manually_made_122: -1789762765
+      mobileatlas_manually_made_123: -318838610
+      mobileatlas_manually_made_124: 1307432017
+      mobileatlas_manually_made_125: 715868808
+      mobileatlas_manually_made_126: -1515321068
+      mobileatlas_manually_made_127: 756874582
+      mobileatlas_manually_made_128: 402092110
+      mobileatlas_manually_made_129: 1485518272
+      mobileatlas_manually_made_13: -2063074637
+      mobileatlas_manually_made_130: 1144014932
+      mobileatlas_manually_made_131: -2021075291
+      mobileatlas_manually_made_132: 1054672548
+      mobileatlas_manually_made_133: -1486797099
+      mobileatlas_manually_made_134: -1833027903
+      mobileatlas_manually_made_135: 1581429839
+      mobileatlas_manually_made_136: -1990752846
+      mobileatlas_manually_made_137: 709558183
+      mobileatlas_manually_made_138: -1786747595
+      mobileatlas_manually_made_139: 400004015
+      mobileatlas_manually_made_14: -1529637833
+      mobileatlas_manually_made_140: -1579711416
+      mobileatlas_manually_made_141: 32223835
+      mobileatlas_manually_made_142: -542206805
+      mobileatlas_manually_made_143: -969017295
+      mobileatlas_manually_made_144: 1641578773
+      mobileatlas_manually_made_145: 573888454
+      mobileatlas_manually_made_146: -2027971474
+      mobileatlas_manually_made_147: 295180736
+      mobileatlas_manually_made_148: 1486359061
+      mobileatlas_manually_made_149: 942326194
+      mobileatlas_manually_made_15: 570091689
+      mobileatlas_manually_made_150: -1796450717
+      mobileatlas_manually_made_151: 782514744
+      mobileatlas_manually_made_152: 1412554765
+      mobileatlas_manually_made_153: -823585888
+      mobileatlas_manually_made_154: -661698388
+      mobileatlas_manually_made_155: 1574030750
+      mobileatlas_manually_made_156: 18038336
+      mobileatlas_manually_made_157: -325515947
+      mobileatlas_manually_made_158: 2076639400
+      mobileatlas_manually_made_159: 130880928
+      mobileatlas_manually_made_16: 138779824
+      mobileatlas_manually_made_160: 1701402863
+      mobileatlas_manually_made_161: 1466237284
+      mobileatlas_manually_made_162: 1411257012
+      mobileatlas_manually_made_163: 840327484
+      mobileatlas_manually_made_164: -622191323
+      mobileatlas_manually_made_165: 806048578
+      mobileatlas_manually_made_166: 1095078863
+      mobileatlas_manually_made_167: -2041572473
+      mobileatlas_manually_made_168: 56928819
+      mobileatlas_manually_made_169: -1642345886
+      mobileatlas_manually_made_17: -832640187
+      mobileatlas_manually_made_170: 631066668
+      mobileatlas_manually_made_171: -1434004187
+      mobileatlas_manually_made_172: -601687015
+      mobileatlas_manually_made_173: -1352500235
+      mobileatlas_manually_made_174: 794743595
+      mobileatlas_manually_made_175: 1534177988
+      mobileatlas_manually_made_176: 613825943
+      mobileatlas_manually_made_177: -601497552
+      mobileatlas_manually_made_178: -1532362232
+      mobileatlas_manually_made_179: 1986008067
+      mobileatlas_manually_made_18: 1787276679
+      mobileatlas_manually_made_180: 1163448393
+      mobileatlas_manually_made_181: 125726426
+      mobileatlas_manually_made_182: 306550025
+      mobileatlas_manually_made_183: -1388439528
+      mobileatlas_manually_made_184: -193424187
+      mobileatlas_manually_made_185: -580730729
+      mobileatlas_manually_made_186: 714317405
+      mobileatlas_manually_made_187: 855371337
+      mobileatlas_manually_made_188: 1675667024
+      mobileatlas_manually_made_189: 1633860482
+      mobileatlas_manually_made_19: 1750531045
+      mobileatlas_manually_made_190: -1309719883
+      mobileatlas_manually_made_191: 688936187
+      mobileatlas_manually_made_192: 843165010
+      mobileatlas_manually_made_193: 709521667
+      mobileatlas_manually_made_194: 124005829
+      mobileatlas_manually_made_195: -731468927
+      mobileatlas_manually_made_196: -1320156537
+      mobileatlas_manually_made_197: 1433209176
+      mobileatlas_manually_made_198: 205225086
+      mobileatlas_manually_made_199: 107884290
+      mobileatlas_manually_made_2: 708787276
+      mobileatlas_manually_made_20: 1138706316
+      mobileatlas_manually_made_200: 131537283
+      mobileatlas_manually_made_201: 1971065674
+      mobileatlas_manually_made_202: 1419894660
+      mobileatlas_manually_made_203: -1483180904
+      mobileatlas_manually_made_204: 2092567514
+      mobileatlas_manually_made_205: 1964155629
+      mobileatlas_manually_made_206: -889057728
+      mobileatlas_manually_made_207: -286014529
+      mobileatlas_manually_made_208: -565865773
+      mobileatlas_manually_made_209: -1796098626
+      mobileatlas_manually_made_21: 778073595
+      mobileatlas_manually_made_210: 1002779303
+      mobileatlas_manually_made_211: -1856822857
+      mobileatlas_manually_made_212: -1701101399
+      mobileatlas_manually_made_213: 1161734977
+      mobileatlas_manually_made_214: -689029813
+      mobileatlas_manually_made_215: 896186608
+      mobileatlas_manually_made_216: -157604111
+      mobileatlas_manually_made_217: 1843649701
+      mobileatlas_manually_made_218: 126228243
+      mobileatlas_manually_made_219: 1525780450
+      mobileatlas_manually_made_22: 1491615290
+      mobileatlas_manually_made_220: -1900304312
+      mobileatlas_manually_made_221: 507854872
+      mobileatlas_manually_made_222: 549159011
+      mobileatlas_manually_made_223: 1121029510
+      mobileatlas_manually_made_224: -273691829
+      mobileatlas_manually_made_225: 1141107428
+      mobileatlas_manually_made_226: 928958091
+      mobileatlas_manually_made_227: 1283439391
+      mobileatlas_manually_made_228: 1147392532
+      mobileatlas_manually_made_229: 297830101
+      mobileatlas_manually_made_23: 763579744
+      mobileatlas_manually_made_230: 1512939439
+      mobileatlas_manually_made_231: -1215543606
+      mobileatlas_manually_made_232: -864201519
+      mobileatlas_manually_made_233: -75927037
+      mobileatlas_manually_made_234: -29839406
+      mobileatlas_manually_made_235: 211918836
+      mobileatlas_manually_made_236: -2070139237
+      mobileatlas_manually_made_237: -1867957604
+      mobileatlas_manually_made_238: -684536238
+      mobileatlas_manually_made_239: -1626688288
+      mobileatlas_manually_made_24: -658894808
+      mobileatlas_manually_made_240: 1206973546
+      mobileatlas_manually_made_241: -713656160
+      mobileatlas_manually_made_242: -440804551
+      mobileatlas_manually_made_243: 251289528
+      mobileatlas_manually_made_244: -257601542
+      mobileatlas_manually_made_245: 764070761
+      mobileatlas_manually_made_246: -735027625
+      mobileatlas_manually_made_247: -278662824
+      mobileatlas_manually_made_248: 1866487579
+      mobileatlas_manually_made_249: -1723429566
+      mobileatlas_manually_made_25: -764667129
+      mobileatlas_manually_made_250: -360965386
+      mobileatlas_manually_made_251: -390435822
+      mobileatlas_manually_made_252: -1665313590
+      mobileatlas_manually_made_253: -1555874356
+      mobileatlas_manually_made_254: -473272435
+      mobileatlas_manually_made_255: 1249771560
+      mobileatlas_manually_made_256: -904641589
+      mobileatlas_manually_made_257: 2012783420
+      mobileatlas_manually_made_258: -83088333
+      mobileatlas_manually_made_259: 510388959
+      mobileatlas_manually_made_26: -92032157
+      mobileatlas_manually_made_260: 613453420
+      mobileatlas_manually_made_261: 219984210
+      mobileatlas_manually_made_262: -1905947418
+      mobileatlas_manually_made_263: -1671736642
+      mobileatlas_manually_made_264: -129954090
+      mobileatlas_manually_made_265: 922530933
+      mobileatlas_manually_made_266: -1334160123
+      mobileatlas_manually_made_267: 530452971
+      mobileatlas_manually_made_268: 1531340532
+      mobileatlas_manually_made_269: 1569908040
+      mobileatlas_manually_made_27: -1032409609
+      mobileatlas_manually_made_270: 1790308182
+      mobileatlas_manually_made_271: -521961073
+      mobileatlas_manually_made_272: 930687332
+      mobileatlas_manually_made_273: 1943533640
+      mobileatlas_manually_made_274: 836516170
+      mobileatlas_manually_made_275: 1591742210
+      mobileatlas_manually_made_276: 320986328
+      mobileatlas_manually_made_277: -1942834654
+      mobileatlas_manually_made_278: -1709261525
+      mobileatlas_manually_made_279: 828534942
+      mobileatlas_manually_made_28: 862170838
+      mobileatlas_manually_made_280: -265172235
+      mobileatlas_manually_made_281: 224851286
+      mobileatlas_manually_made_282: 1728664788
+      mobileatlas_manually_made_283: -1419070065
+      mobileatlas_manually_made_284: -179809123
+      mobileatlas_manually_made_285: -1946464526
+      mobileatlas_manually_made_286: -1910707829
+      mobileatlas_manually_made_287: -392453207
+      mobileatlas_manually_made_288: 2058536962
+      mobileatlas_manually_made_289: 1718703628
+      mobileatlas_manually_made_29: 1793117583
+      mobileatlas_manually_made_290: -501251044
+      mobileatlas_manually_made_291: -2089252005
+      mobileatlas_manually_made_292: -1254256185
+      mobileatlas_manually_made_293: -236089113
+      mobileatlas_manually_made_294: 224304515
+      mobileatlas_manually_made_295: -892293228
+      mobileatlas_manually_made_296: -883524642
+      mobileatlas_manually_made_297: -820305955
+      mobileatlas_manually_made_298: 1802796502
+      mobileatlas_manually_made_299: -1176171585
+      mobileatlas_manually_made_3: 537588077
+      mobileatlas_manually_made_30: 1613963774
+      mobileatlas_manually_made_31: -1102445795
+      mobileatlas_manually_made_32: -210112270
+      mobileatlas_manually_made_33: -1626986443
+      mobileatlas_manually_made_34: -214870147
+      mobileatlas_manually_made_35: 1316482369
+      mobileatlas_manually_made_36: -364870423
+      mobileatlas_manually_made_37: -1927772971
+      mobileatlas_manually_made_38: -479800115
+      mobileatlas_manually_made_39: 556135101
+      mobileatlas_manually_made_4: -2052722200
+      mobileatlas_manually_made_40: 494974339
+      mobileatlas_manually_made_41: 139009341
+      mobileatlas_manually_made_42: 1897741958
+      mobileatlas_manually_made_43: 731534255
+      mobileatlas_manually_made_44: -1320661504
+      mobileatlas_manually_made_45: 359664953
+      mobileatlas_manually_made_46: -1207872523
+      mobileatlas_manually_made_47: -2381939
+      mobileatlas_manually_made_48: 1553442990
+      mobileatlas_manually_made_49: 623901162
+      mobileatlas_manually_made_5: 1102350490
+      mobileatlas_manually_made_50: -361054918
+      mobileatlas_manually_made_51: 661810325
+      mobileatlas_manually_made_52: -1450989359
+      mobileatlas_manually_made_53: -1715790963
+      mobileatlas_manually_made_54: 34696242
+      mobileatlas_manually_made_55: 1048500579
+      mobileatlas_manually_made_56: 727082057
+      mobileatlas_manually_made_57: -725267821
+      mobileatlas_manually_made_58: 1825447779
+      mobileatlas_manually_made_59: 1007084653
+      mobileatlas_manually_made_6: 1137966063
+      mobileatlas_manually_made_60: 925894391
+      mobileatlas_manually_made_61: 1125455422
+      mobileatlas_manually_made_62: 138031581
+      mobileatlas_manually_made_63: 2061379998
+      mobileatlas_manually_made_64: 1740019998
+      mobileatlas_manually_made_65: -31051564
+      mobileatlas_manually_made_66: 97202805
+      mobileatlas_manually_made_67: 7793226
+      mobileatlas_manually_made_68: 580249482
+      mobileatlas_manually_made_69: -1887496416
+      mobileatlas_manually_made_7: -1686379382
+      mobileatlas_manually_made_70: -1186697925
+      mobileatlas_manually_made_71: -744302719
+      mobileatlas_manually_made_72: 1568843171
+      mobileatlas_manually_made_73: -997323507
+      mobileatlas_manually_made_74: 2071455139
+      mobileatlas_manually_made_75: -1590368969
+      mobileatlas_manually_made_76: 1128705808
+      mobileatlas_manually_made_77: -336418898
+      mobileatlas_manually_made_78: 1885218153
+      mobileatlas_manually_made_79: 1013214571
+      mobileatlas_manually_made_8: 1325835821
+      mobileatlas_manually_made_80: -1958036239
+      mobileatlas_manually_made_81: 34914145
+      mobileatlas_manually_made_82: 1630703795
+      mobileatlas_manually_made_83: -345980231
+      mobileatlas_manually_made_84: 1852164181
+      mobileatlas_manually_made_85: -1413147953
+      mobileatlas_manually_made_86: 2114399946
+      mobileatlas_manually_made_87: -1078874174
+      mobileatlas_manually_made_88: 1394798024
+      mobileatlas_manually_made_89: -1360393772
+      mobileatlas_manually_made_9: -650730065
+      mobileatlas_manually_made_90: 1173600466
+      mobileatlas_manually_made_91: 2090235071
+      mobileatlas_manually_made_92: 384818036
+      mobileatlas_manually_made_93: 1759371651
+      mobileatlas_manually_made_94: -791849808
+      mobileatlas_manually_made_95: 1248329595
+      mobileatlas_manually_made_96: -909060045
+      mobileatlas_manually_made_97: -200563255
+      mobileatlas_manually_made_98: -960263401
+      mobileatlas_manually_made_99: 161374939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
