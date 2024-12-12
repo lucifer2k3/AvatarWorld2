@@ -12,8 +12,6 @@ public class Plant : MonoBehaviour
     void Awake()
     {
         plant = GetComponent<SpriteRenderer>();
-        plant.sprite = item.itemGrowPhase[0];
-        growTime = item.growTime[0];
     }
 
     // Update is called once per frame

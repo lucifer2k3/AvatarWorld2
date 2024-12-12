@@ -11,19 +11,35 @@ public class PlayerStats : MonoBehaviour
 
 
     public bool tired = false;
-    public Item[] playerItems = new Item[23];
+    public PlayerInvent[] playerItems = new PlayerInvent[24];
 
     private void Awake(){
         instance = this;
     }
-    public void AddItem(Item item)
+    public void AddItem(Item item,int amount)
     {
-        for (int i = 0; i < 24;i++)
+        for (int i=0;i<24;i++)
         {
-            if (item.id != playerItems[i].id)
+            if (playerItems[i].item.id == item.id)
             {
-                //smth happen
+                playerItems[i].amount += amount;
+            } 
+        }
+        for (int i=0;i< 24;i++)
+        {
+            if (playerItems[i] == null)
+            {
+                playerItems[i].item = item;
+                playerItems[i].amount = amount;
+            }
+            if (i == 23)
+            {
+                print(playerItems[i].item);
             }
         }
+    }
+    public void RemoveItem(Item item,int amount)
+    {
+
     }
 }

@@ -14,8 +14,6 @@ public class Item : ScriptableObject
     public Sprite itemImage;
     public string itemName;
     public string itemDes;
-    public int amount=0;
-    public int maxAmount;
     public int price;
 
 }
