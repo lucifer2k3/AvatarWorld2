@@ -9,12 +9,13 @@ public class Item : ScriptableObject
         Weapon
 
     }
-
+    public int id;
     public itemTypes itemType;
     public Sprite itemImage;
     public string itemName;
+    public string itemDes;
     public int amount=0;
     public int maxAmount;
-    public float[] growTime = new float[7];
-    public Sprite[] itemGrowPhase = new Sprite[7];
+    public int price;
+
 }

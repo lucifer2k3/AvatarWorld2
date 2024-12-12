@@ -11,15 +11,19 @@ public class PlayerStats : MonoBehaviour
 
 
     public bool tired = false;
-    public Dictionary<int, Item> playerItems;
-
+    public Item[] playerItems = new Item[23];
 
     private void Awake(){
         instance = this;
     }
-
-    
-
-    
-
+    public void AddItem(Item item)
+    {
+        for (int i = 0; i < 24;i++)
+        {
+            if (item.id != playerItems[i].id)
+            {
+                //smth happen
+            }
+        }
+    }
 }
