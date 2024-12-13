@@ -12,22 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce44fbb2baa1214ab01ae24083cf223, type: 3}
   m_Name: Purple Raddish
   m_EditorClassIdentifier: 
-  itemType: 0
-  itemImage: {fileID: 0}
+  id: 1
+  itemType: 2
+  itemImage: {fileID: 1852326432, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
   itemName: Purple Radish
-  amount: 0
-  maxAmount: 24
-  growTime:
-  - 5
-  - 5
-  - 5
-  - 5
-  - 5
-  - 5
-  itemGrowPhase:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  itemDes: A purple raddish
+  price: 70

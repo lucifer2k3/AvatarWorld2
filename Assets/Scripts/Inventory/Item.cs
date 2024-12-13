@@ -6,8 +6,9 @@ public class Item : ScriptableObject
 {
     public enum itemTypes{
         Seed,
-        Weapon
-
+        Weapon,
+        Product
+        
     }
     public int id;
     public itemTypes itemType;
