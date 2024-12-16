@@ -23,9 +23,10 @@ public class ActiveButttonController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (posInInvent != -1)
+        if (StorageController.instance.activeUI.itemBindingForButton[activeButtonPos] != -1)
         {
-
+            itemImage.color = new Color(255, 255, 255, 255);
+            itemImage.sprite = PlayerStats.instance.playerItems[activeButtonPos].item.itemImage;
         }
     }
 }

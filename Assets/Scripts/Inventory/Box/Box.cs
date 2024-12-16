@@ -18,7 +18,10 @@ public class Box : MonoBehaviour
         itemImage = transform.Find("Item Image").GetComponent<Image>();
         amountText = transform.Find("Amount Text").GetComponent<Text>();
     }
-
+    public void ShowBoxInfo()
+    {
+        StorageController.instance.choosingButton = boxPos;
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
