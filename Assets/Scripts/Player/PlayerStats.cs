@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
 
     public bool tired = false;
     public PlayerInvent[] playerItems = new PlayerInvent[24];
-
+    public int choosingItem = 0; 
     private void Awake(){
         instance = this;
     }

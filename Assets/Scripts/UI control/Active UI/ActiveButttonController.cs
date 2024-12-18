@@ -10,6 +10,7 @@ public class ActiveButttonController : MonoBehaviour
     private int activeButtonPos;
     public static int posInInvent=-1;
     private Image itemImage;
+    private Image choosingImage;
     private Text amountText;
     void Start()
     {
@@ -19,14 +20,29 @@ public class ActiveButttonController : MonoBehaviour
         activeButtonPos = int.Parse(numberString);
         itemImage = transform.Find("Item Image").GetComponent<Image>();
         amountText = transform.Find("Amount").GetComponent<Text>();
+        choosingImage = transform.Find("Choosing Image").GetComponent<Image>();
     }
 
     void FixedUpdate()
     {
-        if (StorageController.instance.activeUI.itemBindingForButton[activeButtonPos] != -1)
+        if (ActiveUI.usingItem == activeButtonPos)
+        {
+           choosingImage.color = new Color(255, 255, 255, 255);
+        }
+        if (ActiveUI.usingItem != activeButtonPos)
+        {
+            choosingImage.color = new Color(255, 255, 255, 0);
+        }
+        if(ItemBinding.itemBindingForButton[activeButtonPos] <=-1)
+        {
+            itemImage.color = new Color(255, 255, 255, 0);
+            itemImage.sprite = null;
+        }
+        else
         {
             itemImage.color = new Color(255, 255, 255, 255);
-            itemImage.sprite = PlayerStats.instance.playerItems[activeButtonPos].item.itemImage;
+            //itemImage.sprite = PlayerStats.instance.playerItems[ItemBinding.itemBindingForButton[activeButtonPos]].item.itemImage;
         }
+
     }
 }

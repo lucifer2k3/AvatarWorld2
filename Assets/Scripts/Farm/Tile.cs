@@ -13,6 +13,7 @@ public class Tile : MonoBehaviour
     void Start()
     {
         dirtBlock = GetComponent<SpriteRenderer>();
+        dirtBlock.sprite = null;
     }
 
     // Update is called once per frame

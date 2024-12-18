@@ -11,7 +11,6 @@ public class StorageController : MonoBehaviour
     [SerializeField] private GameObject BindUI;
     public int choosingButton=-1;
 
-    public ActiveUI activeUI;
     private void Awake()
     {
         instance = this;

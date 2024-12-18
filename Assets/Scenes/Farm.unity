@@ -11863,7 +11863,6 @@ MonoBehaviour:
   bindButton: {fileID: 82432126}
   BindUI: {fileID: 1387026583}
   choosingButton: -1
-  activeUI: {fileID: 11400000, guid: 4abb0bbff9f894844abf2ddaa6407345, type: 2}
 --- !u!224 &398869687 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4005312696923211044, guid: 375aab62d6a83d747a121761a8763172, type: 3}
@@ -12805,6 +12804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473704521}
+  - component: {fileID: 473704522}
   m_Layer: 0
   m_Name: ActiveUI
   m_TagString: Untagged
@@ -12837,6 +12837,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &473704522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473704520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8accc7747bc9e479ce70ac93554d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &479097247
 GameObject:
   m_ObjectHideFlags: 0
