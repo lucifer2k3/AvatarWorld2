@@ -7,6 +7,6 @@ public class Test : MonoBehaviour
     public Item item;
     public void AddItemTest(int amount)
     {
-        PlayerStats.instance.AddItem(item,3);
+        //PlayerStats.instance.AddItem(item,3);
     }
 }

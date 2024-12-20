@@ -76,9 +76,9 @@ GameObject:
   - component: {fileID: 6453576520425077803}
   - component: {fileID: 6735432385367918645}
   - component: {fileID: 8670358115268389903}
-  - component: {fileID: 7752528438140583067}
-  - component: {fileID: 7043057645007201834}
-  - component: {fileID: 7831278309534718746}
+  - component: {fileID: 4155141686467924808}
+  - component: {fileID: 1559847044434598515}
+  - component: {fileID: 9167735151779078471}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -264,7 +264,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.121294215, y: 0.08897519}
   m_EdgeRadius: 0
---- !u!114 &7752528438140583067
+--- !u!114 &4155141686467924808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,31 +273,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5281071209504756237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccbf497b028895049adfa0929952c193, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b201b774fded1546b505431033ea5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sortableSprite:
-  - spriteRenderer: {fileID: 8588688315833618672}
-    relativeOrder: -1
-  _sortOffsetMarker: {fileID: 5302479661645968806}
---- !u!114 &7043057645007201834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281071209504756237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2a11f9b4049b5046b56c1fc76f13e8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemsusing: 0
-  wood: 0
-  food: 0
-  tired: 0
-  woodRemain: {fileID: 0}
---- !u!114 &7831278309534718746
+--- !u!114 &1559847044434598515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,10 +288,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 872bb6ed839433d47815c866e296c08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   itemImage: []
   usingItemImage: {fileID: 0}
-  purpleRadish: {fileID: 4558243359859274156, guid: 6f241f7fa5d879749b461c607020bc12, type: 3}
+  purpleRadish: {fileID: 0}
+--- !u!114 &9167735151779078471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281071209504756237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a11f9b4049b5046b56c1fc76f13e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tired: 0
+  playerItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  choosingItem: 0
 --- !u!1 &9154275809061747093
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,5 +16,6 @@ public class Item : ScriptableObject
     public string itemName;
     public string itemDes;
     public int price;
+    public int amount = 0;
 
 }
