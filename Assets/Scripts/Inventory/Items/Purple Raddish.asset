@@ -18,3 +18,4 @@ MonoBehaviour:
   itemName: Purple Radish
   itemDes: A purple raddish
   price: 70
+  amount: 0

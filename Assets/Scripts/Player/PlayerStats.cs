@@ -17,48 +17,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void Start()
     {
-        InvokeRepeating("UpdateInventory", 1f, 0.5f);
     }
-    private void UpdateInventory()
-    {
-    //    for (int i=0;i<24;i++) 
-    //    {
-    //        if (playerItems[i].amount==0) 
-    //        {
-    //            playerItems[i].item = null;
-    //        }
-    //    }
-    //}
-    //public void AddItem(Item item,int amount)
-    //{
-    //    for (int i=0;i<24;i++)
-    //    {
-    //        if (playerItems[i].item)
-    //        {
-    //            if (playerItems[i].item.id == item.id)
-    //            {
-    //                playerItems[i].amount += amount;
-    //                return;
-    //            }
-    //        }
-    //    }
-    //    for (int i=0;i< 24;i++)
-    //    {
-    //        if (playerItems[i].item == null)
-    //        {
-    //            playerItems[i].item = item;
-    //            playerItems[i].amount = amount;
-    //            return;
-    //        }
-    //        if (i == 23)
-    //        {
-    //            print(playerItems[i].item);
-    //            return;
-    //        }
-    //    }
-    }
-    public void RemoveItem(Item item,int amount)
-    {
-
-    }
+    
+    
 }

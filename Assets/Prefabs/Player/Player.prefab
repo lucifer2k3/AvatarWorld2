@@ -79,6 +79,8 @@ GameObject:
   - component: {fileID: 4155141686467924808}
   - component: {fileID: 1559847044434598515}
   - component: {fileID: 9167735151779078471}
+  - component: {fileID: 3047730080176938618}
+  - component: {fileID: 4265622313408551824}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -96,7 +98,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.78, y: 3.57, z: 0.020718295}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 6, y: 6, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7716090428989238192}
@@ -305,32 +307,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tired: 0
-  playerItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   choosingItem: 0
+--- !u!114 &3047730080176938618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281071209504756237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865d6244fa2beaf4ca43fee74329d8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &4265622313408551824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281071209504756237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbf497b028895049adfa0929952c193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sortableSprite:
+  - spriteRenderer: {fileID: 8588688315833618672}
+    relativeOrder: 0
+  _sortOffsetMarker: {fileID: 5302479661645968806}
 --- !u!1 &9154275809061747093
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,9 +25,9 @@ public class PlayerController : MonoBehaviour
     {
         move = new Vector2 (Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
         move.Normalize();
-        animator.SetFloat("Horizontal",move.x);
-        animator.SetFloat("Vertical",move.y);
-        animator.SetFloat("Speed",move.sqrMagnitude);
+        //animator.SetFloat("Horizontal",move.x);
+        //animator.SetFloat("Vertical",move.y);
+        //animator.SetFloat("Speed",move.sqrMagnitude);
         
     }
     void FixedUpdate(){

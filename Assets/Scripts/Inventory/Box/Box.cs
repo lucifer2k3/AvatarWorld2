@@ -9,6 +9,7 @@ public class Box : MonoBehaviour
     private int boxPos;
     private Image itemImage;
     private Text amountText;
+    int i = 1;
     void Awake()
     {
         box = this.transform.name;
@@ -20,29 +21,48 @@ public class Box : MonoBehaviour
     }
     public void ShowBoxInfo()
     {
-        StorageController.instance.choosingButton = boxPos;
+        if (PlayerInvent.instance.item[boxPos])
+        {
+            
+            StorageController.instance.choosingButton = boxPos;
+        }
+            
     }
-    // Update is called once per frame
+    
+
     void FixedUpdate()
     {
-        //if (PlayerStats.instance.playerItems[boxPos].item)
-        //{
-        //    itemImage.color = new Color(255,255,255,255);
-        //    itemImage.sprite = PlayerStats.instance.playerItems[boxPos].item.itemImage;
-        //    if (PlayerStats.instance.playerItems[boxPos].amount==0 || PlayerStats.instance.playerItems[boxPos].amount == 1)
-        //    {
-        //        amountText.text = "";
-        //    }
-        //    else
-        //    {
-        //        amountText.text = PlayerStats.instance.playerItems[boxPos].amount.ToString();
-        //    }
-        //}
-        //if (PlayerStats.instance.playerItems[boxPos].item == null)
-        //{
-        //    itemImage.color = new Color(255, 255, 255, 0);
-        //    amountText.text = "";
-        //}
+        if (PlayerInvent.instance.item[boxPos])
+        {
+            itemImage.color = new Color(255, 255, 255, 255);
+            itemImage.sprite = PlayerInvent.instance.item[boxPos].itemImage;
+            if (PlayerInvent.instance.item[boxPos].amount == 0 || PlayerInvent.instance.item[boxPos].amount == 1)
+            {
+                amountText.text = "";
+            }
+            else
+            {
+                amountText.text =PlayerInvent.instance.item[boxPos].amount.ToString();
+            }
+        }
+        if (PlayerInvent.instance.item[boxPos] == null)
+        {
+            itemImage.color = new Color(255, 255, 255, 0);
+            itemImage.sprite = null;
+            amountText.text = "";
+        }
+
+    }
+    public void PointerDown()
+    {
+
+    }
+    public void PointerEnter()
+    {
+        
+    }
+    public void PointerExit()
+    {
         
     }
 }
