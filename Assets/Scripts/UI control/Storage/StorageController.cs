@@ -23,11 +23,16 @@ public class StorageController : MonoBehaviour
     {
         if (choosingButton != -1)
         {
+            dropButton.enabled = true;
+            bindButton.enabled = true;
             itemName.text = PlayerInvent.instance.item[choosingButton].name;
             itemDescription.text = PlayerInvent.instance.item[choosingButton].name;
         }
         if (choosingButton == -1)
         {
+            BindUI.SetActive(false);
+            dropButton.enabled = false;
+            bindButton.enabled = false;
             itemName.text = null;
             itemDescription.text = null;
         }

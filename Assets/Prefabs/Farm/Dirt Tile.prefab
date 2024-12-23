@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4005312696923211044}
   - component: {fileID: 4010666759292085178}
   - component: {fileID: 8107955057104994909}
-  - component: {fileID: 7840821664504940569}
+  - component: {fileID: 424928604287271871}
+  - component: {fileID: 5811187541159184736}
   m_Layer: 0
-  m_Name: Tile
+  m_Name: Dirt Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,17 +27,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7318883790083736885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.361681, y: 19.606363}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &4010666759292085178
 BoxCollider2D:
@@ -74,7 +75,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -124,7 +125,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2081361025, guid: 7ddf1e87864b9aa4db44fa2122c85ddb, type: 3}
+  m_Sprite: {fileID: -1915983943, guid: 587ea0bcc4e7cf044b6e9297571b28cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,7 +136,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7840821664504940569
+--- !u!114 &424928604287271871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7318883790083736885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Dirt
+    m_Hash: 0
+    m_CategoryList:
+    - m_Name: Entry_0
+      m_Hash: 0
+      m_Sprite: {fileID: 1093262710, guid: 587ea0bcc4e7cf044b6e9297571b28cb, type: 3}
+    - m_Name: Entry_1
+      m_Hash: 0
+      m_Sprite: {fileID: -1242890305, guid: 7ddf1e87864b9aa4db44fa2122c85ddb, type: 3}
+    - m_Name: Entry_2
+      m_Hash: 0
+      m_Sprite: {fileID: -2081361025, guid: 7ddf1e87864b9aa4db44fa2122c85ddb, type: 3}
+  m_SpriteLibraryAsset: {fileID: 0}
+--- !u!114 &5811187541159184736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,5 +174,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67da90d8e47cb1d49a7ab2aa20fa97db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {fileID: -2081361025, guid: 7ddf1e87864b9aa4db44fa2122c85ddb, type: 3}
-  green: {fileID: -1242890305, guid: 7ddf1e87864b9aa4db44fa2122c85ddb, type: 3}

@@ -40,8 +40,16 @@ public class ActiveButttonController : MonoBehaviour
         }
         else
         {
-            itemImage.color = new Color(255, 255, 255, 255);
-            itemImage.sprite = PlayerInvent.instance.item[ItemBinding.itemBindingForButton[activeButtonPos]].itemImage;
+            if (PlayerInvent.instance.item[ItemBinding.itemBindingForButton[activeButtonPos]])
+            {
+                itemImage.color = new Color(255, 255, 255, 255);
+                itemImage.sprite = PlayerInvent.instance.item[ItemBinding.itemBindingForButton[activeButtonPos]].itemImage;
+            }
+            else
+            {
+                itemImage.color = new Color(255, 255, 255, 0);
+                itemImage.sprite = null;
+            }
         }
 
     }
