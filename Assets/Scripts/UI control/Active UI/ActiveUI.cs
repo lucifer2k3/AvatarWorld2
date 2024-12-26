@@ -6,6 +6,7 @@ using UnityEngine;
 public class ActiveUI : MonoBehaviour
 {
     public static int usingItem = 0;
+    public static int id = 0;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))

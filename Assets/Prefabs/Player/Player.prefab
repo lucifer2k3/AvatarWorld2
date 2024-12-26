@@ -78,8 +78,6 @@ GameObject:
   - component: {fileID: 8670358115268389903}
   - component: {fileID: 4155141686467924808}
   - component: {fileID: 1559847044434598515}
-  - component: {fileID: 9167735151779078471}
-  - component: {fileID: 3047730080176938618}
   - component: {fileID: 4265622313408551824}
   m_Layer: 0
   m_Name: Player
@@ -294,57 +292,6 @@ MonoBehaviour:
   itemImage: []
   usingItemImage: {fileID: 0}
   purpleRadish: {fileID: 0}
---- !u!114 &9167735151779078471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281071209504756237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2a11f9b4049b5046b56c1fc76f13e8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tired: 0
-  choosingItem: 0
---- !u!114 &3047730080176938618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281071209504756237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 865d6244fa2beaf4ca43fee74329d8aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &4265622313408551824
 MonoBehaviour:
   m_ObjectHideFlags: 0

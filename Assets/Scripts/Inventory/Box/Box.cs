@@ -9,7 +9,6 @@ public class Box : MonoBehaviour
     private int boxPos;
     private Image itemImage;
     private Text amountText;
-    int i = 1;
     void Awake()
     {
         box = this.transform.name;

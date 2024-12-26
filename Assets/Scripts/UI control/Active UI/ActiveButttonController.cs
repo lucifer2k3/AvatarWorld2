@@ -33,17 +33,17 @@ public class ActiveButttonController : MonoBehaviour
         {
             choosingImage.color = new Color(255, 255, 255, 0);
         }
-        if(ItemBinding.itemBindingForButton[activeButtonPos] <= -1)
+        if (ItemBinding.instance.posInInvent[activeButtonPos] <= -1)
         {
             itemImage.color = new Color(255, 255, 255, 0);
             itemImage.sprite = null;
         }
         else
         {
-            if (PlayerInvent.instance.item[ItemBinding.itemBindingForButton[activeButtonPos]])
+            if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[activeButtonPos]])
             {
                 itemImage.color = new Color(255, 255, 255, 255);
-                itemImage.sprite = PlayerInvent.instance.item[ItemBinding.itemBindingForButton[activeButtonPos]].itemImage;
+                itemImage.sprite = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[activeButtonPos]].itemImage;
             }
             else
             {

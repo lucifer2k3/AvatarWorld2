@@ -33,8 +33,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -0.0329, y: 0.0053}
+  m_SizeDelta: {x: 2.9258, y: 2.6915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &816505139590365226
 SpriteRenderer:
@@ -267,4 +267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 816505139590365226}
-  iswatered: 0
+  isWatered: 0
+  canPlant: 0
+  state: 0
