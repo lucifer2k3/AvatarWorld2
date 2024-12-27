@@ -9278,7 +9278,7 @@ MonoBehaviour:
       - m_Target: {fileID: 669492617}
         m_TargetAssemblyTypeName: Test, Assembly-CSharp
         m_MethodName: AddItemTest
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -28001,6 +28001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: c6992359adfc20d4e8e724e889fcce9e, type: 2}
+  item2: {fileID: 11400000, guid: 608ec9df0f8a15948b5d1afd10e38918, type: 2}
 --- !u!114 &669492618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38375,6 +38376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df1ff477695bc3438382cb913d5d3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usingItem: 0
+  posInInvent: ffffffffffffffffffffffffffffffffffffffffffffffff
+  itemID: 000000000000000000000000000000000000000000000000
 --- !u!4 &1594117194 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7614208199424571563, guid: 41a8091d13b509441bd9774a78633601, type: 3}

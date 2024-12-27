@@ -10,6 +10,7 @@ public class ItemBinding : MonoBehaviour
     {
         instance = this;
     }
+    public int usingItem = 0;
     public int[] posInInvent = {-1, -1, -1, -1, -1, -1 };
     public int[] itemID= new int[6];
     public void BindItem(int pos,int inventpos,int id)

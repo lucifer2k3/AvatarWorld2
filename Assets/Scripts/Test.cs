@@ -5,8 +5,11 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
     public Item item;
-    public void AddItemTest(int amount)
+    public Item item2;
+
+    public void AddItemTest()
     {
-        PlayerInvent.instance.AddItem(item,3);
+        //PlayerInvent.instance.AddItem(item,3);
+        PlayerInvent.instance.AddItem(item2,1);
     }
 }

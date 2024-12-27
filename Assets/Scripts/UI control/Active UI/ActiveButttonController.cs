@@ -25,11 +25,11 @@ public class ActiveButttonController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (ActiveUI.usingItem == activeButtonPos)
+        if (ItemBinding.instance.usingItem == activeButtonPos)
         {
            choosingImage.color = new Color(255, 255, 255, 255);
         }
-        if (ActiveUI.usingItem != activeButtonPos)
+        if (ItemBinding.instance.usingItem != activeButtonPos)
         {
             choosingImage.color = new Color(255, 255, 255, 0);
         }

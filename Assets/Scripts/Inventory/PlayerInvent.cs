@@ -30,7 +30,7 @@ public class PlayerInvent : MonoBehaviour
     }
     public void AddItem(Item Item, int amount)
     {
-        //check Item trung id
+        //check Item trung' id
         for (int i = 0; i < 24; i++)
         {
             if (item[i])

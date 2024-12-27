@@ -12,7 +12,6 @@ public class Tile : MonoBehaviour
 
     public bool isWatered = false;
     public bool canPlant = false;
-    public int state = 0;
 
     private void Awake()
     {
@@ -21,13 +20,39 @@ public class Tile : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (state == 0)
+        if (canPlant == false)
         {
-
+            renderer.sprite = null;
+        }
+        if (canPlant)
+        {
+            renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
         }
     }
     void OnMouseEnter(){
-        interaction.sprite = spriteLibrary.GetSprite("Dirt", "r1"); 
+        if (canPlant == false)
+        {
+            if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id == 3)
+            {
+                if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]!=-1)
+                {
+                    interaction.sprite = spriteLibrary.GetSprite("Dirt", "r1"); 
+                }
+            }
+        }
+        if (canPlant==true
+            && PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id==3 )
+        {
+            interaction.sprite = spriteLibrary.GetSprite("Dirt", "r2");
+        } 
+    }
+    private void OnMouseDown()
+    {
+        if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id == 3
+            && canPlant == false)
+        {
+            canPlant = true;
+        }
     }
     void OnMouseExit(){
         interaction.sprite = null;
