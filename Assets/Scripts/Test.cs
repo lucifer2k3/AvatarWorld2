@@ -9,7 +9,7 @@ public class Test : MonoBehaviour
 
     public void AddItemTest()
     {
-        //PlayerInvent.instance.AddItem(item,3);
+        PlayerInvent.instance.AddItem(item,1);
         PlayerInvent.instance.AddItem(item2,1);
     }
 }

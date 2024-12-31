@@ -10,8 +10,11 @@ public class Tile : MonoBehaviour
     [SerializeField]private SpriteRenderer interaction;
 
 
-    public bool isWatered = false;
-    public bool canPlant = false;
+    private bool isWatered = false;
+    private bool canPlant = false;
+    private bool isPlanted = false;
+
+    private Item item;
 
     private void Awake()
     {
@@ -20,7 +23,7 @@ public class Tile : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (canPlant == false)
+        if (canPlant == false && isPlanted == false)
         {
             renderer.sprite = null;
         }
@@ -28,30 +31,61 @@ public class Tile : MonoBehaviour
         {
             renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
         }
+        if (isPlanted)
+        {
+
+        }
     }
     void OnMouseEnter(){
         if (canPlant == false)
         {
-            if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id == 3)
+            if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem] != -1)
             {
-                if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]!=-1)
+                if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Hoe")
                 {
-                    interaction.sprite = spriteLibrary.GetSprite("Dirt", "r1"); 
+                    interaction.sprite = spriteLibrary.GetSprite("Dirt", "r1");
                 }
             }
         }
-        if (canPlant==true
-            && PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id==3 )
+        if (canPlant == true)
         {
-            interaction.sprite = spriteLibrary.GetSprite("Dirt", "r2");
+            if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem] != -1)
+            {
+                if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Hoe")
+                {
+                    interaction.sprite = spriteLibrary.GetSprite("Dirt", "r2");
+                }
+                if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Seed")
+                {
+                    interaction.sprite = spriteLibrary.GetSprite("Dirt", "r1");
+                } 
+            }
         } 
     }
     private void OnMouseDown()
     {
-        if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].id == 3
-            && canPlant == false)
+        if (canPlant == false)
         {
-            canPlant = true;
+            if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem] != -1)
+            {
+                if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Hoe")
+                {
+                    canPlant = true;
+                } 
+            }
+        }
+        if (canPlant == true)
+        {
+            if (ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem] != -1)
+            {
+                if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Seed")
+                {
+                    canPlant = false;
+                    isPlanted = true;
+                    item = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]];
+                    PlayerInvent.instance.UseItem(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]], 1);
+                }
+            }
         }
     }
     void OnMouseExit(){

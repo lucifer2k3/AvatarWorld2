@@ -18,4 +18,17 @@ public class ItemBinding : MonoBehaviour
         posInInvent[pos] = inventpos;
         itemID[pos] = id;
     }
+    private void FixedUpdate()
+    {
+        for (int i=0;i<6;i++)
+        {
+            if (posInInvent[i] != -1)
+            {
+                if (PlayerInvent.instance.item[posInInvent[i]].amount == 0)
+                {
+                    posInInvent[i] = -1;
+                }
+            }
+        }
+    }
 }

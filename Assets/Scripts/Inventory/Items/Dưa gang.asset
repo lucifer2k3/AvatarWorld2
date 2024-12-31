@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ce44fbb2baa1214ab01ae24083cf223, type: 3}
-  m_Name: Purple Raddish
+  m_Name: "D\u01B0a gang"
   m_EditorClassIdentifier: 
   id: 1
-  itemType: 2
+  itemType: 3
   itemImage: {fileID: 1852326432, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
-  itemName: Purple Radish
-  itemDes: A purple raddish
+  itemName: "D\u01B0a leo"
+  itemDes: "Qu\u1EA3 d\u01B0a leo"
   price: 70
   amount: 0

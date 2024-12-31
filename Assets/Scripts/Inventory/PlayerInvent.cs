@@ -20,6 +20,7 @@ public class PlayerInvent : MonoBehaviour
         {
             if (item[i] != null) 
             {
+            // check neu amount == 0 thi xoa item
                 if (item[i].amount == 0)
                 {
                     item[i] = null;
@@ -62,5 +63,20 @@ public class PlayerInvent : MonoBehaviour
     public void RemoveItem(Item item, int amount)
     {
 
+    }
+    public void UseItem(Item Item, int amount)
+    {
+        //check Item trung' id
+        for (int i = 0; i < 24; i++)
+        {
+            if (item[i])
+            {
+                if (item[i].id == Item.id)
+                {
+                    item[i].amount -= amount;
+                    return;
+                }
+            }
+        }
     }
 }
