@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ce44fbb2baa1214ab01ae24083cf223, type: 3}
-  m_Name: Egg
+  m_Name: "Tr\u1EE9ng"
   m_EditorClassIdentifier: 
   id: 2
   itemType: 3
   itemImage: {fileID: -711192246, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
-  itemName: Egg
-  itemDes: An egg
+  itemName: "Tr\u1EE9ng"
+  itemDes: "L\xE0 qu\u1EA3 tr\u1EE9ng, d\xF9ng \u0111\u1EC3 ch\u1EBF bi\u1EBFn"
   price: 0
   sellingPrice: 0
   amount: 0
-  growPhase1: 0
-  growPhase2: 0
-  growPhase3: 0
-  growPhase4: 0
+  gameObjectWhilePlant: {fileID: 0}

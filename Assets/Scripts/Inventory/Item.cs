@@ -26,10 +26,5 @@ public class Item : ScriptableObject
     public int sellingPrice;
     public int amount = 0;
 
-
-    //for plant seed
-    public float growPhase1;
-    public float growPhase2;
-    public float growPhase3;
-    public float growPhase4;
+    public GameObject gameObjectWhilePlant;
 }

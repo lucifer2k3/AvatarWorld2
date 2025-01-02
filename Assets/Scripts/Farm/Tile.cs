@@ -9,6 +9,7 @@ public class Tile : MonoBehaviour
     private SpriteRenderer renderer;
     [SerializeField]private SpriteRenderer interaction;
 
+    public GameObject plant ;
 
     private bool isWatered = false;
     private bool canPlant = false;
@@ -23,17 +24,38 @@ public class Tile : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (canPlant == false && isPlanted == false)
-        {
-            renderer.sprite = null;
-        }
-        if (canPlant)
-        {
-            renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
-        }
-        if (isPlanted)
-        {
+        //if (canPlant == false && isPlanted == false)
+        //{
+        //    renderer.sprite = null;
+        //}
+        //if (canPlant)
+        //{
+        //    renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
+        //}
+        //if (isPlanted)
+        //{
 
+        //}
+        switch (canPlant)
+        {
+            case false:
+                {
+                    if (isPlanted == false)
+                    {
+                        renderer.sprite = null;
+                        break;
+                    }
+                    if (isPlanted)
+                    {
+                        break;
+                    }
+                    break;
+                }
+            case true:
+                {
+                    renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
+                    break;
+                }
         }
     }
     void OnMouseEnter(){
@@ -83,6 +105,7 @@ public class Tile : MonoBehaviour
                     canPlant = false;
                     isPlanted = true;
                     item = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]];
+                    plant = Instantiate(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].gameObjectWhilePlant, transform.position, transform.rotation);
                     PlayerInvent.instance.UseItem(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]], 1);
                 }
             }

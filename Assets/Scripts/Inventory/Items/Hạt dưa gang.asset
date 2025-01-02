@@ -20,7 +20,4 @@ MonoBehaviour:
   price: 0
   sellingPrice: 0
   amount: 0
-  growPhase1: 1
-  growPhase2: 1
-  growPhase3: 1
-  growPhase4: 1
+  gameObjectWhilePlant: {fileID: 4558243359859274156, guid: 6f241f7fa5d879749b461c607020bc12, type: 3}
