@@ -268,8 +268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 816505139590365226}
-  isWatered: 0
-  canPlant: 0
+  plant: {fileID: 0}
+  isPlanted: 0
 --- !u!1 &8326492331646772000
 GameObject:
   m_ObjectHideFlags: 0
