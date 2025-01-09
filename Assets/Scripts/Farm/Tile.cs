@@ -13,7 +13,7 @@ public class Tile : MonoBehaviour
 
     private bool isWatered = false;
     private bool canPlant = false;
-    private bool isPlanted = false;
+    public bool isPlanted = false;
 
     private Item item;
 
@@ -22,20 +22,9 @@ public class Tile : MonoBehaviour
         this.spriteLibrary = GetComponent<SpriteLibrary>();
         this.renderer = GetComponent<SpriteRenderer>();
     }
+
     private void FixedUpdate()
     {
-        //if (canPlant == false && isPlanted == false)
-        //{
-        //    renderer.sprite = null;
-        //}
-        //if (canPlant)
-        //{
-        //    renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
-        //}
-        //if (isPlanted)
-        //{
-
-        //}
         switch (canPlant)
         {
             case false:
@@ -106,6 +95,7 @@ public class Tile : MonoBehaviour
                     isPlanted = true;
                     item = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]];
                     plant = Instantiate(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].gameObjectWhilePlant, transform.position, transform.rotation);
+                    plant.transform.parent = transform;
                     PlayerInvent.instance.UseItem(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]], 1);
                 }
             }

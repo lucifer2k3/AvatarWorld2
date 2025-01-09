@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2578324686773005755}
   - component: {fileID: 1526736767292476012}
   m_Layer: 0
-  m_Name: Melon tree
+  m_Name: PineApple tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: -1819540455
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2023610782, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+  m_Sprite: {fileID: 2048519332, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,22 +106,22 @@ MonoBehaviour:
     m_CategoryList:
     - m_Name: p1
       m_Hash: 0
-      m_Sprite: {fileID: -2023610782, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: 2048519332, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
     - m_Name: p2
       m_Hash: 0
-      m_Sprite: {fileID: -1075286376, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: -662587766, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
     - m_Name: p3
       m_Hash: 0
-      m_Sprite: {fileID: 1142220092, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: 752579322, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
     - m_Name: p4
       m_Hash: 0
-      m_Sprite: {fileID: 2145264779, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: -650186707, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
     - m_Name: p5
       m_Hash: 0
-      m_Sprite: {fileID: -133971391, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: -2091791368, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
     - m_Name: p6
       m_Hash: 0
-      m_Sprite: {fileID: 425027546, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
+      m_Sprite: {fileID: 1186224951, guid: bcf4ef33c05520e4bb41d29b86cd8061, type: 3}
   m_SpriteLibraryAsset: {fileID: 0}
 --- !u!61 &2578324686773005755
 BoxCollider2D:
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3125, y: 0.3125}
+    oldSize: {x: 0.625, y: 0.625}
     newSize: {x: 0.3125, y: 0.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb0890e76a0e3034c90ea2b5e5a77481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemWhenHavest: {fileID: 11400000, guid: c6992359adfc20d4e8e724e889fcce9e, type: 2}
+  itemWhenHavest: {fileID: 11400000, guid: 32c477a1651abe84a9e12831b657bbf4, type: 2}
   growPhase: 1
   growTimes:
   - 1

@@ -11,6 +11,8 @@ public class Plant : MonoBehaviour
     private SpriteRenderer state;      //dung khi can
     private SpriteRenderer thistree;    // hinh anh cua cay
     private SpriteLibrary library;      // thu vien anh dung khi cay lon
+
+    private Tile parentTile;
     public enum plantTypes
     {
         canHavestTree,
@@ -21,6 +23,8 @@ public class Plant : MonoBehaviour
     public int growPhase = 1; 
     public float[] growTimes = new float[6];
     public float growTime=0;
+    public float boost = 1;
+
 
     private bool canHavest = false;
 
@@ -42,6 +46,21 @@ public class Plant : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+    private void OnMouseDown()
+    {
+        if (canHavest)
+        {
+            PlayerInvent.instance.AddItem(itemWhenHavest, 3);
+            parentTile = transform.parent.GetComponent<Tile>();
+            parentTile.isPlanted = false;
+            Destroy(gameObject);
+
+        }
+    }
     void FixedUpdate()
     {
         switch (growPhase)
@@ -49,7 +68,7 @@ public class Plant : MonoBehaviour
             case 1:
                 if (growTime>0)
                 {
-                    growTime -= Time.deltaTime;
+                    growTime -= Time.deltaTime * boost;
                     break;
                 }
                 if (growTime <= 0)
@@ -63,7 +82,7 @@ public class Plant : MonoBehaviour
             case 2:
                 if (growTime>0)
                 {
-                    growTime -= Time.deltaTime;
+                    growTime -= Time.deltaTime * boost;
                     break;
                 }
                 if (growTime <= 0)
@@ -77,7 +96,7 @@ public class Plant : MonoBehaviour
             case 3:
                 if (growTime>0)
                 {
-                    growTime -= Time.deltaTime;
+                    growTime -= Time.deltaTime * boost;
                     break;
                 }
                 if (growTime <= 0)
@@ -91,7 +110,7 @@ public class Plant : MonoBehaviour
             case 4:
                 if (growTime>0)
                 {
-                    growTime -= Time.deltaTime;
+                    growTime -= Time.deltaTime * boost;
                     break;
                 }
                 if (growTime <= 0)
@@ -105,7 +124,7 @@ public class Plant : MonoBehaviour
             case 5:
                 if (growTime>0)
                 {
-                    growTime -= Time.deltaTime;
+                    growTime -= Time.deltaTime * boost;
                     break;
                 }
                 if (growTime <= 0)
