@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -752,9 +752,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 667
-        y: 117
-        width: 14
-        height: 6
+        y: 101
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,12 +772,12 @@ TextureImporter:
       name: PC Computer - Stardew Valley - Farm Buildings_32
       rect:
         serializedVersion: 2
-        x: 683
-        y: 119
-        width: 6
-        height: 14
+        x: 795
+        y: 69
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -794,9 +794,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 700
-        y: 117
-        width: 13
-        height: 9
+        y: 102
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,76 +811,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_34
-      rect:
-        serializedVersion: 2
-        x: 715
-        y: 119
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aae4b802722d0d44e83294b6b38b7422
-      internalID: 1594626872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_35
-      rect:
-        serializedVersion: 2
-        x: 733
-        y: 118
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 793cf9172575e764ea926b53067fd58b
-      internalID: -1853077905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_36
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 118
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eed522fcd072464429aa58230c403d37
-      internalID: 557943721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_37
       rect:
         serializedVersion: 2
-        x: 766
-        y: 118
-        width: 12
-        height: 13
+        x: 765
+        y: 103
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,160 +832,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_38
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 118
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 967fb5b63bc4b604c81fa0252f2a6a08
-      internalID: 1586794440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_39
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 119
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 150d907277ac3d84999e44c539f93b4f
-      internalID: -907533012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_40
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 117
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad12a1c395cf6db4ab4bce1591758e3e
-      internalID: -1736635928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_41
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 87
-        width: 9
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19f40041b893e5c4c880a739e7ea25e9
-      internalID: 705623764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_42
-      rect:
-        serializedVersion: 2
-        x: 685
-        y: 111
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f039e92c6142b1d4e901b15362eb54a2
-      internalID: 2088736165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_43
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 102
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e65991ac322f878499c9bbbc9cc4f242
-      internalID: -792586303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_44
-      rect:
-        serializedVersion: 2
-        x: 717
-        y: 108
-        width: 13
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0fdedb3238aa2444b7246529fcbeb88
-      internalID: -943647751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_45
       rect:
         serializedVersion: 2
-        x: 735
+        x: 733
         y: 103
-        width: 11
-        height: 13
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,76 +853,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_46
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 105
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f6aa87fa4eb778489136f28cc54514a
-      internalID: -1530942687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_47
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 104
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 221f4157a4228b448a38ea1ff002b25c
-      internalID: -1298738249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_48
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 103
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e8a698d50d1e014a873a1b093e99297
-      internalID: 987739647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_49
       rect:
         serializedVersion: 2
         x: 796
-        y: 106
-        width: 13
-        height: 11
+        y: 102
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1147,34 +874,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_50
-      rect:
-        serializedVersion: 2
-        x: 811
-        y: 102
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9fb6c795898f694b89ea45baeca780e
-      internalID: -161627407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_51
       rect:
         serializedVersion: 2
-        x: 685
-        y: 85
-        width: 14
-        height: 9
+        x: 667
+        y: 69
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1189,202 +895,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_52
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 87
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a208149553ecf3144ad5763ecc6763b7
-      internalID: -766910321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_53
-      rect:
-        serializedVersion: 2
-        x: 717
-        y: 81
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e1dd6d179c78544b90aa985964d78d1
-      internalID: -127756164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_54
-      rect:
-        serializedVersion: 2
-        x: 743
-        y: 87
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc8758f42ec22d346a895b6ea62b4324
-      internalID: -1587677403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_55
-      rect:
-        serializedVersion: 2
-        x: 749
-        y: 82
-        width: 27
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2bf558b2cd5d204f93eb17f5149c663
-      internalID: 1283941296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_56
-      rect:
-        serializedVersion: 2
-        x: 777
-        y: 87
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e10016ad26dc654d9785fa3b37e36b6
-      internalID: -2118730826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_57
-      rect:
-        serializedVersion: 2
-        x: 782
-        y: 81
-        width: 27
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c50b86840fe5194cbe8fd320287b9bc
-      internalID: -759267745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_58
-      rect:
-        serializedVersion: 2
-        x: 811
-        y: 87
-        width: 5
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef15da548e944f94687982b195cab9e4
-      internalID: 1824784681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_59
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 76
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edc05b3e0f3d579459f52007ce387041
-      internalID: 177588419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_60
-      rect:
-        serializedVersion: 2
-        x: 683
-        y: 69
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d8198598211f7146ae440d643445f58
-      internalID: -676649012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_61
       rect:
         serializedVersion: 2
         x: 699
-        y: 79
-        width: 14
-        height: 7
+        y: 69
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1399,34 +916,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_62
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 69
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f3155476a65e7c448690b3c75b70325
-      internalID: 137641243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Farm Buildings_63
       rect:
         serializedVersion: 2
-        x: 744
+        x: 731
         y: 69
-        width: 7
-        height: 13
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1444,10 +940,10 @@ TextureImporter:
       name: PC Computer - Stardew Valley - Farm Buildings_64
       rect:
         serializedVersion: 2
-        x: 775
+        x: 763
         y: 69
-        width: 6
-        height: 13
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1457,48 +953,6 @@ TextureImporter:
       bones: []
       spriteID: 751c5b22436f614418a2a7c1a1574453
       internalID: 392804912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_65
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 69
-        width: 5
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62a1ac1a941576d44a0be9020b06cd61
-      internalID: 1414251235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Farm Buildings_66
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 80
-        width: 14
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfd1b6b339a848645b6573acbba41aa4
-      internalID: -77315051
       vertices: []
       indices: 
       edges: []
@@ -1554,7 +1008,7 @@ TextureImporter:
         width: 48
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1575,7 +1029,7 @@ TextureImporter:
         width: 48
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1596,7 +1050,7 @@ TextureImporter:
         width: 49
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
