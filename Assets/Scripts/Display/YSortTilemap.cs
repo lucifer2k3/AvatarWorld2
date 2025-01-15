@@ -5,10 +5,13 @@ using UnityEngine.Tilemaps;
 
 public class YSortTilemap : MonoBehaviour
 {
+    public TilemapRenderer tile;
+    public Transform trans;
     void Start()
     {
-        var tilemapRenderer = GetComponent<TilemapRenderer>();
-        tilemapRenderer.sortingOrder = transform.GetSortingOrder();
+        tile = GetComponent<TilemapRenderer>();
+        trans = transform.Find("Test").GetComponent<Transform>();
+        tile.sortingOrder = -(int)trans.position.y * 100;
     }
 
     
