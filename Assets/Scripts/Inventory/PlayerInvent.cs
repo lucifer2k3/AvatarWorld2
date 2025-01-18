@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -78,5 +78,14 @@ public class PlayerInvent : MonoBehaviour
                 }
             }
         }
+    }
+    public void SellItem(int pos, int amount)
+    {
+        if (item[pos] != null)
+        {
+            PlayerStats.instance.playerGold += item[pos].amount * item[pos].price;
+            item[pos].amount = 0;
+        }
+        else print("có lỗi xảy ra");
     }
 }
