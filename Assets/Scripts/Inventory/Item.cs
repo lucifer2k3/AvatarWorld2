@@ -22,8 +22,8 @@ public class Item : ScriptableObject
     public string itemDes;
 
 
-    public int price;
-    public int sellingPrice;
+    public int price;// Giá bán thành ph?m
+    public int sellingPrice;// Giá mua h?t gi?ng, nguyên li?u
     public int amount = 0;
 
     public GameObject gameObjectWhilePlant;

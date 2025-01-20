@@ -6,6 +6,7 @@ public class PlayerInvent : MonoBehaviour
 {
     public static PlayerInvent instance;
     public Item[] item= new Item[24];
+    public bool inventoryFull = false;
     private void Awake()
     {
         instance = this;
@@ -87,5 +88,10 @@ public class PlayerInvent : MonoBehaviour
             item[pos].amount = 0;
         }
         else print("có lỗi xảy ra");
+    }
+    public void BuyItem(Item item, int amount)
+    {
+        PlayerStats.instance.playerGold -= item.sellingPrice * amount;
+        this.AddItem(item, amount);
     }
 }
