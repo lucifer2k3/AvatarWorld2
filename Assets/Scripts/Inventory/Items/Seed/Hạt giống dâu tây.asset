@@ -20,4 +20,4 @@ MonoBehaviour:
   price: 0
   sellingPrice: 0
   amount: 0
-  gameObjectWhilePlant: {fileID: 0}
+  gameObjectWhilePlant: {fileID: 4558243359859274156, guid: fcc489b58632fab42927e4a102612e6e, type: 3}

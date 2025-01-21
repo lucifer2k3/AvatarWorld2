@@ -18,6 +18,6 @@ MonoBehaviour:
   itemName: "H\u1EA1t d\u01B0a"
   itemDes: "H\u1EA1t gi\u1ED1ng c\xE2y d\u01B0a gang, l\u1EDBn l\xEAn sau 4 ti\u1EBFng"
   price: 0
-  sellingPrice: 0
+  sellingPrice: 150
   amount: 0
   gameObjectWhilePlant: {fileID: 4558243359859274156, guid: 6f241f7fa5d879749b461c607020bc12, type: 3}

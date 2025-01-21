@@ -19,5 +19,5 @@ MonoBehaviour:
   itemDes: "Th\u1EDDi gian thu ho\u1EA1ch ..."
   price: 0
   sellingPrice: 100
-  amount: 0
-  gameObjectWhilePlant: {fileID: 0}
+  amount: 5
+  gameObjectWhilePlant: {fileID: 4558243359859274156, guid: 866cf077d0a44b4449e8a7993aaaad22, type: 3}

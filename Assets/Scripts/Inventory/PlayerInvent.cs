@@ -7,6 +7,7 @@ public class PlayerInvent : MonoBehaviour
     public static PlayerInvent instance;
     public Item[] item= new Item[24];
     public bool inventoryFull = false;
+
     private void Awake()
     {
         instance = this;
@@ -91,7 +92,14 @@ public class PlayerInvent : MonoBehaviour
     }
     public void BuyItem(Item item, int amount)
     {
-        PlayerStats.instance.playerGold -= item.sellingPrice * amount;
-        this.AddItem(item, amount);
+        if (PlayerStats.instance.playerGold >= item.sellingPrice * amount)
+            {
+                PlayerStats.instance.playerGold -= item.sellingPrice * amount;
+                this.AddItem(item, amount);
+            }
+        else
+            {
+
+            } 
     }
 }

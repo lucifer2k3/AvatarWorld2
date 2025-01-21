@@ -18,4 +18,6 @@ MonoBehaviour:
   itemName: "D\u01B0a leo"
   itemDes: "Qu\u1EA3 d\u01B0a leo"
   price: 70
-  amount: 0
+  sellingPrice: 0
+  amount: 3
+  gameObjectWhilePlant: {fileID: 4558243359859274156, guid: 6f241f7fa5d879749b461c607020bc12, type: 3}
