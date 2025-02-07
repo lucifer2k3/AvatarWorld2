@@ -81,9 +81,9 @@ public class PlayerInvent : MonoBehaviour
             }
         }
     }
-    public void SellItem(int pos, int amount)
+    public void SellItem(int pos)
     {
-        if (item[pos] != null)
+        if (item[pos])
         {
             PlayerStats.instance.playerGold += item[pos].amount * item[pos].price;
             item[pos].amount = 0;

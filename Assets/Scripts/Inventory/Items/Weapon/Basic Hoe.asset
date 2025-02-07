@@ -17,5 +17,7 @@ MonoBehaviour:
   itemImage: {fileID: -1241544332, guid: 2a1235644aa23e145b912546036b5957, type: 3}
   itemName: Basic Hoe
   itemDes: A hoe
-  price: 0
+  price: 200
+  sellingPrice: 0
   amount: 1
+  gameObjectWhilePlant: {fileID: 0}

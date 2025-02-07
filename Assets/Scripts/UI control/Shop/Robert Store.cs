@@ -20,6 +20,11 @@ public class RobertStore : MonoBehaviour
     [SerializeField]private TextMeshProUGUI itemName;
     [SerializeField]private TextMeshProUGUI itemDes;
     [SerializeField]private TextMeshProUGUI itemCost;
+
+    //storage UI
+    public static int shopStorageBoxPos = -1;
+    [SerializeField]private TextMeshProUGUI shopStorageItemName;
+    [SerializeField]private TextMeshProUGUI shopStorageItemDes;
     void Start()
     {
     }
@@ -39,6 +44,16 @@ public class RobertStore : MonoBehaviour
             itemDes.text = "";
             itemCost.text = "";
         }
+       if (shopStorageBoxPos != -1)
+        {
+            shopStorageItemName.text = PlayerInvent.instance.item[shopStorageBoxPos].itemName;
+            shopStorageItemDes.text = PlayerInvent.instance.item[shopStorageBoxPos].itemDes;
+        }
+        else
+        {
+            shopStorageItemName.text = "";
+            shopStorageItemDes.text = "";
+        }
     }
     public void Leave()
     {
@@ -46,6 +61,7 @@ public class RobertStore : MonoBehaviour
     }
     public void LeaveShop()
     {
+        shopStorageBoxPos = -1;
         shopBuyUI.SetActive(false);
     }
     public void EnterShop()
@@ -71,5 +87,17 @@ public class RobertStore : MonoBehaviour
     {
         storage.SetActive(true);
         shop.SetActive(false);
+    }
+    public void SellItem()
+    {
+        if (shopStorageBoxPos != -1)
+        {
+            PlayerInvent.instance.SellItem(shopStorageBoxPos);
+            shopStorageBoxPos= -1;
+        }
+        else
+        {
+            print("err");
+        }
     }
 }

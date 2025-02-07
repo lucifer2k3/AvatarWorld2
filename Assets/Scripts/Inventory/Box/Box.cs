@@ -22,8 +22,8 @@ public class Box : MonoBehaviour
     {
         if (PlayerInvent.instance.item[boxPos])
         {
-            
             StorageController.instance.choosingButton = boxPos;
+            RobertStore.shopStorageBoxPos = boxPos;
         }
             
     }
