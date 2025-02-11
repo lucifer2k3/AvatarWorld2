@@ -6,6 +6,7 @@ public class Gate : MonoBehaviour
 {
     [SerializeField]private Transform way_out;
     [SerializeField]private GameObject player;
+    public int mapCode;
     private void Start()
     {
     }
@@ -13,6 +14,7 @@ public class Gate : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+            AllCameraControl.playerpos = mapCode;
             player.transform.position = way_out.position;
         }
     }

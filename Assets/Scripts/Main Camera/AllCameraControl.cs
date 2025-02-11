@@ -6,28 +6,34 @@ using UnityEngine;
 
 public class AllCameraControl : MonoBehaviour
 {
-    public static AllCameraControl instance;
 
     public CinemachineVirtualCamera farm_Camera;
     public CinemachineVirtualCamera hillyTown_Camera;
-    public int playerpos = 0;
+    public CinemachineVirtualCamera robertStore_Camera;
+    public static int playerpos = 0;
 
     private void Start()
-    {
-        instance= this;
-    }
+    {    }
     private void Update()
     {
         switch (playerpos)
         {
             case 0:
                 hillyTown_Camera.Priority = 0;
+                robertStore_Camera.Priority = 0;
                 farm_Camera.Priority = 1;
             break;
             case 1:
                 farm_Camera.Priority = 0;
+                robertStore_Camera.Priority = 0;
                 hillyTown_Camera.Priority = 1;
             break;
+            case 2:
+                farm_Camera.Priority = 0;
+                hillyTown_Camera.Priority = 0;
+                robertStore_Camera.Priority = 1;
+
+                break;
         }
     }
 }

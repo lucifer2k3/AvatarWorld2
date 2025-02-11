@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
 
@@ -8,6 +9,7 @@ public class Tile : MonoBehaviour
     private SpriteLibrary spriteLibrary;
     private SpriteRenderer renderer;
     [SerializeField]private SpriteRenderer interaction;
+    private BoxCollider2D boxCol;
 
     public GameObject plant ;
 
@@ -21,10 +23,20 @@ public class Tile : MonoBehaviour
     {
         this.spriteLibrary = GetComponent<SpriteLibrary>();
         this.renderer = GetComponent<SpriteRenderer>();
+        boxCol = GetComponent<BoxCollider2D>();
     }
 
     private void FixedUpdate()
     {
+        switch (isPlanted)
+        {
+            case true:
+                boxCol.enabled = false;
+                break;
+            case false:
+                boxCol.enabled = true;
+                break;
+        }
         switch (canPlant)
         {
             case false:
