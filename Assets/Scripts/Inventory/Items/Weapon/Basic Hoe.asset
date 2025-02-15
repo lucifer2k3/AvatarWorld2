@@ -15,9 +15,10 @@ MonoBehaviour:
   id: 3
   itemType: 1
   itemImage: {fileID: -1241544332, guid: 2a1235644aa23e145b912546036b5957, type: 3}
-  itemName: Basic Hoe
-  itemDes: A hoe
-  price: 200
-  sellingPrice: 0
+  itemName: "Cu\u1ED1c s\u1EAFt"
+  itemDes: "L\xE0 m\u1ED9t c\xE1i cu\u1ED1c s\u1EAFt, d\xF9ng \u0111\u1EC3 cu\u1ED1c
+    \u0111\u1EA5t ph\u1EE5c v\u1EE5 n\xF4ng nghi\u1EC7p"
+  price: 1
+  sellingPrice: 300
   amount: 1
   gameObjectWhilePlant: {fileID: 0}

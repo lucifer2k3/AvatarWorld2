@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
-    [SerializeField]private Transform way_out;
+    private Transform way_out;
     [SerializeField]private GameObject player;
     public int mapCode;
     private void Start()
     {
+        player = GameObject.FindWithTag("Player").GetComponent<GameObject>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
