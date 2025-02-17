@@ -7,7 +7,7 @@ using UnityEngine.U2D.Animation;
 public class Tile : MonoBehaviour
 {
     private SpriteLibrary spriteLibrary;
-    private SpriteRenderer renderer;
+    private SpriteRenderer render;
     [SerializeField]private SpriteRenderer interaction;
     private BoxCollider2D boxCol;
 
@@ -22,7 +22,7 @@ public class Tile : MonoBehaviour
     private void Awake()
     {
         this.spriteLibrary = GetComponent<SpriteLibrary>();
-        this.renderer = GetComponent<SpriteRenderer>();
+        this.render = GetComponent<SpriteRenderer>();
         boxCol = GetComponent<BoxCollider2D>();
     }
 
@@ -43,7 +43,7 @@ public class Tile : MonoBehaviour
                 {
                     if (isPlanted == false)
                     {
-                        renderer.sprite = null;
+                        render.sprite = null;
                         break;
                     }
                     if (isPlanted)
@@ -54,7 +54,7 @@ public class Tile : MonoBehaviour
                 }
             case true:
                 {
-                    renderer.sprite = spriteLibrary.GetSprite("Dirt", "w1");
+                    render.sprite = spriteLibrary.GetSprite("Dirt", "w1");
                     break;
                 }
         }

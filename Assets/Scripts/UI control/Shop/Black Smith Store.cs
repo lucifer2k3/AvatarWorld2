@@ -51,7 +51,6 @@ public class BlackSmithStore : MonoBehaviour
     public void EnterShop()
     {
         shop.SetActive(true);
-        storage.SetActive(false);
         shopBuyUI.SetActive(true);
         shopEnter.SetActive(false);
     }
@@ -64,12 +63,10 @@ public class BlackSmithStore : MonoBehaviour
     }
     public void OpenShop()//mo shop
     {
-        storage.SetActive(false);
         shop.SetActive(true);
     }
     public void OpenStorage()//mo kho do 
     {
-        storage.SetActive(true);
         shop.SetActive(false);
     }
 }

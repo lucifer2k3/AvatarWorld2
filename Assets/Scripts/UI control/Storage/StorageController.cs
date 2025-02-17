@@ -7,8 +7,8 @@ public class StorageController : MonoBehaviour
 {
     public static StorageController instance;
 
-    [SerializeField] private Button dropButton;
-    [SerializeField] private Button bindButton;
+    [SerializeField] private GameObject dropButton;
+    [SerializeField] private GameObject bindButton;
     [SerializeField] private GameObject BindUI;
     [SerializeField] private TextMeshProUGUI itemName;
     [SerializeField] private TextMeshProUGUI itemDescription;
@@ -23,16 +23,16 @@ public class StorageController : MonoBehaviour
     {
         if (choosingButton != -1)
         {
-            dropButton.enabled = true;
-            bindButton.enabled = true;
+            dropButton.SetActive(true);
+            bindButton.SetActive(true);
             itemName.text = PlayerInvent.instance.item[choosingButton].name;
             itemDescription.text = PlayerInvent.instance.item[choosingButton].name;
         }
         if (choosingButton == -1)
         {
             BindUI.SetActive(false);
-            dropButton.enabled = false;
-            bindButton.enabled = false;
+            dropButton.SetActive(false);
+            bindButton.SetActive(false);
             itemName.text = null;
             itemDescription.text = null;
         }
