@@ -17,7 +17,7 @@ public class ShopItem : MonoBehaviour
         rb = GameObject.Find("Robert Shop UI").GetComponent<RobertStore>();
         blacksmithStore= GameObject.Find("BlackSmith Shop UI").GetComponent<BlackSmithStore>();
         shopItemImage.sprite = item.itemImage;
-        itemName.text = item.name;
+        itemName.text = item.itemName;
     }
     public void UpdateStore()
     {
