@@ -17,4 +17,8 @@ public class QuestButton : MonoBehaviour
             quest_name.text = MissionProgress.instance.missions[int.Parse(this.transform.name)].name.ToString();
         }
     }
+    public void OnQuestClick()
+    {
+        MissionMenu.choosing_quest = int.Parse(this.transform.name);
+    }
 }

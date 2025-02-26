@@ -25,8 +25,8 @@ public class StorageController : MonoBehaviour
         {
             dropButton.SetActive(true);
             bindButton.SetActive(true);
-            itemName.text = PlayerInvent.instance.item[choosingButton].name;
-            itemDescription.text = PlayerInvent.instance.item[choosingButton].name;
+            itemName.text = PlayerInvent.instance.item[choosingButton].itemName;
+            itemDescription.text = PlayerInvent.instance.item[choosingButton].itemDes;
         }
         if (choosingButton == -1)
         {

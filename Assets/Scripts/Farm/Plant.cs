@@ -12,6 +12,7 @@ public class Plant : MonoBehaviour
     private SpriteRenderer thistree;    // hinh anh cua cay
     private SpriteLibrary library;      // thu vien anh dung khi cay lon
 
+    public int Product;
     private Tile parentTile;
     public enum plantTypes
     {
@@ -54,7 +55,7 @@ public class Plant : MonoBehaviour
     {
         if (canHavest)
         {
-            PlayerInvent.instance.AddItem(itemWhenHavest, 3);
+            PlayerInvent.instance.AddItem(itemWhenHavest, Product);
             parentTile = transform.parent.GetComponent<Tile>();
             parentTile.isPlanted = false;
             Destroy(gameObject);
