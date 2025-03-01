@@ -53,3 +53,6 @@ TagManager:
   - name: Object
     uniqueID: 2475426841
     locked: 0
+  - name: Infinite
+    uniqueID: 1162244577
+    locked: 0
