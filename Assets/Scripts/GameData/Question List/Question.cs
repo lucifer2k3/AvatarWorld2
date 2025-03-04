@@ -5,8 +5,8 @@ using UnityEngine;
 public class Question : MonoBehaviour
 {
 
-    public Quest quest;
-    private static Question instance;
+    public List<Quest> quest;
+    public static Question instance;
     private void Awake()
     {
         instance= this;
@@ -20,7 +20,12 @@ public class Quest
         history,
         chemistry
     }
+    public int quest_id;
     public question_type type;
     public string Question;
     public string answer;
+    public string answerA;
+    public string answerB;
+    public string answerC;
+    public string answerD;
 } 

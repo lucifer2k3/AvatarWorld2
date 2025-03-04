@@ -1,24 +1,69 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class QAControl : MonoBehaviour
 {
     [SerializeField] private GameObject QA_Main;
     [SerializeField] private GameObject QA_enter_panel;
+    // QA main UI
+    [SerializeField]private TextMeshProUGUI questionTMP;
+    [SerializeField]private TextMeshProUGUI answerATMP;
+    [SerializeField]private TextMeshProUGUI answerBTMP;
+    [SerializeField]private TextMeshProUGUI answerCTMP;
+    [SerializeField]private TextMeshProUGUI answerDTMP;
+    //question
+    private string question;
+    private string[] ans_List= new string[4];
+    public static string ans_True;
+    //check dung sai
+    public static int question_state = 0;
+    public static string player_ans ="";
     void Start()
     {
         
     }
 
-    void Update()
+    private void FixedUpdate()
     {
-        
+        switch (question_state)
+        {
+            case 1:
+                if (player_ans == ans_True)
+                {
+                    print(true);
+                }
+                else
+                {
+                    print(false);
+                }
+                question_state= 0;
+                break;
+        }
+    }
+    public void GetQuestion()
+    {
+
+        int questionIndex = Question.instance.quest[Random.Range(0,Question.instance.quest.Count)].quest_id;
+        print(questionIndex);
+        question = Question.instance.quest[questionIndex].Question;
+        ans_List[0] = Question.instance.quest[questionIndex].answerA;
+        ans_List[1] = Question.instance.quest[questionIndex].answerB;
+        ans_List[2] = Question.instance.quest[questionIndex].answerC;
+        ans_List[3] = Question.instance.quest[questionIndex].answerD;
+        ans_True = Question.instance.quest[questionIndex].answer;
+
+        questionTMP.text= question;
+        answerATMP.text= ans_List[0];
+        answerBTMP.text= ans_List[1];
+        answerCTMP.text= ans_List[2];
+        answerDTMP.text= ans_List[3];
     }
     public void OpenQAMain()
     {
         QA_Main.SetActive(true);
         QA_enter_panel.SetActive(false);
+        GetQuestion();
     }
     public void Close_QA_Enter_Panel()
     {
