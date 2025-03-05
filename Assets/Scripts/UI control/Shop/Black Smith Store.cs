@@ -58,7 +58,11 @@ public class BlackSmithStore : MonoBehaviour
     {
         if (choosingItem != null)
         {
-            PlayerInvent.instance.BuyItem(choosingItem, 1);
+            PlayerInvent.instance.BuyItem(choosingItem, 1,0);
+        }
+        else
+        {
+            print("err");
         }
     }
     public void OpenShop()//mo shop

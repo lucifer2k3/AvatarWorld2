@@ -36,7 +36,7 @@ public class RobertStore : MonoBehaviour
         {
             itemName.text = choosingItem.itemName.ToString();
             itemDes.text = choosingItem.itemDes.ToString();
-            itemCost.text = "Giá: " +choosingItem.sellingPrice;
+            itemCost.text = "Giá: " +( Question.instance.discount* choosingItem.sellingPrice);
         }
        else
         {
@@ -75,7 +75,8 @@ public class RobertStore : MonoBehaviour
     {
         if (choosingItem != null)
         {
-            PlayerInvent.instance.BuyItem(choosingItem, 1);
+            PlayerInvent.instance.BuyItem(choosingItem, 1,Question.instance.discount);
+            Question.instance.discount = 1;
         }
     }
     public void OpenShop()//mo shop

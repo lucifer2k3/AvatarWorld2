@@ -16,6 +16,7 @@ public class QAControl : MonoBehaviour
     private string question;
     private string[] ans_List= new string[4];
     public static string ans_True;
+    private float discount=0;
     //check dung sai
     public static int question_state = 0;
     public static string player_ans ="";
@@ -31,7 +32,9 @@ public class QAControl : MonoBehaviour
             case 1:
                 if (player_ans == ans_True)
                 {
-                    print(true);
+                    //neu cau tra loi dung
+                    Question.instance.discount = discount;
+                    discount = 0;
                 }
                 else
                 {
@@ -52,6 +55,8 @@ public class QAControl : MonoBehaviour
         ans_List[2] = Question.instance.quest[questionIndex].answerC;
         ans_List[3] = Question.instance.quest[questionIndex].answerD;
         ans_True = Question.instance.quest[questionIndex].answer;
+        discount = Question.instance.quest[questionIndex].discount;
+
 
         questionTMP.text= question;
         answerATMP.text= ans_List[0];

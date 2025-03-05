@@ -6,6 +6,7 @@ public class Question : MonoBehaviour
 {
 
     public List<Quest> quest;
+    public float discount = 1;
     public static Question instance;
     private void Awake()
     {
@@ -20,11 +21,18 @@ public class Quest
         history,
         chemistry
     }
+
+
+    //thong tin co ban
     public int quest_id;
     public question_type type;
-    public string Question;
-    public string answer;
-    public string answerA;
+
+    //ma giam gia
+    public float discount = 1;
+
+    public string Question;//cau hoi
+    public string answer;//cau tra loi
+    public string answerA;//dap an
     public string answerB;
     public string answerC;
     public string answerD;

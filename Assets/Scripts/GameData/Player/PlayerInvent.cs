@@ -97,13 +97,13 @@ public class PlayerInvent : MonoBehaviour
         }
         else print("có lỗi xảy ra");
     }
-    public void BuyItem(Item item, int amount)
+    public void BuyItem(Item item, int amount,float discount)
     {
         if (PlayerStats.instance.playerGold >= item.sellingPrice * amount)
             {
-                PlayerStats.instance.playerGold -= item.sellingPrice * amount;
+                PlayerStats.instance.playerGold -= discount* item.sellingPrice * amount;
                 this.AddItem(item, amount);
-
+                
             // quest 01
             if (item.name == "Cuốc")
             {

@@ -15,7 +15,7 @@ public class PlayerStats : MonoBehaviour
     //tài nguyên
 
     public int choosingItem = 0;
-    public int playerGold = 500;
+    public float playerGold = 500;
     private void Awake(){
         instance = this;
     }
