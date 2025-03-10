@@ -11,6 +11,10 @@ public class PlayerStats : MonoBehaviour
 
 
     public bool tired = false;
+    //nhan vat
+    public int player_Energy = 50;
+    public int player_now_energy;
+
 
     //tài nguyên
 
@@ -21,6 +25,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void Start()
     {
+
     }
     
     

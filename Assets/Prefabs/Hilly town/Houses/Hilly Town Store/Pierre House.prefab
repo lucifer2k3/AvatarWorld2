@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8408682915474925655}
   - component: {fileID: 2088048321615513579}
+  - component: {fileID: 8153357760068021283}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -86,6 +87,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8153357760068021283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511751447050317468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80431f09646d0b045b7c32890ece797f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 5289089952094211237}
 --- !u!1 &2169438678894866837
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +164,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.4171753, y: -2.617217}
+  m_Offset: {x: 2.4171753, y: -1.9913251}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -161,8 +175,39 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.901886, y: 3.7672482}
+  m_Size: {x: 9.901886, y: 5.019032}
   m_EdgeRadius: 0
+--- !u!1 &3665752428244990868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5289089952094211237}
+  m_Layer: 0
+  m_Name: Offset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5289089952094211237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665752428244990868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7258539842257859331}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6642984809375409174
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +240,7 @@ Transform:
   - {fileID: 6239785824051077161}
   - {fileID: 4639002668062224317}
   - {fileID: 8408682915474925655}
+  - {fileID: 5289089952094211237}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8237322101518645286
@@ -207,6 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4639002668062224317}
   - component: {fileID: 4826678331492304373}
+  - component: {fileID: 857974967760163577}
   m_Layer: 0
   m_Name: Roof 2
   m_TagString: Untagged
@@ -281,6 +328,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &857974967760163577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8237322101518645286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80431f09646d0b045b7c32890ece797f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 5289089952094211237}
 --- !u!1 &8924823608291799722
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +405,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.91251, y: -2.3004847}
+  m_Offset: {x: -4.91251, y: -1.901825}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -356,7 +416,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.957115, y: 2.600336}
+  m_Size: {x: 4.957115, y: 5.0218887}
   m_EdgeRadius: 0
 --- !u!1 &9001593019840982569
 GameObject:
@@ -368,6 +428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6239785824051077161}
   - component: {fileID: 5836778743498711565}
+  - component: {fileID: 7759048868063511078}
   m_Layer: 0
   m_Name: Roof
   m_TagString: Untagged
@@ -442,3 +503,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7759048868063511078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001593019840982569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80431f09646d0b045b7c32890ece797f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 5289089952094211237}

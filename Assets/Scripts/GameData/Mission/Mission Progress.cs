@@ -6,7 +6,7 @@ public class MissionProgress : MonoBehaviour
 {
     public static MissionProgress instance;
     public List<Mission> missions;
-
+    public int main_Phase = 0;
     private void Awake()
     {
         instance= this;
@@ -16,6 +16,7 @@ public class MissionProgress : MonoBehaviour
 public class Mission
 {
     public int id;//id nv
+    public int phase;
     public string name;//ten
     public string description;//mo ta
 
