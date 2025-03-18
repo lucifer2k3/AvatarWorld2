@@ -35,5 +35,5 @@ public class Quest
     public string answerA;//dap an
     public string answerB;
     public string answerC;
-    public string answerD;
+
 } 

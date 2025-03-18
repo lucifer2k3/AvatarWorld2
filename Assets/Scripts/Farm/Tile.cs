@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -93,7 +93,17 @@ public class Tile : MonoBehaviour
             {
                 if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Hoe")
                 {
-                    canPlant = true;
+                    //check nang luong cua nhan vat
+                    if (PlayerStats.instance.player_now_energy>=1)
+                    {
+                        PlayerStats.instance.player_now_energy--;
+                        canPlant = true; 
+                    }
+                    else
+                    {
+                        Debug.Log("Bạn đã mệt, cần nghỉ ngơi");
+                        //thong bao ban da met, can nghi ngoi
+                    }
                 } 
             }
         }
@@ -103,12 +113,21 @@ public class Tile : MonoBehaviour
             {
                 if (PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].itemType.ToString() == "Seed")
                 {
-                    canPlant = false;
-                    isPlanted = true;
-                    item = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]];
-                    plant = Instantiate(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].gameObjectWhilePlant, transform.position, transform.rotation);
-                    plant.transform.parent = transform;
-                    PlayerInvent.instance.UseItem(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]], 1);
+                    if (PlayerStats.instance.player_now_energy>=1)
+                    {
+                        PlayerStats.instance.player_now_energy--;
+                        canPlant = false;
+                        isPlanted = true;
+                        item = PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]];
+                        plant = Instantiate(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]].gameObjectWhilePlant, transform.position, transform.rotation);
+                        plant.transform.parent = transform;
+                        PlayerInvent.instance.UseItem(PlayerInvent.instance.item[ItemBinding.instance.posInInvent[ItemBinding.instance.usingItem]], 1);
+                    }
+                    else
+                    {
+                        Debug.Log("Bạn đã mệt, cần nghỉ ngơi");
+                        //thong bao ban da met, can nghi ngoi
+                    }
                 }
             }
         }
