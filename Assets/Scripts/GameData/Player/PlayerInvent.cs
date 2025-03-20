@@ -14,7 +14,7 @@ public class PlayerInvent : MonoBehaviour
     }
     private void Start()
     {
-        InvokeRepeating("UpdateInventory", 1f, 0.3f);
+        InvokeRepeating("UpdateInventory", 0.5f, 0.15f);
     }
     void UpdateInventory()
     {
@@ -64,10 +64,11 @@ public class PlayerInvent : MonoBehaviour
         //check invent neu full
             if (i == 23)
             {
-                print(item[i].name);
+                print("Kho do da day");
                 return;
             }
         }
+
     }
     public void RemoveItem(Item item, int amount)
     {
@@ -87,6 +88,7 @@ public class PlayerInvent : MonoBehaviour
                 }
             }
         }
+        print("khong tim thay item");
     }
     public void SellItem(int pos)
     {

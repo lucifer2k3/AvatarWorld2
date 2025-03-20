@@ -5,7 +5,7 @@ using UnityEngine;
 public class MissionProgress : MonoBehaviour
 {
     public static MissionProgress instance;
-    public List<Mission> missions;
+    public List<MainMission> missions;
     public int main_Phase = 0;
     private void Awake()
     {
@@ -13,10 +13,8 @@ public class MissionProgress : MonoBehaviour
     }
 }
 [System.Serializable]
-public class Mission
+public class MainMission
 {
-    public int id;//id nv
-    public int phase;
     public string name;//ten
     public string description;//mo ta
 
