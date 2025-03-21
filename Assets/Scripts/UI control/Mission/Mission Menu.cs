@@ -66,7 +66,6 @@ public class MissionMenu : MonoBehaviour
             //nut nhan thuong
             claim_reward_button.SetActive(true);
 
-
         }
         else
         {
