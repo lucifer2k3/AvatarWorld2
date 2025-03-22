@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
+    // (chi so playerpos duoc chinh o file gate.cs)
+    //(black smith store=4;farm house = 3; robert store =2 hilly town =1; farm =0)
     [SerializeField]private Transform way_out;
     private Transform player;
     public int mapCode;
