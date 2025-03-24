@@ -114,21 +114,13 @@ public class PlayerInvent : MonoBehaviour
                     MissionProgress.instance.missions[0].progress1++;
                 }
             }
-            if (item.name == "Hạt giống cải trắng")
-            { 
-                if (MissionProgress.instance.missions[0].progress2 < MissionProgress.instance.missions[0].require2)
-                {
-                    MissionProgress.instance.missions[0].progress2 += 1;
-                }
-            }
-
             }
 
 
 
         else
             {
-
+                // co loi xay ra
             } 
     }
 }

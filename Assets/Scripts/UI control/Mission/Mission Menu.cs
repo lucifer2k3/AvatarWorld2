@@ -30,16 +30,7 @@ public class MissionMenu : MonoBehaviour
     // public List<TextMeshProUGUI> item_text = new List<TextMeshProUGUI>();
     void Start()
     {
-
-        missionButton.SetActive(false);
-        for (int i = 0; i < MissionProgress.instance.missions.Count; i++)
-        {
-            items.Add (Instantiate(missionButton));
-            items[i].transform.name = i.ToString();
-            items[i].transform.parent = content.transform;
-            items[i].SetActive(false);
-
-        }
+        missionButton.SetActive(true);
     }
 
     //
@@ -56,12 +47,9 @@ public class MissionMenu : MonoBehaviour
             reward.text = MissionProgress.instance.missions[choosing_quest].rewardText;
 
             //tien do nv
-            req1.text = MissionProgress.instance.missions[choosing_quest].req1.itemName.ToString() + ":"
+            req1.text = MissionProgress.instance.missions[choosing_quest].req_item_name.ToString() + ":"
                 + MissionProgress.instance.missions[choosing_quest].progress1.ToString() + "/"
                 + MissionProgress.instance.missions[choosing_quest].require1.ToString() ;
-            req2.text = MissionProgress.instance.missions[choosing_quest].req2.itemName.ToString() + ":"
-                + MissionProgress.instance.missions[choosing_quest].progress2.ToString() + "/"
-                + MissionProgress.instance.missions[choosing_quest].require2.ToString() ;
 
             //nut nhan thuong
             claim_reward_button.SetActive(true);
@@ -94,8 +82,7 @@ public class MissionMenu : MonoBehaviour
     }
     public void CompleteQuest() 
     {
-        if (MissionProgress.instance.missions[choosing_quest].progress1 == MissionProgress.instance.missions[choosing_quest].require1
-            && MissionProgress.instance.missions[choosing_quest].progress2 == MissionProgress.instance.missions[choosing_quest].require2)
+        if (MissionProgress.instance.missions[choosing_quest].progress1 == MissionProgress.instance.missions[choosing_quest].require1)
         {
             PlayerInvent.instance.AddItem(MissionProgress.instance.missions[choosing_quest].reward, MissionProgress.instance.missions[choosing_quest].quantity);
             choosing_quest = -1;

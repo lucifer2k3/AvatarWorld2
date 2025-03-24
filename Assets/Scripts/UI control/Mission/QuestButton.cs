@@ -12,13 +12,14 @@ public class QuestButton : MonoBehaviour
     {
         quest_name= GetComponentInChildren<TextMeshProUGUI>();
         this_Button = GetComponent<Button>();
-        if (this.transform.name != "-1") 
-        { 
-            quest_name.text = MissionProgress.instance.missions[int.Parse(this.transform.name)].name.ToString();
-        }
+        
+    }
+    private void FixedUpdate()
+    {
+        quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name.ToString();
     }
     public void OnQuestClick()
     {
-        MissionMenu.choosing_quest = int.Parse(this.transform.name);
+        MissionMenu.choosing_quest = MissionProgress.instance.Player_Mission_Progress;
     }
 }

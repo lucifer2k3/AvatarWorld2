@@ -5,8 +5,9 @@ using UnityEngine;
 public class MissionProgress : MonoBehaviour
 {
     public static MissionProgress instance;
+    public int Player_Mission_Progress = 0;
     public List<MainMission> missions;
-    public int main_Phase = 0;
+
     private void Awake()
     {
         instance= this;
@@ -18,24 +19,24 @@ public class MainMission
     public string name;//ten
     public string description;//mo ta
 
-    public bool is_active= false;
-    public bool is_completed = false;
-
+    [Header("--Da kich hoat chua--")]public bool is_active= false;
+    [Header("--Trang thai nhiem vu--")]public bool is_completed = false;
 
     //item yeu cau
-    public Item req1;
-    public Item req2;
-
+    [Header("Item Yeu cau")] public Item req;
+    [Header("Ten Item Yeu cau")] public string req_item_name;
     // so luong yeu cau
     public int require1;
-    public int require2;
 
     // tien do nhiem vu
     public int progress1;
-    public int progress2;
 
     //phan thuong
     public Item reward;
-    public int quantity;
+    [Header("--So luong phan thuong--")] public int quantity;
     public string rewardText;
+
+    //loi thoai
+    [Header("--Loi thoai voi NPC--")] public List<string> dialogue;//loi thoai voi npc
+    [Header("--Cau truyen voi NPC--")]public string storyLine;//cau truyen
 }
