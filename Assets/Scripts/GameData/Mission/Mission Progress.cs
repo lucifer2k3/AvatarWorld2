@@ -13,12 +13,22 @@ public class MissionProgress : MonoBehaviour
         instance= this;
     }
 }
+
 [System.Serializable]
 public class MainMission
 {
     public string name;//ten
     public string description;//mo ta
+    public string chu_thich_developer;
 
+    public NPC_Name npc_name;
+    public enum NPC_Name
+    {
+        Robert,
+        Major,
+        BlackSmith,
+        Caroline,
+    }
     [Header("--Da kich hoat chua--")]public bool is_active= false;
     [Header("--Trang thai nhiem vu--")]public bool is_completed = false;
 

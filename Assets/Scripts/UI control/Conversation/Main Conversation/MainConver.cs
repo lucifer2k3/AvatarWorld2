@@ -24,7 +24,7 @@ public class MainConver : MonoBehaviour
     }
     private void Update()
     {
-        if (dialogue.active)
+        if (dialogue.activeInHierarchy)
         {
             npc_conversation.text = NPC_Dialogue[STT];
             if (Input.GetKeyDown(KeyCode.Space))
@@ -35,15 +35,23 @@ public class MainConver : MonoBehaviour
                 }
                 else
                 {
-                    //nhan nv o day
-                    STT = 0;
+                    // nhan nv
                 }
             }
         }
     }
+    private void OnEnable()
+    {
+        ResetDialogue(MissionProgress.instance.Player_Mission_Progress);
+    }
+    private void OnDisable()
+    {
+        STT = 0;
+    }
     public void ResetDialogue(int Quest)
     {
         NPC_Dialogue.Clear();
+        npc_Image.sprite = null;
         for (int i = 0; i < MissionProgress.instance.missions[Quest].dialogue.Count; i++)
         {
             NPC_Dialogue.Add(MissionProgress.instance.missions[Quest].dialogue[i]);
