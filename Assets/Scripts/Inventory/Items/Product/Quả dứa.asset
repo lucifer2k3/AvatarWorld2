@@ -16,8 +16,13 @@ MonoBehaviour:
   itemType: 3
   itemImage: {fileID: -2075978657, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
   itemName: "Qu\u1EA3 d\u1EE9a"
-  itemDes: "D\xF9ng \u0111\u1EC3 gi\u1EA3i nhi\u1EC7t v\xE0o m\xF9a h\xE8"
-  price: 200
-  sellingPrice: 100
+  itemDes: " Qu\u1EA3 d\u1EE9a th\u01B0\u1EDDng g\u1ECDi th\u1EF1c ra l\xE0 tr\u1EE5c
+    c\u1EE7a b\xF4ng hoa v\xE0 c\xE1c l\xE1 b\u1EAFc m\u1ECDng n\u01B0\u1EDBc t\u1EE5
+    h\u1EE3p l\u1EA1i, c\xF2n qu\u1EA3 th\u1EADt l\xE0 c\xE1c \"m\u1EAFt d\u1EE9a\".
+    D\u1EE9a \u0111\u01B0\u1EE3c \u0103n t\u01B0\u01A1i ho\u1EB7c \u0111\xF3ng h\u1ED9p
+    d\u01B0\u1EDBi d\u1EA1ng khoanh, mi\u1EBFng, n\u01B0\u1EDBc \xE9p ho\u1EB7c n\u01B0\u1EDBc
+    qu\u1EA3 h\u1ED7n h\u1EE3p"
+  price: 30
+  sellingPrice: 10
   amount: 6
   gameObjectWhilePlant: {fileID: 0}

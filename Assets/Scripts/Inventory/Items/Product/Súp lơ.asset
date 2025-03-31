@@ -16,8 +16,13 @@ MonoBehaviour:
   itemType: 3
   itemImage: {fileID: 1418346346, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
   itemName: "S\xFAp l\u01A1"
-  itemDes: "C\xE2y s\xFAp l\u01A1"
-  price: 150
-  sellingPrice: 0
+  itemDes: "S\xFAp l\u01A1 (broccoli) l\xE0 m\u1ED9t lo\u1EA1i rau thu\u1ED9c h\u1ECD
+    c\u1EA3i, c\xF3 hai lo\u1EA1i ph\u1ED5 bi\u1EBFn l\xE0 s\xFAp l\u01A1 tr\u1EAFng
+    v\xE0 s\xFAp l\u01A1 xanh. N\xF3 \u0111\u01B0\u1EE3c coi l\xE0 m\u1ED9t si\xEAu
+    th\u1EF1c ph\u1EA9m v\xEC ch\u1EE9a nhi\u1EC1u ch\u1EA5t x\u01A1, vitamin C,
+    vitamin K, canxi, v\xE0 c\xE1c ch\u1EA5t ch\u1ED1ng oxy h\xF3a, gi\xFAp t\u0103ng
+    c\u01B0\u1EDDng mi\u1EC5n d\u1ECBch v\xE0 ch\u1ED1ng l\xE3o h\xF3a"
+  price: 40
+  sellingPrice: 15
   amount: 0
   gameObjectWhilePlant: {fileID: 0}

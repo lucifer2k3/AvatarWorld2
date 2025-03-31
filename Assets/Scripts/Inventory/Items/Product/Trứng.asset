@@ -16,8 +16,15 @@ MonoBehaviour:
   itemType: 3
   itemImage: {fileID: -711192246, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
   itemName: "Tr\u1EE9ng"
-  itemDes: "L\xE0 qu\u1EA3 tr\u1EE9ng, d\xF9ng \u0111\u1EC3 ch\u1EBF bi\u1EBFn"
-  price: 0
-  sellingPrice: 0
+  itemDes: "Tr\u1EE9ng l\xE0 s\u1EA3n ph\u1EA9m \u0111\u1ED9ng v\u1EADt t\u1EEB c\xE1c
+    lo\u1EA1i gia c\u1EA7m,chim ch\xF3c th\u01B0\u1EDDng \u0111\u01B0\u1EE3c s\u1EED
+    d\u1EE5ng l\xE0m ngu\u1ED3n th\u1EE9c \u0103n cung c\u1EA5p protein cho ng\u01B0\u1EDDi.
+    B\u1EC1 ngo\xE0i c\u1EE7a tr\u1EE9ng th\u01B0\u1EDDng c\xF3 h\xECnh b\u1EA7u
+    d\u1EE5c, hai \u0111\u1EA7u kh\xF4ng c\xE2n b\u1EB1ng, m\u1ED9t to m\u1ED9t nh\u1ECF.
+    C\xE1c lo\u1EA1i \u0111\u1ED9ng v\u1EADt cho tr\u1EE9ng ph\u1ED5 bi\u1EBFn l\xE0
+    g\xE0, v\u1ECBt, chim cun c\xFAt, ng\u1ED7ng, \u0111\xE0 \u0111i\u1EC3u, ngan,
+    r\u1EAFn, chim s\u1EBB."
+  price: 40
+  sellingPrice: 25
   amount: 0
   gameObjectWhilePlant: {fileID: 0}

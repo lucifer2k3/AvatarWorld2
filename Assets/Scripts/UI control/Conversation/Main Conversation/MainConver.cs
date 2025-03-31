@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class MainConver : MonoBehaviour
 {
     public static MainConver Instance;
-    public Image npc_Image;
+    public Image npcImageRight;
     public TextMeshProUGUI npc_conversation;
 
-    [Header("0= major,1= caroline")][SerializeField] private List<Sprite> Npc_Avatar;
     public List<string>NPC_Dialogue;
+    public List<Sprite> NPC_Dialogue_Sprite;
 
     //dialogue UI
     public GameObject dialogue;
@@ -27,6 +27,7 @@ public class MainConver : MonoBehaviour
         if (dialogue.activeInHierarchy)
         {
             npc_conversation.text = NPC_Dialogue[STT];
+            npcImageRight.sprite = NPC_Dialogue_Sprite[STT];
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (NPC_Dialogue.Count - 1 > STT)
@@ -36,6 +37,10 @@ public class MainConver : MonoBehaviour
                 else
                 {
                     // nhan nv
+                    gameObject.SetActive(false);
+                    //thisthis.SetActive(false);
+                    MissionProgress.instance.Player_Mission_Progress++;
+                    STT = 0;
                 }
             }
         }
@@ -51,10 +56,11 @@ public class MainConver : MonoBehaviour
     public void ResetDialogue(int Quest)
     {
         NPC_Dialogue.Clear();
-        npc_Image.sprite = null;
+        NPC_Dialogue_Sprite.Clear();
         for (int i = 0; i < MissionProgress.instance.missions[Quest].dialogue.Count; i++)
         {
             NPC_Dialogue.Add(MissionProgress.instance.missions[Quest].dialogue[i]);
+            NPC_Dialogue_Sprite.Add(MissionProgress.instance.missions[Quest].dialogueAvatar[i]);
         }
     }
 }

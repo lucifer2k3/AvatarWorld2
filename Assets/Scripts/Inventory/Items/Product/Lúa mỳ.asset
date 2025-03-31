@@ -16,9 +16,15 @@ MonoBehaviour:
   itemType: 3
   itemImage: {fileID: -448433740, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
   itemName: "L\xFAa m\u1EF3"
-  itemDes: "H\u1EA1t l\xFAa m\u1EF3, d\xF9ng \u0111\u1EC3 ch\u1EBF bi\u1EBFn b\u1ED9t
-    m\u1EF3"
-  price: 40
-  sellingPrice: 0
+  itemDes: "L\xFAa m\xEC hay ti\u1EC3u m\u1EA1ch, t\xEAn khoa h\u1ECDc: Triticum
+    spp.[1] l\xE0 c\xE2y l\u01B0\u01A1ng th\u1EF1c, thu\u1ED9c m\u1ED9t nh\xF3m c\xE1c
+    lo\xE0i c\u1ECF \u0111\xE3 thu\u1EA7n d\u01B0\u1EE1ng t\u1EEB khu v\u1EF1c Levant
+    v\xE0 \u0111\u01B0\u1EE3c gieo tr\u1ED3ng r\u1ED9ng kh\u1EAFp th\u1EBF gi\u1EDBi.
+    V\u1EC1 t\u1ED5ng th\u1EC3, l\xFAa m\xEC l\xE0 th\u1EF1c ph\u1EA9m quan tr\u1ECDng
+    cho lo\xE0i ng\u01B0\u1EDDi, s\u1EA3n l\u01B0\u1EE3ng c\u1EE7a n\xF3 ch\u1EC9
+    \u0111\u1EE9ng sau b\u1EAFp v\xE0 l\xFAa g\u1EA1o trong s\u1ED1 c\xE1c lo\xE0i
+    c\xE2y l\u01B0\u01A1ng th\u1EF1c."
+  price: 7
+  sellingPrice: 1
   amount: 0
   gameObjectWhilePlant: {fileID: 0}

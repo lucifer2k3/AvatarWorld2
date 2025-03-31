@@ -5,12 +5,83 @@ using UnityEngine;
 public class MissionProgress : MonoBehaviour
 {
     public static MissionProgress instance;
+    [Header("--0 = major,1 = robert, 2 = caroline, 3 = black smith--")]
+    [SerializeField] private List<GameObject> Npc_mission_button;
     public int Player_Mission_Progress = 0;
+    private string NPCName;
     public List<MainMission> missions;
-
+   
+    
     private void Awake()
     {
         instance= this;
+    }
+    private void FixedUpdate()
+    {
+        NPCName= missions[Player_Mission_Progress].npc_name.ToString();
+        switch(NPCName)
+        {
+            //--0 = major,1 = robert, 2 = caroline, 3 = black smith--
+            case "None":
+                for (int i = 0;i< Npc_mission_button.Count; i++)
+                {
+                    Npc_mission_button[i].SetActive(false);
+                }
+                break;
+            case "Robert":
+                for (int i=0;i< Npc_mission_button.Count; i++)
+                {
+                    if (i== 1)
+                    {
+                        Npc_mission_button[i].SetActive(true);
+                    }
+                    else
+                    {
+                        Npc_mission_button[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Caroline":
+                for (int i = 0; i < Npc_mission_button.Count; i++)
+                {
+                    if (i == 2)
+                    {
+                        Npc_mission_button[i].SetActive(true);
+                    }
+                    else
+                    {
+                        Npc_mission_button[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Major":
+                for (int i = 0; i < Npc_mission_button.Count; i++)
+                {
+                    if (i == 0)
+                    {
+                        Npc_mission_button[i].SetActive(true);
+                    }
+                    else
+                    {
+                        Npc_mission_button[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Black Smith":
+                for (int i = 0; i < Npc_mission_button.Count; i++)
+                {
+                    if (i == 3)
+                    {
+                        Npc_mission_button[i].SetActive(true);
+                    }
+                    else
+                    {
+                        Npc_mission_button[i].SetActive(false);
+                    }
+                }
+                break;
+            
+        }
     }
 }
 
@@ -28,6 +99,7 @@ public class MainMission
         Major,
         BlackSmith,
         Caroline,
+        None
     }
     [Header("--Da kich hoat chua--")]public bool is_active= false;
     [Header("--Trang thai nhiem vu--")]public bool is_completed = false;
@@ -48,5 +120,6 @@ public class MainMission
 
     //loi thoai
     [Header("--Loi thoai voi NPC--")] public List<string> dialogue;//loi thoai voi npc
+    [Header("--Avatar voi NPC--")] public List<Sprite> dialogueAvatar;//avtar khi noi chuyen voi npc
     [Header("--Cau truyen voi NPC--")]public string storyLine;//cau truyen
 }
