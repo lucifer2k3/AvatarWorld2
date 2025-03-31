@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
-    [SerializeField] private int[] quest_order = { 0,0,0,0};
-    public GameObject Earn_quest_button;
-    private void OnEnable()
+    [SerializeField]private List<NPC_Dialogue> NPC_Dialogues;
+    public void EnterDialogue()
     {
-        for (int i=0;i<quest_order.Length;i++)
-        {
-            if (quest_order[i] == MissionProgress.instance.Player_Mission_Progress)
-            {
-                Earn_quest_button.SetActive(true);
-                return;
-            }
-        }
-        Earn_quest_button.SetActive(false);
+        Convesation.Instance.AddConversation(NPC_Dialogues[0].dialogueList, NPC_Dialogues[0].dialogueSpriteList);
     }
+}
+[System.Serializable]
+public class NPC_Dialogue
+{
+     public List<string> dialogueList;
+     public List<Sprite> dialogueSpriteList;
 }
