@@ -87,7 +87,7 @@ public class QAControl : MonoBehaviour
     {
         Close_QA_Enter_Panel();
         conversationUI.SetActive(true);
-        MainConver.Instance.npcImageRight.sprite = npc_Image;
-        MainConver.Instance.npc_conversation.text = Caroline_conversation;
+        //MainConver.Instance.npcImageRight.sprite = npc_Image;
+        //MainConver.Instance.npc_conversation.text = Caroline_conversation;
     }
 }
