@@ -18,6 +18,8 @@ public class MissionProgress : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        //mission 00
+
         NPCName= missions[Player_Mission_Progress].npc_name.ToString();
         switch(NPCName)
         {
@@ -102,11 +104,13 @@ public class MainMission
         None
     }
     [Header("--Da kich hoat chua--")]public bool is_active= false;
+    [Header("--Lan dau nhan NV")] public bool first_time = true;
     [Header("--Trang thai nhiem vu--")]public bool is_completed = false;
 
     //item yeu cau
     [Header("Item Yeu cau")] public Item req;
     [Header("Ten Item Yeu cau")] public string req_item_name;
+    [Header("--NV co yeu cau Item khong?--")] public bool item_required = false;
     // so luong yeu cau
     public int require1;
 

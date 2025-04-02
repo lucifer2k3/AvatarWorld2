@@ -11,81 +11,53 @@ public class MissionMenu : MonoBehaviour
 {
 
     //panel left
-    [SerializeField] private GameObject missionButton;
-    [SerializeField] private GameObject content;
+
+    [SerializeField] private TextMeshProUGUI panel_left_quest_name;
 
     //panel right
     [SerializeField] private TextMeshProUGUI quest_name;
     [SerializeField] private TextMeshProUGUI quest_description;
-    [SerializeField] private TextMeshProUGUI reward_text;
+    [SerializeField] private TextMeshProUGUI quest_strLine;
     [SerializeField] private TextMeshProUGUI reward;
     [SerializeField] private TextMeshProUGUI req1;
-    [SerializeField] private TextMeshProUGUI req2;
-    [SerializeField] private GameObject claim_reward_button;
-
-    public static int choosing_quest = -1;
 
 
-    public List<GameObject> items = new List<GameObject>();
-    // public List<TextMeshProUGUI> item_text = new List<TextMeshProUGUI>();
-    void Start()
-    {
-        missionButton.SetActive(true);
-    }
-
-    //
     private void FixedUpdate()
     {
-        if (choosing_quest != -1)
+        if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].is_active)
         {
-            //ten nv
-            quest_name.text = MissionProgress.instance.missions[choosing_quest].name;
-            quest_description.text = MissionProgress.instance.missions[choosing_quest].description;
+            //panel trai
+            panel_left_quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+            
 
-            //phan thuong nv
-            reward_text.text = "Phần Thưởng:";
-            reward.text = MissionProgress.instance.missions[choosing_quest].rewardText;
+                //ten nv
+                quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+                quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
+                quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
+                //phan thuong nv
+                reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
 
-            //tien do nv
-            req1.text = MissionProgress.instance.missions[choosing_quest].req_item_name.ToString() + ":"
-                + MissionProgress.instance.missions[choosing_quest].progress1.ToString() + "/"
-                + MissionProgress.instance.missions[choosing_quest].require1.ToString() ;
-
-            //nut nhan thuong
-            claim_reward_button.SetActive(true);
-
-        }
-        else
-        {
-            quest_name.text = "";
-            quest_description.text = "";
-            reward_text.text = "";
-            reward.text = "";
-            req1.text = "";
-            req2.text = "";
-            claim_reward_button.SetActive(false);
-        }
-        if (items.Count > 0)
-        {
-            for (int i = 0; i < MissionProgress.instance.missions.Count; i++)
-            {
-                if (MissionProgress.instance.missions[i].is_active)
+                //
+                if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)
                 {
-                    items[i].SetActive(true);
+                    //tien do nv
+                    req1.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].req_item_name.ToString() + ":"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].progress1.ToString() + "/"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].require1.ToString();
                 }
                 else
                 {
-                    items[i].SetActive(false);
+                    req1.text = "";
                 }
-            }
         }
-    }
-    public void CompleteQuest() 
-    {
-        if (MissionProgress.instance.missions[choosing_quest].progress1 == MissionProgress.instance.missions[choosing_quest].require1)
+        else 
         {
-            PlayerInvent.instance.AddItem(MissionProgress.instance.missions[choosing_quest].reward, MissionProgress.instance.missions[choosing_quest].quantity);
-            choosing_quest = -1;
+            panel_left_quest_name.text = "Hiện chưa có nhiệm vụ nào được nhận!";
+            quest_name.text = "";
+            quest_description.text = "";
+            quest_strLine.text = "";
+            reward.text = "";
+            req1.text = "";
         }
     }
 }
