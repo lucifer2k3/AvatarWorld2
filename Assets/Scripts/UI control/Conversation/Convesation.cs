@@ -10,6 +10,8 @@ public class Convesation : MonoBehaviour
     public List<string> NPC_dialogue_string;
     public List<Sprite> NPC_dialogue_sprite;
     public int STT;
+
+    [SerializeField] private GameObject main_conversation;
     private void Awake()
     {
         Instance= this;
@@ -23,5 +25,9 @@ public class Convesation : MonoBehaviour
             NPC_dialogue_string.Add(dialogues[i]);
             NPC_dialogue_sprite.Add(sprites[i]);
         }
+    }
+    public void CloseConversation()
+    {
+        main_conversation.SetActive(false);
     }
 }

@@ -10,8 +10,17 @@ public class MissionProgress : MonoBehaviour
     public int Player_Mission_Progress = 0;
     private string NPCName;
     public List<MainMission> missions;
-   
-    
+
+    public void CompleteQuest()
+    {
+        if (missions[Player_Mission_Progress].is_active)
+        {
+            if (missions[Player_Mission_Progress].require1 == missions[Player_Mission_Progress].progress1)
+            {
+                missions[Player_Mission_Progress].is_completed= true;
+            }
+        }
+    }
     private void Awake()
     {
         instance= this;
@@ -19,7 +28,10 @@ public class MissionProgress : MonoBehaviour
     private void FixedUpdate()
     {
         //mission 00
-
+        if (missions[Player_Mission_Progress].is_completed)
+        {
+            Player_Mission_Progress++;
+        }
         NPCName= missions[Player_Mission_Progress].npc_name.ToString();
         switch(NPCName)
         {
@@ -122,8 +134,6 @@ public class MainMission
     [Header("--So luong phan thuong--")] public int quantity;
     public string rewardText;
 
-    //loi thoai
-    [Header("--Loi thoai voi NPC--")] public List<string> dialogue;//loi thoai voi npc
-    [Header("--Avatar voi NPC--")] public List<Sprite> dialogueAvatar;//avtar khi noi chuyen voi npc
+
     [Header("--Cau truyen voi NPC--")]public string storyLine;//cau truyen
 }
