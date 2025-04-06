@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,99 +7,74 @@ public class MissionProgress : MonoBehaviour
 {
     public static MissionProgress instance;
     [Header("--0 = major,1 = robert, 2 = caroline, 3 = black smith--")]
-    [SerializeField] private List<GameObject> Npc_mission_button;
+    [SerializeField] private List<NPC_Mission_button> Npc_mission_button;
     public int Player_Mission_Progress = 0;
-    private string NPCName;
     public List<MainMission> missions;
-
-    public void CompleteQuest()
+    
+    
+    public void TakeQuest()
     {
-        if (missions[Player_Mission_Progress].is_active)
-        {
-            if (missions[Player_Mission_Progress].require1 == missions[Player_Mission_Progress].progress1)
-            {
-                missions[Player_Mission_Progress].is_completed= true;
-            }
-        }
+        missions[Player_Mission_Progress].quest_state = 1;
     }
+    
     private void Awake()
     {
         instance= this;
     }
+    
     private void FixedUpdate()
     {
-        //mission 00
-        if (missions[Player_Mission_Progress].is_completed)
+        switch (missions[Player_Mission_Progress].quest_state)
         {
-            Player_Mission_Progress++;
-        }
-        NPCName= missions[Player_Mission_Progress].npc_name.ToString();
-        switch(NPCName)
-        {
-            //--0 = major,1 = robert, 2 = caroline, 3 = black smith--
-            case "None":
-                for (int i = 0;i< Npc_mission_button.Count; i++)
+            case 0:
+                for (int i=0;i<Npc_mission_button.Count; i++)
                 {
-                    Npc_mission_button[i].SetActive(false);
-                }
-                break;
-            case "Robert":
-                for (int i=0;i< Npc_mission_button.Count; i++)
-                {
-                    if (i== 1)
+                    if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
-                        Npc_mission_button[i].SetActive(true);
+                        Npc_mission_button[i].button.SetActive(true);
+                        return;
                     }
                     else
                     {
-                        Npc_mission_button[i].SetActive(false);
+                        Npc_mission_button[i].button.SetActive(false);
+                        return;
                     }
                 }
                 break;
-            case "Caroline":
+            case 1:
                 for (int i = 0; i < Npc_mission_button.Count; i++)
                 {
-                    if (i == 2)
-                    {
-                        Npc_mission_button[i].SetActive(true);
-                    }
-                    else
-                    {
-                        Npc_mission_button[i].SetActive(false);
-                    }
+                    Npc_mission_button[i].button.SetActive(false);
+                }
+                if (missions[Player_Mission_Progress].require1 == missions[Player_Mission_Progress].progress1)
+                {
+                    missions[Player_Mission_Progress].quest_state = 2;
                 }
                 break;
-            case "Major":
+            case 2:
                 for (int i = 0; i < Npc_mission_button.Count; i++)
                 {
-                    if (i == 0)
+                    if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
-                        Npc_mission_button[i].SetActive(true);
+                        Npc_mission_button[i].button.SetActive(true);
+                        return;
                     }
                     else
                     {
-                        Npc_mission_button[i].SetActive(false);
+                        Npc_mission_button[i].button.SetActive(false);
+                        return;
                     }
                 }
                 break;
-            case "Black Smith":
-                for (int i = 0; i < Npc_mission_button.Count; i++)
-                {
-                    if (i == 3)
-                    {
-                        Npc_mission_button[i].SetActive(true);
-                    }
-                    else
-                    {
-                        Npc_mission_button[i].SetActive(false);
-                    }
-                }
-                break;
-            
         }
     }
 }
-
+[System.Serializable]
+public struct NPC_Talk
+{
+    public string dialogue;
+    public Sprite avatar;
+}
 [System.Serializable]
 public class MainMission
 {
@@ -115,14 +91,18 @@ public class MainMission
         Caroline,
         None
     }
-    [Header("--Da kich hoat chua--")]public bool is_active= false;
-    [Header("--Lan dau nhan NV")] public bool first_time = true;
-    [Header("--Trang thai nhiem vu--")]public bool is_completed = false;
+
+    //quest state
+    [Header("--0:Chua nhan NV" +
+        "      1:Dang lam NV" +
+        "      2:Du? DK hoan thanh NV--")]
+    public int quest_state = 0;
 
     //item yeu cau
+    [Header("--NV co yeu cau Item khong?--")] public bool item_required = false;
     [Header("Item Yeu cau")] public Item req;
     [Header("Ten Item Yeu cau")] public string req_item_name;
-    [Header("--NV co yeu cau Item khong?--")] public bool item_required = false;
+    
     // so luong yeu cau
     public int require1;
 
@@ -134,6 +114,15 @@ public class MainMission
     [Header("--So luong phan thuong--")] public int quantity;
     public string rewardText;
 
-
+    //loi thoai
+    [Header("--Loi thoai nhan vat--")]
+    public List<string> npc_dialogue;
+    public List<Sprite> npc_sprite;
     [Header("--Cau truyen voi NPC--")]public string storyLine;//cau truyen
+}
+[System.Serializable]
+public struct NPC_Mission_button
+{
+    public string NPC_name;
+    public GameObject button;
 }
