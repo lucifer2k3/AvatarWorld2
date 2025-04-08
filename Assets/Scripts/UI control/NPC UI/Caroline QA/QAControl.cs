@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Linq;
 public class QAControl : MonoBehaviour
 {
     [SerializeField] private GameObject QA_Main;
@@ -23,9 +24,11 @@ public class QAControl : MonoBehaviour
 
     // tro chuyen
     [SerializeField] private string Caroline_conversation;
-    [SerializeField] private GameObject conversationUI;
     [SerializeField] private Sprite npc_Image;
 
+    //loi thoai khi tro truyen
+    [SerializeField]private List<string> caroline_talk;
+    [SerializeField]private List<Sprite> caroline_sprite;
     void Start()
     {
         
@@ -49,6 +52,12 @@ public class QAControl : MonoBehaviour
                 question_state= 0;
                 break;
         }
+    }
+    public void OpenTalk()
+    {
+        QA_enter_panel.SetActive(false);
+        Convesation.Instance.OpenTalk();
+        Convesation.Instance.AddTalk(caroline_talk, caroline_sprite);
     }
     public void GetQuestion()
     {
@@ -82,12 +91,5 @@ public class QAControl : MonoBehaviour
     public void Close_QA_()
     {
         QA_Main.SetActive(false);
-    }
-    public void OpenConversation()
-    {
-        Close_QA_Enter_Panel();
-        conversationUI.SetActive(true);
-        //MainConver.Instance.npcImageRight.sprite = npc_Image;
-        //MainConver.Instance.npc_conversation.text = Caroline_conversation;
     }
 }

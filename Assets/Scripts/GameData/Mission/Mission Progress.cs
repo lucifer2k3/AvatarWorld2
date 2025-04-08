@@ -8,15 +8,23 @@ public class MissionProgress : MonoBehaviour
     public static MissionProgress instance;
     [Header("--0 = major,1 = robert, 2 = caroline, 3 = black smith--")]
     [SerializeField] private List<NPC_Mission_button> Npc_mission_button;
+
+
     public int Player_Mission_Progress = 0;
     public List<MainMission> missions;
-    
-    
+
+
     public void TakeQuest()
     {
         missions[Player_Mission_Progress].quest_state = 1;
     }
-    
+    public void CompleteQuest()
+    {
+        //hoan thanh nv
+        Player_Mission_Progress++;
+        //nhan thuong
+        PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+    }
     private void Awake()
     {
         instance= this;
@@ -69,12 +77,7 @@ public class MissionProgress : MonoBehaviour
         }
     }
 }
-[System.Serializable]
-public struct NPC_Talk
-{
-    public string dialogue;
-    public Sprite avatar;
-}
+
 [System.Serializable]
 public class MainMission
 {
@@ -110,14 +113,17 @@ public class MainMission
     public int progress1;
 
     //phan thuong
-    public Item reward;
+    [Header("Phan thuong")]public Item reward;
     [Header("--So luong phan thuong--")] public int quantity;
     public string rewardText;
 
     //loi thoai
-    [Header("--Loi thoai nhan vat--")]
-    public List<string> npc_dialogue;
-    public List<Sprite> npc_sprite;
+    [Header("--Loi thoai nhan vat khi nhan nv--")]
+    public List<string> earnquest_dialogue;
+    public List<Sprite> earnquest_sprite;
+    [Header("--Loi thoai khi hoan thanh nv--")]
+    public List<string> completequest_dialogue;
+    public List<Sprite> completequest_sprite;
     [Header("--Cau truyen voi NPC--")]public string storyLine;//cau truyen
 }
 [System.Serializable]

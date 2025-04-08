@@ -31,7 +31,14 @@ public class MainConver : MonoBehaviour
                 {
                     // nhan nv
                     gameObject.SetActive(false);
-                    //MissionProgress.instance.Player_Mission_Progress++;
+                    if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 0) 
+                    { 
+                        MissionProgress.instance.TakeQuest();
+                    }
+                    if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 2) 
+                    { 
+                        MissionProgress.instance.CompleteQuest();
+                    }
                     Convesation.Instance.STT = 0;
                 }
             }

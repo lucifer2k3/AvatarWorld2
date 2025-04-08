@@ -24,40 +24,74 @@ public class MissionMenu : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].is_active)
-        //{
-        //    //panel trai
-        //    panel_left_quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+        if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 0)
+        {
+            //panel trai
             
+            
+        }
+        else
+        {
+            
+        }
+        switch (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state)
+        {
+            case 0:
+                panel_left_quest_name.text = "Hiện chưa có nhiệm vụ nào được nhận!";
+                quest_name.text = "";
+                quest_description.text = "";
+                quest_strLine.text = "";
+                reward.text = "";
+                req1.text = "";
+                break;
+            case 1:
+                panel_left_quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
 
-        //        //ten nv
-        //        quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
-        //        quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
-        //        quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
-        //        //phan thuong nv
-        //        reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
 
-        //        //
-        //        if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)
-        //        {
-        //            //tien do nv
-        //            req1.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].req_item_name.ToString() + ":"
-        //                + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].progress1.ToString() + "/"
-        //                + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].require1.ToString();
-        //        }
-        //        else
-        //        {
-        //            req1.text = "";
-        //        }
-        //}
-        //else 
-        //{
-        //    panel_left_quest_name.text = "Hiện chưa có nhiệm vụ nào được nhận!";
-        //    quest_name.text = "";
-        //    quest_description.text = "";
-        //    quest_strLine.text = "";
-        //    reward.text = "";
-        //    req1.text = "";
-        //}
+                //ten nv
+                quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+                quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
+                quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
+                //phan thuong nv
+                reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
+
+                //
+                if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)
+                {
+                    //tien do nv
+                    req1.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].req_item_name.ToString() + ":"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].progress1.ToString() + "/"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].require1.ToString();
+                }
+                else
+                {
+                    req1.text = "";
+                }
+                break;
+            case 2:
+                panel_left_quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+
+
+                //ten nv
+                quest_name.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].name;
+                quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
+                quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
+                //phan thuong nv
+                reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
+
+                //
+                if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)
+                {
+                    //tien do nv
+                    req1.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].req_item_name.ToString() + ":"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].progress1.ToString() + "/"
+                        + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].require1.ToString();
+                }
+                else
+                {
+                    req1.text = "";
+                }
+                break;
+        }
     }
 }

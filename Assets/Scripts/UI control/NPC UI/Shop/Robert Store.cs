@@ -25,6 +25,9 @@ public class RobertStore : MonoBehaviour
     public static int shopStorageBoxPos = -1;
     [SerializeField]private TextMeshProUGUI shopStorageItemName;
     [SerializeField]private TextMeshProUGUI shopStorageItemDes;
+
+    [SerializeField] private List<string> robert_talk;
+    [SerializeField] private List<Sprite> robert_sprite;
     void Start()
     {
     }
@@ -54,6 +57,12 @@ public class RobertStore : MonoBehaviour
             shopStorageItemName.text = "";
             shopStorageItemDes.text = "";
         }
+    }
+    public void OpenTalk()
+    {
+        shopEnter.SetActive(false);
+        Convesation.Instance.AddTalk(robert_talk, robert_sprite);
+        Convesation.Instance.OpenTalk();
     }
     public void Leave()
     {
