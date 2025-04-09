@@ -53,8 +53,14 @@ public class MissionMenu : MonoBehaviour
                 quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
                 quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
                 //phan thuong nv
-                reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
-
+                if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].has_reward == true)
+                {
+                    reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
+                }
+                else
+                {
+                    reward.text = "";
+                }
                 //
                 if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)
                 {
@@ -77,7 +83,14 @@ public class MissionMenu : MonoBehaviour
                 quest_description.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].description;
                 quest_strLine.text = MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].storyLine;
                 //phan thuong nv
-                reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
+                if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].has_reward == true)
+                {
+                    reward.text = "Phần thưởng: " + MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].rewardText;
+                }
+                else
+                {
+                    reward.text = "";
+                }
 
                 //
                 if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].item_required == true)

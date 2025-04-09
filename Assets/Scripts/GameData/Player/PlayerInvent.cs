@@ -47,6 +47,7 @@ public class PlayerInvent : MonoBehaviour
             {
                 if (item[i].id == Item.id)
                 {
+                    QuestCheck(Item, amount);
                     item[i].amount += amount;
                     return;
                 }
@@ -59,6 +60,7 @@ public class PlayerInvent : MonoBehaviour
             {
                 item[i] = Item;
                 item[i].amount = amount;
+                QuestCheck(Item, amount);
                 return;
             }
         //check invent neu full
@@ -69,6 +71,18 @@ public class PlayerInvent : MonoBehaviour
             }
         }
 
+    }
+    // kiem tra dieu kien cho nhiem vu
+    private void QuestCheck(Item Item,int amount)
+    {
+        /*Nhiem vu 01(Kiem tra go)*/
+        if (MissionProgress.instance.Player_Mission_Progress == 1 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.name == "Gỗ")
+            {
+                MissionProgress.instance.missions[1].progress1 += amount;
+            }
+        }
     }
     public void RemoveItem(Item item, int amount)
     {

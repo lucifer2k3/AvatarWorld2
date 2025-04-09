@@ -21,8 +21,9 @@ public class Item : ScriptableObject
     public string itemName;
     public string itemDes;
 
-
+    [Header("--Gia ban thanh pham--")]
     public int price;// Giá bán thành ph?m
+    [Header("--Gia ban hat giong--")]
     public int sellingPrice;// Giá mua h?t gi?ng, nguyên li?u
     public int amount = 0;
 

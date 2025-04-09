@@ -23,7 +23,10 @@ public class MissionProgress : MonoBehaviour
         //hoan thanh nv
         Player_Mission_Progress++;
         //nhan thuong
-        PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+        if (missions[Player_Mission_Progress].has_reward == true)
+        {
+            PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+        }
     }
     private void Awake()
     {
@@ -54,8 +57,9 @@ public class MissionProgress : MonoBehaviour
                 {
                     Npc_mission_button[i].button.SetActive(false);
                 }
-                if (missions[Player_Mission_Progress].require1 == missions[Player_Mission_Progress].progress1)
+                if (missions[Player_Mission_Progress].require1 <= missions[Player_Mission_Progress].progress1)
                 {
+                    missions[Player_Mission_Progress].progress1 = missions[Player_Mission_Progress].require1;
                     missions[Player_Mission_Progress].quest_state = 2;
                 }
                 break;
@@ -113,6 +117,7 @@ public class MainMission
     public int progress1;
 
     //phan thuong
+    public bool has_reward = false;
     [Header("Phan thuong")]public Item reward;
     [Header("--So luong phan thuong--")] public int quantity;
     public string rewardText;
