@@ -31,6 +31,26 @@ public class PlayerInvent : MonoBehaviour
             
         }
     }
+    // kiem tra item da co trong kho chua
+    // kiem tra so luong item
+    public bool CheckItem(string itemname,int quantity)
+    {
+        for (int i = 0; i < 24; i++)
+        {
+            if (this.item[i] != null)
+            {
+                if (itemname == this.item[i].itemName.ToString())
+                {
+                    if (this.item[i].amount >= quantity)
+                    {
+                        return true;
+                    }
+                    
+                }
+            }
+        }
+        return false;
+    }
     public void AddItem(Item Item, int amount)
     {
         //check item nếu là vàng

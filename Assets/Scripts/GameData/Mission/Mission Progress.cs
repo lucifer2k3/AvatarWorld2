@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,11 +22,28 @@ public class MissionProgress : MonoBehaviour
     {
         //hoan thanh nv
         Player_Mission_Progress++;
-        //nhan thuong
-        if (missions[Player_Mission_Progress].has_reward == true)
+        switch (Player_Mission_Progress)
         {
-            PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+            case 0:
+                Player_Mission_Progress++;
+                break;
+            case 1://nv 2
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
+                {
+                    Player_Mission_Progress++;
+                    if (missions[Player_Mission_Progress].has_reward == true)
+                    {
+                        PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+                    }
+                }
+                else
+                {
+                    //thong bao khong du so go
+                }
+                    break;
         }
+        //nhan thuong
+        
     }
     private void Awake()
     {
