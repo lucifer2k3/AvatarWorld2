@@ -28,10 +28,10 @@ public class MissionProgress : MonoBehaviour
                 break;
             case 1://nv 2
                 print("test");
-                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 5) == true)
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
                 {
                     print("test");
-                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 5);
+                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
                     Player_Mission_Progress++;
                     if (missions[Player_Mission_Progress].has_reward == true)
                     {     
@@ -43,6 +43,8 @@ public class MissionProgress : MonoBehaviour
                     MesAndNoti.instance.SetNotification("Bạn không có đủ gỗ");
                 }
                     break;
+            case 2:
+                break;
         }
         //nhan thuong
         
