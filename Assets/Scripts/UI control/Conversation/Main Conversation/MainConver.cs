@@ -36,7 +36,8 @@ public class MainConver : MonoBehaviour
                         MissionProgress.instance.TakeQuest();
                     }
                     if (MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 2) 
-                    { 
+                    {
+                        //print("test");
                         MissionProgress.instance.CompleteQuest();
                     }
                     Convesation.Instance.STT = 0;

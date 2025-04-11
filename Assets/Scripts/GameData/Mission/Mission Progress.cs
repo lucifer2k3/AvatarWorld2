@@ -21,24 +21,26 @@ public class MissionProgress : MonoBehaviour
     public void CompleteQuest()
     {
         //hoan thanh nv
-        Player_Mission_Progress++;
         switch (Player_Mission_Progress)
         {
             case 0:
                 Player_Mission_Progress++;
                 break;
             case 1://nv 2
-                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
+                print("test");
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 5) == true)
                 {
+                    print("test");
+                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 5);
                     Player_Mission_Progress++;
                     if (missions[Player_Mission_Progress].has_reward == true)
-                    {
+                    {     
                         PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
                     }
                 }
                 else
                 {
-                    //thong bao khong du so go
+                    MesAndNoti.instance.SetNotification("Bạn không có đủ gỗ");
                 }
                     break;
         }
@@ -60,12 +62,10 @@ public class MissionProgress : MonoBehaviour
                     if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
                         Npc_mission_button[i].button.SetActive(true);
-                        return;
                     }
                     else
                     {
                         Npc_mission_button[i].button.SetActive(false);
-                        return;
                     }
                 }
                 break;
@@ -74,24 +74,30 @@ public class MissionProgress : MonoBehaviour
                 {
                     Npc_mission_button[i].button.SetActive(false);
                 }
-                if (missions[Player_Mission_Progress].require1 <= missions[Player_Mission_Progress].progress1)
+                if (missions[Player_Mission_Progress].progress1 >= missions[Player_Mission_Progress].require1)
                 {
+                    
                     missions[Player_Mission_Progress].progress1 = missions[Player_Mission_Progress].require1;
                     missions[Player_Mission_Progress].quest_state = 2;
                 }
                 break;
             case 2:
+                if (missions[Player_Mission_Progress].progress1 > missions[Player_Mission_Progress].require1)
+                {
+                    missions[Player_Mission_Progress].progress1 = missions[Player_Mission_Progress].require1;
+                }
                 for (int i = 0; i < Npc_mission_button.Count; i++)
                 {
+                    
                     if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
+                        //print(1);
                         Npc_mission_button[i].button.SetActive(true);
-                        return;
                     }
                     else
                     {
+                        //print(Npc_mission_button[i].NPC_name + missions[Player_Mission_Progress].npc_name.ToString());
                         Npc_mission_button[i].button.SetActive(false);
-                        return;
                     }
                 }
                 break;

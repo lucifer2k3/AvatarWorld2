@@ -12,9 +12,9 @@ public class PlayerInvent : MonoBehaviour
     {
         instance = this;
     }
-    private void Start()
+    private void FixedUpdate()
     {
-        InvokeRepeating("UpdateInventory", 0.5f, 0.15f);
+        UpdateInventory();
     }
     void UpdateInventory()
     {
@@ -104,9 +104,35 @@ public class PlayerInvent : MonoBehaviour
             }
         }
     }
-    public void RemoveItem(Item item, int amount)
+    public void RemoveItem()
     {
-
+        if (StorageController.instance.choosingButton != -1)
+        {
+            if (this.item[StorageController.instance.choosingButton].amount >0)
+            {
+                this.item[StorageController.instance.choosingButton].amount = 0;
+                StorageController.instance.choosingButton = -1;
+                RobertStore.shopStorageBoxPos = -1;
+                UpdateInventory();
+                return;
+            }
+        }
+    }
+    public void QuestRemove(string item,int quantity)
+    {
+        if (CheckItem(item, quantity)){
+            for (int i = 0; i < 24; i++)
+            {
+                if (this.item[i] != null)
+                {
+                    if (item == this.item[i].itemName.ToString())
+                    {
+                        this.item[i].amount -= quantity;
+                        return;
+                    }
+                }
+            }
+        }
     }
     public void UseItem(Item Item, int amount)
     {

@@ -6,28 +6,32 @@ public class MesAndNoti : MonoBehaviour
 {
     public static MesAndNoti instance;
 
-
+    [SerializeField] private GameObject messagePanel;
+    [SerializeField] private GameObject notificationPanel;
 
     [SerializeField] private TextMeshProUGUI notification;
     [SerializeField] private TextMeshProUGUI message;
+    [SerializeField] private TextMeshProUGUI sender;
     private void Awake()
     {
         instance = this;
     }
     public void CloseMessage()
     {
-        gameObject.SetActive(false);
+        messagePanel.SetActive(false);
     }
     public void CloseNotification()
     {
-        gameObject.SetActive(false);
+        notificationPanel.SetActive(false);
     }
     public void SetMessage(string str)
     {
         message.text = str;
+        messagePanel.SetActive(true);
     }
     public void SetNotification(string str)
     {
         notification.text = str;
+        notificationPanel.SetActive(true);
     }
 }
