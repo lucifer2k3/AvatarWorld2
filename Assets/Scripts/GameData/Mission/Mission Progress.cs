@@ -13,7 +13,13 @@ public class MissionProgress : MonoBehaviour
     public int Player_Mission_Progress = 0;
     public List<MainMission> missions;
 
-
+    private void RewardCheck()
+    {
+        if (missions[Player_Mission_Progress].has_reward == true)
+        {
+            PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
+        }
+    }
     public void TakeQuest()
     {
         missions[Player_Mission_Progress].quest_state = 1;
@@ -27,23 +33,77 @@ public class MissionProgress : MonoBehaviour
                 Player_Mission_Progress++;
                 break;
             case 1://nv 2
-                print("test");
                 if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
                 {
-                    print("test");
                     PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
                     Player_Mission_Progress++;
-                    if (missions[Player_Mission_Progress].has_reward == true)
-                    {     
-                        PlayerInvent.instance.AddItem(missions[Player_Mission_Progress].reward, missions[Player_Mission_Progress].quantity);
-                    }
+                    RewardCheck();
                 }
                 else
                 {
                     MesAndNoti.instance.SetNotification("Bạn không có đủ gỗ");
                 }
                     break;
-            case 2:
+            case 2://nv 3
+                if (PlayerInvent.instance.CheckItem("Quặng sắt", 4) == true)
+                {
+                    PlayerInvent.instance.QuestRemove("Quặng sắt", 4);
+                    Player_Mission_Progress++;
+                    RewardCheck();
+                }
+                else
+                {
+                    MesAndNoti.instance.SetNotification("Bạn không có đủ sắt");
+                }
+                break;
+            case 3://nv 4
+                Player_Mission_Progress++;
+                RewardCheck();
+                break;
+            case 4://nv 5
+                break;
+            case 5://nv 6
+                break;
+            case 6://nv 7
+                if (PlayerInvent.instance.CheckItem("Bột mì", 15) == true)
+                {
+                    PlayerInvent.instance.QuestRemove("Bột mì", 15);
+                    Player_Mission_Progress++;
+                    RewardCheck();
+                }
+                else
+                {
+                    MesAndNoti.instance.SetNotification("Bạn không đủ số bột mì yêu cầu");
+                }
+                break;
+            case 7://nv 8
+                Player_Mission_Progress++;
+                break;
+            case 8://nv 9
+                Player_Mission_Progress++;
+                break;
+            case 9://nv 10
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
+                {
+                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
+                    Player_Mission_Progress++;
+                    RewardCheck();
+                }
+                break;
+            case 10://nv 11
+                break;
+            case 11:
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true && PlayerInvent.instance.CheckItem("Đá",15))
+                {
+                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
+                    PlayerInvent.instance.QuestRemove("Đá", 15);
+                    Player_Mission_Progress++;
+                    RewardCheck();
+                }
+                else
+                {
+                    MesAndNoti.instance.SetNotification("Bạn không có đủ số nguyên liệu yêu cầu");
+                }
                 break;
         }
         //nhan thuong
@@ -56,6 +116,7 @@ public class MissionProgress : MonoBehaviour
     
     private void FixedUpdate()
     {
+        
         switch (missions[Player_Mission_Progress].quest_state)
         {
             case 0:
@@ -78,9 +139,15 @@ public class MissionProgress : MonoBehaviour
                 }
                 if (missions[Player_Mission_Progress].progress1 >= missions[Player_Mission_Progress].require1)
                 {
-                    
                     missions[Player_Mission_Progress].progress1 = missions[Player_Mission_Progress].require1;
-                    missions[Player_Mission_Progress].quest_state = 2;
+                    if (missions[Player_Mission_Progress].has_ending_dialogue)
+                    {
+                        missions[Player_Mission_Progress].quest_state = 2; 
+                    }
+                    else
+                    {
+                        missions[Player_Mission_Progress].quest_state = 3;
+                    }
                 }
                 break;
             case 2:
@@ -93,15 +160,18 @@ public class MissionProgress : MonoBehaviour
                     
                     if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
-                        //print(1);
                         Npc_mission_button[i].button.SetActive(true);
                     }
                     else
                     {
-                        //print(Npc_mission_button[i].NPC_name + missions[Player_Mission_Progress].npc_name.ToString());
                         Npc_mission_button[i].button.SetActive(false);
                     }
                 }
+                break;
+            case 3:
+                //sang luon nhiem vu thiep theo
+                Player_Mission_Progress++;
+
                 break;
         }
     }
@@ -151,6 +221,9 @@ public class MainMission
     [Header("--Loi thoai nhan vat khi nhan nv--")]
     public List<string> earnquest_dialogue;
     public List<Sprite> earnquest_sprite;
+    [Header("NV co ending dialogue khong ?")]
+    public bool has_ending_dialogue = false;
+
     [Header("--Loi thoai khi hoan thanh nv--")]
     public List<string> completequest_dialogue;
     public List<Sprite> completequest_sprite;

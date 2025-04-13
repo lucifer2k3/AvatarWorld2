@@ -98,11 +98,19 @@ public class PlayerInvent : MonoBehaviour
         /*Nhiem vu 01(Kiem tra go)*/
         if (MissionProgress.instance.Player_Mission_Progress == 1 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
         {
-            if (Item.name == "Gỗ")
+            if (Item.itemName == "Gỗ sồi")
             {
                 MissionProgress.instance.missions[1].progress1 += amount;
             }
         }
+        if(MissionProgress.instance.Player_Mission_Progress == 2 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.itemName == "Quặng sắt")
+            {
+                MissionProgress.instance.missions[2].progress1 += amount;
+            }
+        }
+
     }
     public void RemoveItem()
     {
