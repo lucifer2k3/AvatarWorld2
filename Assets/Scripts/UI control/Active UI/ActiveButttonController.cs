@@ -11,7 +11,7 @@ public class ActiveButttonController : MonoBehaviour
     public static int posInInvent=-1;
     private Image itemImage;
     private Image choosingImage;
-    private Text amountText;
+
     void Start()
     {
         activeButton = this.transform.name;
@@ -19,7 +19,6 @@ public class ActiveButttonController : MonoBehaviour
         string numberString = activeButton.Substring(startIndex + 1, activeButton.Length - startIndex - 2);
         activeButtonPos = int.Parse(numberString);
         itemImage = transform.Find("Item Image").GetComponent<Image>();
-        amountText = transform.Find("Amount").GetComponent<Text>();
         choosingImage = transform.Find("Choosing Image").GetComponent<Image>();
     }
 

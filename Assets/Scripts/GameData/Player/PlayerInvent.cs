@@ -110,7 +110,34 @@ public class PlayerInvent : MonoBehaviour
                 MissionProgress.instance.missions[2].progress1 += amount;
             }
         }
-
+        if(MissionProgress.instance.Player_Mission_Progress == 4 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.itemName == "Lúa mì")
+            {
+                MissionProgress.instance.missions[2].progress1 += amount;
+            }
+        }
+        if(MissionProgress.instance.Player_Mission_Progress == 5 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.itemName == "Bột mì")
+            {
+                MissionProgress.instance.missions[2].progress1 += amount;
+            }
+        }
+        if (MissionProgress.instance.Player_Mission_Progress == 10 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.itemName == "Gỗ sồi")
+            {
+                MissionProgress.instance.missions[10].progress1 += amount;
+            }
+        }
+        if (MissionProgress.instance.Player_Mission_Progress == 11 && MissionProgress.instance.missions[MissionProgress.instance.Player_Mission_Progress].quest_state == 1)
+        {
+            if (Item.itemName == "Đá")
+            {
+                MissionProgress.instance.missions[11].progress1 += amount;
+            }
+        }
     }
     public void RemoveItem()
     {

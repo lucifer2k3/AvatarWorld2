@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce44fbb2baa1214ab01ae24083cf223, type: 3}
+  m_Name: "\u0110\xE1"
+  m_EditorClassIdentifier: 
+  id: 0
+  itemType: 3
+  itemImage: {fileID: 1596623190, guid: b4457f0601932ae42927f8eb271d9d77, type: 3}
+  itemName: "\u0110\xE1"
+  itemDes: "\u0110\xE1 tr\u1EAFng, v\u1EADt li\u1EC7u x\xE2y d\u1EF1ng d\xF9ng l\xE0m
+    c\u1ED1t cho c\xF4ng tr\xECnh"
+  price: 6
+  sellingPrice: 9
+  amount: 0
+  gameObjectWhilePlant: {fileID: 0}

@@ -1,0 +1,4712 @@
+fileFormatVersion: 2
+guid: bacc5ed319c542347b0853cb3765fded
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b7f2fbea343954d9b26420255727f0
+      internalID: -1408183001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a08acaa51a3a24e9162ce347a77be1
+      internalID: 171088558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fbb1038ae25ea4bb4b7b21a98665cb
+      internalID: 1182450407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e6176c4a2b7794fa781dbda406290c
+      internalID: -449316061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0dde60b5b2e324988ba7d0c6bc5229
+      internalID: 1318711683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8195b9027140a0b4391b704b70a4fb97
+      internalID: -1178477897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de967c7bcbb8d2429bfa576e8e8969e
+      internalID: 638618184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216049b54a42f9d409871bc0cd7b1c66
+      internalID: 448550130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a684087fd765cc44ba02a7d0c30b14bf
+      internalID: -72095900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb5997cc07da1b429b87a3d80b79767
+      internalID: 1636840403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b49186214128744ada81529525bf05
+      internalID: -1245777974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f6a6f30f5d68347809e1e3d64287a4
+      internalID: 552115660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c97c4cc85b01340b270d6b1f15c5f9
+      internalID: 1512825010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 126
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fc04323faeee54086a238ef9063451
+      internalID: 1991126580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7322b9c311c804b844db9c767ba860
+      internalID: -1922700353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce472d8b1b45a22409c7257240d90846
+      internalID: 899246881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4726840dc65bf4684dc37ffed7a3db
+      internalID: 798855714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb15a565106b53488e8491b6d6bb5a7
+      internalID: 1823083091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b84066b4bbd0b7428225c7cb34fdff6
+      internalID: -1006955427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2512dd3e74c874cab018b70642d389
+      internalID: -355361956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d66eda70af5c1444a16b85867262add
+      internalID: -516274510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce04556109e31542a819b289cb83166
+      internalID: 190072958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c0741bce88e624e80291dae71fa13d
+      internalID: 379023587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25416976c5c5764e976861c8f814189
+      internalID: -1353432892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf30beb4c840e8b48a99dc3897e877f1
+      internalID: -887907382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef4c10100dd9694c91889166ebe977c
+      internalID: 2014910966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ec498aa083434986f9cebd6e3f2ee
+      internalID: 1280145930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_27
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be48c1d1c08af340be71247b7bd6519
+      internalID: 455657327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e38a56532c02e4a8b128ee2a1309a9
+      internalID: 1718812024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb8f559ab557664c9e87c95e901e916
+      internalID: 135300289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20dbf13d089e6b4ca6ec32f5a43a848
+      internalID: -1249034281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_31
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840ea572bdd2347418b86656545e516b
+      internalID: 363766683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c5edf56f2dfa14690b1615045af639
+      internalID: 924158596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_33
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a287b18b33d36e4799db0f9de5fb2fc
+      internalID: 113619872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bec4e6b8cf6faf428111a582d72057d
+      internalID: 57149097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29809e639de46e7469784842a8e7c95e
+      internalID: -1351743225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13d60d5d22713944b02bffdb765891c
+      internalID: -120932149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b82df3f58d78f408631ea0b3a7cad7
+      internalID: 1579647886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_38
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916cf6eeec57bbd47b1796b9c6fcb14f
+      internalID: 132075316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1789a11379e23ca45b2bd63703e2d337
+      internalID: -25725029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_40
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13b03726dda9b7468026bf2c1181ccf
+      internalID: -113577653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7605c6a005e61843af9995f64f4d969
+      internalID: -1019001645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8778e7344c2dfd9438ee049a6e5d4afc
+      internalID: 1027293317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0041c350ebde01f4397ad23f47207f20
+      internalID: -1312916411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83650a13654161e4a851500d5741239e
+      internalID: -1319211783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e2d63dbbacf5b4793189bd59469a4f
+      internalID: 1512773693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_46
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c396d981b79146a6aff0eae304e30
+      internalID: -738444332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_47
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debbd71178c4a714b969f7dbb9f7de53
+      internalID: 1150170450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b5150d1b263f4597abbee1e427d24
+      internalID: -1489836208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_49
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89169050cb3d44b4e806c2b577fb6208
+      internalID: 1167240709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b50824af58e3c4d96d917230524d67
+      internalID: -1417424945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_51
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51491e85f9a777442a62719164f2b3fb
+      internalID: 1546442562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c252980323811c4daa00756630c6214
+      internalID: -1674728781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_53
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9c9557f9fc07447905d04f474d3cd8
+      internalID: -672867775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_54
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a8a764cdca2084f9b39e25feb7667d
+      internalID: 321202113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_55
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff708c7f6a910f409e200dfac8614cc
+      internalID: -1498032566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a67dda8e8d4dc45b8fd55376670ff3
+      internalID: 760744300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74bd2630c1668748b57762ebaee2889
+      internalID: 855494655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_58
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880791b53e98f94c91b577304291888
+      internalID: 1473001863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_59
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede534efedf38644dbf15b4350553116
+      internalID: -903170108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_60
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea95051238536240829148389afc5a7
+      internalID: 1843342497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_61
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723ae5821e556044bc12ed0ed0b0d7c
+      internalID: 430803662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_62
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d748e4e81ab5f84b845a35de4737088
+      internalID: 158027041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad85d1385766d46827464c69545e90
+      internalID: -1872224737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f4f0391a3e4894899892dfa34148ba
+      internalID: -2014671947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aac5843ab94bd40a5bfbe9f1885829
+      internalID: 1821656184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfca2cf4d85e094f87a4ccf8e5bf45e
+      internalID: -202202310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_67
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb96b1813020164ebf5caf7c5b8933f
+      internalID: 2025906253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_68
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228779c6f1332f049bcc1381d76afeac
+      internalID: 767690757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_69
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e140def1484f4baf87b28374a8ff3
+      internalID: 708948150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b16e96346b2e37499d773c26f6aa301
+      internalID: -102845771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_71
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd874e4213d9bc40a4d7af5ea3bd6d2
+      internalID: -807035793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_72
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ca0c5a472d7664993318c43610bf31
+      internalID: 2112292822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_73
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6008cc1a384678749920ee0330994456
+      internalID: 1042757811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_74
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3038102b33e604eaac4d3605e828cd
+      internalID: 171632474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_75
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed2e9d3f4f1c04780e28c9d2715740
+      internalID: 1940121359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9524ea588c7d4c9f2b10cb39fe38a
+      internalID: -93895989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_77
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852db3b567d53e84d8a79c017c31529a
+      internalID: 1916315320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_78
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b44ac05a1bef0643887a17c3054bf31
+      internalID: 325034971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024ceef453ea4ee43b36685d9e6a95b0
+      internalID: 821832403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_80
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e17e1bb732dd4eb01b04693849a4f
+      internalID: -201353280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_81
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9112144c9c79834dbf317373ca478c0
+      internalID: -1529404960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39824fbbd71d1e446ac11457920b1bf0
+      internalID: -352816515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_83
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed016cbc2d69af74cafc3a9039ab6524
+      internalID: -446363493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27ff7c4c398cdc4d8311a0dc40e2545
+      internalID: -1578683419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_85
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79aadc20a40e2c42862ace4ce847fd1
+      internalID: 1803923761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_86
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d253738dab49884aaa17a40ca0df4a7
+      internalID: 2040458771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_87
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed60f11af6aa2d46aaa5e28a380ed4f
+      internalID: 381888085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_88
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3fb0efdc2a12b48a0a44e0697ba5df
+      internalID: 1566368842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b4f17fc3b33e849b530502ddb0853f
+      internalID: -897708294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_90
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d481272047a681a4dbcb36aa888d68bb
+      internalID: -1897193732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_91
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a47ef831592554438faf9ea147af8fb
+      internalID: -1119048682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_92
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc005eedbcaa054b989d266bc96b826
+      internalID: -582003060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a144ed38fc00d354bbc1e80b7a2908de
+      internalID: 173605245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_94
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9e02a04f5022e42a0fbc498c92ca2f
+      internalID: -1341186492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_95
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a377eabd314464b8c582c5349735ab
+      internalID: 625052524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_96
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2d712cd767564b981102f940b42fe
+      internalID: -408787376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_97
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce02ac216af9c47b05edac77dbf50b
+      internalID: -1440420055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bfd7a7a4d4c3641ba426ae7ba04653
+      internalID: 1205596366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_99
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8886dae51615d4e9a7bc292a26311b
+      internalID: -1361289925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_100
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eb3ea17abfcbd4b80514a6286bd509
+      internalID: -1755208067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_101
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fb98f2ba39cba4a9b42cd7da82356b
+      internalID: 1883886043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_102
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a31a3424c0a6dc4e850e5335c177c17
+      internalID: -1951984548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_103
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355f5cfce0921b41b9fa22e218cfbad
+      internalID: 968523735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_104
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff5af6539df4949bcd8f20df6d4c83
+      internalID: 1501727118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_105
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2036aa3407da8c419cc6649a1a2f33f
+      internalID: 89358012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed80f88af90bb489fd4f235107374f
+      internalID: 2037685724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_107
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9452eee08b70b4397d612e36efc803
+      internalID: -1933924946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_108
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f006030d416b2e3418f54649c75b6de8
+      internalID: -1555499746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_109
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db4b877b820a764d885a36c7aebcb92
+      internalID: -1663686259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_110
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd0eea52b2f25948b3fcbfc26ade785
+      internalID: -641174373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_111
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23126f83564b66c4c846f6b5c65afaea
+      internalID: 1986183567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b417e15d43874da548d9717463dfd
+      internalID: 1369486404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_113
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d09c96cede93d4bb5ee1f74af9a1f7
+      internalID: -506312438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_114
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1712e0bd41fa1ec42873116c2e0b7769
+      internalID: 260005961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_115
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e090231d1a3f14fa456efe0a610211
+      internalID: 1288227899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_116
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c52262e4449143967db0420a04f8b
+      internalID: 1448750110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_117
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceb210ecbc0ae444b62b070343cf0f4
+      internalID: -1915646400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_118
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd1a6e5df33d9c43823affbbe73b6ed
+      internalID: -1864094301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_119
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d84516542cb8148bc87e0c5bee9543
+      internalID: -1778243968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_120
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193e2f43c4c914e4a9f876d87de77aa9
+      internalID: 1508458700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb54d3710a111347b8cb1978d7a7da0
+      internalID: -1190901500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_122
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15cb33f2ac5c9a48a6278cf7d11e2b3
+      internalID: 1526428294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_123
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b15226ff3744c468917322548fe338
+      internalID: 1045851325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_124
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67976ad7f0847b146b7319e316f150c7
+      internalID: 899985262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_125
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70a834a71b7ff4da122622d7f18008
+      internalID: -1073112092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e0b38824d8afa409623d443cbeef7c
+      internalID: -161047656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_127
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61ffda3abd0de14c9b0ca0529e1b9da
+      internalID: 1687767709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_128
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85631b0bedad52449c7ecfa6bd1ed03
+      internalID: 919010138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_129
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26ffaa5faba6a64b8fad039480a2be5
+      internalID: -1808222453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_130
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9c77316959c5e449639dd66fda658b
+      internalID: 1661303117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_131
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e8d6adf38b9f408da5f570faedf2d
+      internalID: 184573864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_132
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04867e99d5049b042b149c866d158eaa
+      internalID: 2024724377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_133
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228fcc2c8e7ee764eb3748347ad4bf43
+      internalID: 357389091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_134
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8f63fa24e2b164d9d007015a232d15
+      internalID: -1556113462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_135
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cb98e55a3dbcc4ba0c18508f3fdc29
+      internalID: -1678590556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_136
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8bdd76def41de4394395da45482668
+      internalID: 1462437693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_137
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c82f8c693255a4eb7d3713f42b58f1
+      internalID: 1408046825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_138
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cb0f4ade887674db01ae09d9c21d57
+      internalID: -539692893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_139
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76545b14887aa74bbd424747d7fac06
+      internalID: 1076813901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf443bfdf8db84d8625bf950f41899
+      internalID: -2115403387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_141
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac922484bfe191a4aaca78adcbe72db9
+      internalID: -631313857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_142
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eae17f8f209b34a83b03084a8d2601
+      internalID: -1486695073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_143
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a60c189bc77c140b6bb9fead2e3242
+      internalID: -1710494904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_144
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce0e808c4ada434cbb835260f31f212
+      internalID: -1025666998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_145
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876c897a82707ef4faa9ef68c12886ec
+      internalID: -16955697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_146
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7aca6b7e47cd24da31e7c693f154fe
+      internalID: -1991615054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_147
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf002862ca5676408bc77c013cb040b
+      internalID: -252201922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_148
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375c5069baa75db42a5ef3b464e3574f
+      internalID: -1567600944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_149
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bdf41ffae123e4a9fe8fe826423694
+      internalID: 992755727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_150
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63050da529cc67d46874a2f06594fd5f
+      internalID: -1181431516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_151
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106fd98e90e491c4ba3d5375d1f3abf3
+      internalID: 2088811790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_152
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9b27381ec1d80459f74c7ab2f7ae18
+      internalID: -304710191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_153
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aebaa91679bab4abc7a4efe3ff628c
+      internalID: -1220349173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a775af87c38bcb24386e1828566375b6
+      internalID: -2018783404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8346b44995617e438921f208a4bd01a
+      internalID: 702084991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_156
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606e706489f8cbd4d97f2609270dc58b
+      internalID: 606010261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_157
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cafd7d5b02e2c44a28e3c7821a1b61
+      internalID: -2048238770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_158
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce8e37ded2dae64187f63b7ff253e77
+      internalID: 504298784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_159
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7eb5f211b5ca24198c6edb08dab31b
+      internalID: -687288409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_160
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5652404a5586b8e478d34f573409f294
+      internalID: 1278873156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_161
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d38fdccb69434a9f0e3e24d5daf35
+      internalID: -816024941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd235d405cf98494dbd07f982d5d519e
+      internalID: -321466769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_163
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f08a23b3cae145b88fcd6640170d3
+      internalID: 1387213345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_164
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e2dda3a5b1c1642bcf5d37e8754be5
+      internalID: -1993072007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_165
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a4188f4feec6a42ae74f161b8b054a
+      internalID: -1160093084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_166
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551d03a2145403746a2d17e556d708a4
+      internalID: 815553051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_167
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa2b66338a38de4d90ebfe3cce2ce55
+      internalID: 1169156804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8facfa339df9348a57c4cce7a07b58
+      internalID: 1577319135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_169
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d8f083a2baba4dab2d69fdbc4a813
+      internalID: 1512363594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_170
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb985c96817a4844bae516fe77e03411
+      internalID: 1589540391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_171
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72150f655c085d4e935546210f97edb
+      internalID: 1775316320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_172
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c027873887d80eb438da24c930a97823
+      internalID: 1324564648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_173
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c774d0621660cf9488f9f02b1e37104a
+      internalID: 1129947692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_174
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74647184ed5d82c43bfbdebcbae1a6a8
+      internalID: -617878495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_175
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f58ed41acbd5ed4db9c9175b7aeb2ff
+      internalID: 618186832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_176
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2da62f9524786d4e935a8c7ec1cd72e
+      internalID: -1999500933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_177
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb9d20ec2b84d548bc93db1548220ff
+      internalID: 1070135332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_178
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38f8630aa5b2bd45a24d355c770c9ac
+      internalID: -1750538573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_179
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd597593ff388e499d6bce317a8a47f
+      internalID: 1135450977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_180
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f8afd7ac09e524e847d774aefd1c0d
+      internalID: -90850032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_181
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba89a8239f67264389b7aa5c53f9d16
+      internalID: 881439365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b425bbc5f11c1da44aa8e77ff92b3912
+      internalID: 1455925947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_183
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e2e146ef9f31b4c9cdd56a321ab175
+      internalID: 1157635023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_184
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af6f7164d42226499a780576867e555
+      internalID: 556205535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_185
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e511bf3d480814d8faef6a81aa2478
+      internalID: -628152235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_186
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee690f089901e042b1b6038a93382d2
+      internalID: -2006733920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_187
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e77d7db96b07f499b2857c87ddf3c7
+      internalID: 1564752556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_188
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0568554530419c468b24af3fea70ce9
+      internalID: 1071369997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_189
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88164f5bcb6db38448b320b98db21a12
+      internalID: -121696744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_190
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc76659a2ee14774a9bea9a1ca41574e
+      internalID: 1680390560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_191
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e9df8b8275bc4ca5cee1688560b30
+      internalID: -512309965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_192
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ff94bcbff18474b85f74b8ccb6f537
+      internalID: 887756284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_193
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8eb7f46cf9ddb49b2c6480d0504539
+      internalID: 1394161075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_194
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e9fa501e6bbcf42ac7d831969f76fb
+      internalID: 830373522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_195
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d211228d5ece743a2a0dab0d7a744f
+      internalID: 1586007900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd33b5033293bc0409a78c18da277da5
+      internalID: -1806402313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_197
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d14498fd634a34c8e05e0b072a532b
+      internalID: 1169101757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_198
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6736817fa79c31b41994e9280ed67392
+      internalID: 1915663233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_199
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7b4beb962610a4e82d16a04f7cd70d
+      internalID: 1724441599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_200
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06fa2887a63ad941a68369435d2aeb7
+      internalID: -1978661534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_201
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8f063675b05c468ffa667c6f5a0b4
+      internalID: -1371138353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_202
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9f30c654c1b8d4a9f23b2a7ce5bf2a
+      internalID: -648988729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_203
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cd22b159437c941b08f4f3e9c61365
+      internalID: 598307845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_204
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba524e2525547428694e5c4318ba59
+      internalID: -1754751576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_205
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed36911e3ade56d45b8756cc2a1b3601
+      internalID: 556484390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_206
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511e7669d15c16142a0199c8f015ac77
+      internalID: 920048297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_207
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e9edc3a5d9534abcc5b92914c93e6
+      internalID: 641505361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Text Emojis_208
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2500ee9b64b74e4ab34ebaab6ae1e4f
+      internalID: -1011600472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Text Emojis_0: -1408183001
+      PC Computer - Stardew Valley - Text Emojis_1: 171088558
+      PC Computer - Stardew Valley - Text Emojis_10: -1245777974
+      PC Computer - Stardew Valley - Text Emojis_100: -1755208067
+      PC Computer - Stardew Valley - Text Emojis_101: 1883886043
+      PC Computer - Stardew Valley - Text Emojis_102: -1951984548
+      PC Computer - Stardew Valley - Text Emojis_103: 968523735
+      PC Computer - Stardew Valley - Text Emojis_104: 1501727118
+      PC Computer - Stardew Valley - Text Emojis_105: 89358012
+      PC Computer - Stardew Valley - Text Emojis_106: 2037685724
+      PC Computer - Stardew Valley - Text Emojis_107: -1933924946
+      PC Computer - Stardew Valley - Text Emojis_108: -1555499746
+      PC Computer - Stardew Valley - Text Emojis_109: -1663686259
+      PC Computer - Stardew Valley - Text Emojis_11: 552115660
+      PC Computer - Stardew Valley - Text Emojis_110: -641174373
+      PC Computer - Stardew Valley - Text Emojis_111: 1986183567
+      PC Computer - Stardew Valley - Text Emojis_112: 1369486404
+      PC Computer - Stardew Valley - Text Emojis_113: -506312438
+      PC Computer - Stardew Valley - Text Emojis_114: 260005961
+      PC Computer - Stardew Valley - Text Emojis_115: 1288227899
+      PC Computer - Stardew Valley - Text Emojis_116: 1448750110
+      PC Computer - Stardew Valley - Text Emojis_117: -1915646400
+      PC Computer - Stardew Valley - Text Emojis_118: -1864094301
+      PC Computer - Stardew Valley - Text Emojis_119: -1778243968
+      PC Computer - Stardew Valley - Text Emojis_12: 1512825010
+      PC Computer - Stardew Valley - Text Emojis_120: 1508458700
+      PC Computer - Stardew Valley - Text Emojis_121: -1190901500
+      PC Computer - Stardew Valley - Text Emojis_122: 1526428294
+      PC Computer - Stardew Valley - Text Emojis_123: 1045851325
+      PC Computer - Stardew Valley - Text Emojis_124: 899985262
+      PC Computer - Stardew Valley - Text Emojis_125: -1073112092
+      PC Computer - Stardew Valley - Text Emojis_126: -161047656
+      PC Computer - Stardew Valley - Text Emojis_127: 1687767709
+      PC Computer - Stardew Valley - Text Emojis_128: 919010138
+      PC Computer - Stardew Valley - Text Emojis_129: -1808222453
+      PC Computer - Stardew Valley - Text Emojis_13: 1991126580
+      PC Computer - Stardew Valley - Text Emojis_130: 1661303117
+      PC Computer - Stardew Valley - Text Emojis_131: 184573864
+      PC Computer - Stardew Valley - Text Emojis_132: 2024724377
+      PC Computer - Stardew Valley - Text Emojis_133: 357389091
+      PC Computer - Stardew Valley - Text Emojis_134: -1556113462
+      PC Computer - Stardew Valley - Text Emojis_135: -1678590556
+      PC Computer - Stardew Valley - Text Emojis_136: 1462437693
+      PC Computer - Stardew Valley - Text Emojis_137: 1408046825
+      PC Computer - Stardew Valley - Text Emojis_138: -539692893
+      PC Computer - Stardew Valley - Text Emojis_139: 1076813901
+      PC Computer - Stardew Valley - Text Emojis_14: -1922700353
+      PC Computer - Stardew Valley - Text Emojis_140: -2115403387
+      PC Computer - Stardew Valley - Text Emojis_141: -631313857
+      PC Computer - Stardew Valley - Text Emojis_142: -1486695073
+      PC Computer - Stardew Valley - Text Emojis_143: -1710494904
+      PC Computer - Stardew Valley - Text Emojis_144: -1025666998
+      PC Computer - Stardew Valley - Text Emojis_145: -16955697
+      PC Computer - Stardew Valley - Text Emojis_146: -1991615054
+      PC Computer - Stardew Valley - Text Emojis_147: -252201922
+      PC Computer - Stardew Valley - Text Emojis_148: -1567600944
+      PC Computer - Stardew Valley - Text Emojis_149: 992755727
+      PC Computer - Stardew Valley - Text Emojis_15: 899246881
+      PC Computer - Stardew Valley - Text Emojis_150: -1181431516
+      PC Computer - Stardew Valley - Text Emojis_151: 2088811790
+      PC Computer - Stardew Valley - Text Emojis_152: -304710191
+      PC Computer - Stardew Valley - Text Emojis_153: -1220349173
+      PC Computer - Stardew Valley - Text Emojis_154: -2018783404
+      PC Computer - Stardew Valley - Text Emojis_155: 702084991
+      PC Computer - Stardew Valley - Text Emojis_156: 606010261
+      PC Computer - Stardew Valley - Text Emojis_157: -2048238770
+      PC Computer - Stardew Valley - Text Emojis_158: 504298784
+      PC Computer - Stardew Valley - Text Emojis_159: -687288409
+      PC Computer - Stardew Valley - Text Emojis_16: 798855714
+      PC Computer - Stardew Valley - Text Emojis_160: 1278873156
+      PC Computer - Stardew Valley - Text Emojis_161: -816024941
+      PC Computer - Stardew Valley - Text Emojis_162: -321466769
+      PC Computer - Stardew Valley - Text Emojis_163: 1387213345
+      PC Computer - Stardew Valley - Text Emojis_164: -1993072007
+      PC Computer - Stardew Valley - Text Emojis_165: -1160093084
+      PC Computer - Stardew Valley - Text Emojis_166: 815553051
+      PC Computer - Stardew Valley - Text Emojis_167: 1169156804
+      PC Computer - Stardew Valley - Text Emojis_168: 1577319135
+      PC Computer - Stardew Valley - Text Emojis_169: 1512363594
+      PC Computer - Stardew Valley - Text Emojis_17: 1823083091
+      PC Computer - Stardew Valley - Text Emojis_170: 1589540391
+      PC Computer - Stardew Valley - Text Emojis_171: 1775316320
+      PC Computer - Stardew Valley - Text Emojis_172: 1324564648
+      PC Computer - Stardew Valley - Text Emojis_173: 1129947692
+      PC Computer - Stardew Valley - Text Emojis_174: -617878495
+      PC Computer - Stardew Valley - Text Emojis_175: 618186832
+      PC Computer - Stardew Valley - Text Emojis_176: -1999500933
+      PC Computer - Stardew Valley - Text Emojis_177: 1070135332
+      PC Computer - Stardew Valley - Text Emojis_178: -1750538573
+      PC Computer - Stardew Valley - Text Emojis_179: 1135450977
+      PC Computer - Stardew Valley - Text Emojis_18: -1006955427
+      PC Computer - Stardew Valley - Text Emojis_180: -90850032
+      PC Computer - Stardew Valley - Text Emojis_181: 881439365
+      PC Computer - Stardew Valley - Text Emojis_182: 1455925947
+      PC Computer - Stardew Valley - Text Emojis_183: 1157635023
+      PC Computer - Stardew Valley - Text Emojis_184: 556205535
+      PC Computer - Stardew Valley - Text Emojis_185: -628152235
+      PC Computer - Stardew Valley - Text Emojis_186: -2006733920
+      PC Computer - Stardew Valley - Text Emojis_187: 1564752556
+      PC Computer - Stardew Valley - Text Emojis_188: 1071369997
+      PC Computer - Stardew Valley - Text Emojis_189: -121696744
+      PC Computer - Stardew Valley - Text Emojis_19: -355361956
+      PC Computer - Stardew Valley - Text Emojis_190: 1680390560
+      PC Computer - Stardew Valley - Text Emojis_191: -512309965
+      PC Computer - Stardew Valley - Text Emojis_192: 887756284
+      PC Computer - Stardew Valley - Text Emojis_193: 1394161075
+      PC Computer - Stardew Valley - Text Emojis_194: 830373522
+      PC Computer - Stardew Valley - Text Emojis_195: 1586007900
+      PC Computer - Stardew Valley - Text Emojis_196: -1806402313
+      PC Computer - Stardew Valley - Text Emojis_197: 1169101757
+      PC Computer - Stardew Valley - Text Emojis_198: 1915663233
+      PC Computer - Stardew Valley - Text Emojis_199: 1724441599
+      PC Computer - Stardew Valley - Text Emojis_2: 1182450407
+      PC Computer - Stardew Valley - Text Emojis_20: -516274510
+      PC Computer - Stardew Valley - Text Emojis_200: -1978661534
+      PC Computer - Stardew Valley - Text Emojis_201: -1371138353
+      PC Computer - Stardew Valley - Text Emojis_202: -648988729
+      PC Computer - Stardew Valley - Text Emojis_203: 598307845
+      PC Computer - Stardew Valley - Text Emojis_204: -1754751576
+      PC Computer - Stardew Valley - Text Emojis_205: 556484390
+      PC Computer - Stardew Valley - Text Emojis_206: 920048297
+      PC Computer - Stardew Valley - Text Emojis_207: 641505361
+      PC Computer - Stardew Valley - Text Emojis_208: -1011600472
+      PC Computer - Stardew Valley - Text Emojis_21: 190072958
+      PC Computer - Stardew Valley - Text Emojis_22: 379023587
+      PC Computer - Stardew Valley - Text Emojis_23: -1353432892
+      PC Computer - Stardew Valley - Text Emojis_24: -887907382
+      PC Computer - Stardew Valley - Text Emojis_25: 2014910966
+      PC Computer - Stardew Valley - Text Emojis_26: 1280145930
+      PC Computer - Stardew Valley - Text Emojis_27: 455657327
+      PC Computer - Stardew Valley - Text Emojis_28: 1718812024
+      PC Computer - Stardew Valley - Text Emojis_29: 135300289
+      PC Computer - Stardew Valley - Text Emojis_3: -449316061
+      PC Computer - Stardew Valley - Text Emojis_30: -1249034281
+      PC Computer - Stardew Valley - Text Emojis_31: 363766683
+      PC Computer - Stardew Valley - Text Emojis_32: 924158596
+      PC Computer - Stardew Valley - Text Emojis_33: 113619872
+      PC Computer - Stardew Valley - Text Emojis_34: 57149097
+      PC Computer - Stardew Valley - Text Emojis_35: -1351743225
+      PC Computer - Stardew Valley - Text Emojis_36: -120932149
+      PC Computer - Stardew Valley - Text Emojis_37: 1579647886
+      PC Computer - Stardew Valley - Text Emojis_38: 132075316
+      PC Computer - Stardew Valley - Text Emojis_39: -25725029
+      PC Computer - Stardew Valley - Text Emojis_4: 1318711683
+      PC Computer - Stardew Valley - Text Emojis_40: -113577653
+      PC Computer - Stardew Valley - Text Emojis_41: -1019001645
+      PC Computer - Stardew Valley - Text Emojis_42: 1027293317
+      PC Computer - Stardew Valley - Text Emojis_43: -1312916411
+      PC Computer - Stardew Valley - Text Emojis_44: -1319211783
+      PC Computer - Stardew Valley - Text Emojis_45: 1512773693
+      PC Computer - Stardew Valley - Text Emojis_46: -738444332
+      PC Computer - Stardew Valley - Text Emojis_47: 1150170450
+      PC Computer - Stardew Valley - Text Emojis_48: -1489836208
+      PC Computer - Stardew Valley - Text Emojis_49: 1167240709
+      PC Computer - Stardew Valley - Text Emojis_5: -1178477897
+      PC Computer - Stardew Valley - Text Emojis_50: -1417424945
+      PC Computer - Stardew Valley - Text Emojis_51: 1546442562
+      PC Computer - Stardew Valley - Text Emojis_52: -1674728781
+      PC Computer - Stardew Valley - Text Emojis_53: -672867775
+      PC Computer - Stardew Valley - Text Emojis_54: 321202113
+      PC Computer - Stardew Valley - Text Emojis_55: -1498032566
+      PC Computer - Stardew Valley - Text Emojis_56: 760744300
+      PC Computer - Stardew Valley - Text Emojis_57: 855494655
+      PC Computer - Stardew Valley - Text Emojis_58: 1473001863
+      PC Computer - Stardew Valley - Text Emojis_59: -903170108
+      PC Computer - Stardew Valley - Text Emojis_6: 638618184
+      PC Computer - Stardew Valley - Text Emojis_60: 1843342497
+      PC Computer - Stardew Valley - Text Emojis_61: 430803662
+      PC Computer - Stardew Valley - Text Emojis_62: 158027041
+      PC Computer - Stardew Valley - Text Emojis_63: -1872224737
+      PC Computer - Stardew Valley - Text Emojis_64: -2014671947
+      PC Computer - Stardew Valley - Text Emojis_65: 1821656184
+      PC Computer - Stardew Valley - Text Emojis_66: -202202310
+      PC Computer - Stardew Valley - Text Emojis_67: 2025906253
+      PC Computer - Stardew Valley - Text Emojis_68: 767690757
+      PC Computer - Stardew Valley - Text Emojis_69: 708948150
+      PC Computer - Stardew Valley - Text Emojis_7: 448550130
+      PC Computer - Stardew Valley - Text Emojis_70: -102845771
+      PC Computer - Stardew Valley - Text Emojis_71: -807035793
+      PC Computer - Stardew Valley - Text Emojis_72: 2112292822
+      PC Computer - Stardew Valley - Text Emojis_73: 1042757811
+      PC Computer - Stardew Valley - Text Emojis_74: 171632474
+      PC Computer - Stardew Valley - Text Emojis_75: 1940121359
+      PC Computer - Stardew Valley - Text Emojis_76: -93895989
+      PC Computer - Stardew Valley - Text Emojis_77: 1916315320
+      PC Computer - Stardew Valley - Text Emojis_78: 325034971
+      PC Computer - Stardew Valley - Text Emojis_79: 821832403
+      PC Computer - Stardew Valley - Text Emojis_8: -72095900
+      PC Computer - Stardew Valley - Text Emojis_80: -201353280
+      PC Computer - Stardew Valley - Text Emojis_81: -1529404960
+      PC Computer - Stardew Valley - Text Emojis_82: -352816515
+      PC Computer - Stardew Valley - Text Emojis_83: -446363493
+      PC Computer - Stardew Valley - Text Emojis_84: -1578683419
+      PC Computer - Stardew Valley - Text Emojis_85: 1803923761
+      PC Computer - Stardew Valley - Text Emojis_86: 2040458771
+      PC Computer - Stardew Valley - Text Emojis_87: 381888085
+      PC Computer - Stardew Valley - Text Emojis_88: 1566368842
+      PC Computer - Stardew Valley - Text Emojis_89: -897708294
+      PC Computer - Stardew Valley - Text Emojis_9: 1636840403
+      PC Computer - Stardew Valley - Text Emojis_90: -1897193732
+      PC Computer - Stardew Valley - Text Emojis_91: -1119048682
+      PC Computer - Stardew Valley - Text Emojis_92: -582003060
+      PC Computer - Stardew Valley - Text Emojis_93: 173605245
+      PC Computer - Stardew Valley - Text Emojis_94: -1341186492
+      PC Computer - Stardew Valley - Text Emojis_95: 625052524
+      PC Computer - Stardew Valley - Text Emojis_96: -408787376
+      PC Computer - Stardew Valley - Text Emojis_97: -1440420055
+      PC Computer - Stardew Valley - Text Emojis_98: 1205596366
+      PC Computer - Stardew Valley - Text Emojis_99: -1361289925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

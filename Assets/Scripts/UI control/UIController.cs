@@ -5,27 +5,29 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     [SerializeField] private GameObject playerInventory;
-    private bool isInventoryOpened;
-    private void FixedUpdate()
+    private void Update()
     {
-        if (isInventoryOpened)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            playerInventory.SetActive(true);
+            OpenInventory();
         }
-        else
+    }
+    public void CloseInventory()
+    {
+        if (playerInventory.activeInHierarchy)
         {
             playerInventory.SetActive(false);
         }
     }
     public void OpenInventory()
     {
-        if (isInventoryOpened)
+        if (!playerInventory.activeInHierarchy)
         {
-            isInventoryOpened = false; 
+            playerInventory.SetActive(true);
         }
         else
         {
-            isInventoryOpened = true;
+            playerInventory.SetActive(false);
         }
     }
 }

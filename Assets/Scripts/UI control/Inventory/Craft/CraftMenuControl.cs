@@ -58,9 +58,16 @@ public class CraftMenuControl : MonoBehaviour
     {
         if (choosing_Item != -1)
         {
-            PlayerInvent.instance.UseItem(craftingRecipes[choosing_Item].crafting_item1, craftingRecipes[choosing_Item].req1);
-            PlayerInvent.instance.UseItem(craftingRecipes[choosing_Item].crafting_item2, craftingRecipes[choosing_Item].req2);
-            PlayerInvent.instance.AddItem(craftingRecipes[choosing_Item].crafting_out, 1);
+            if (PlayerInvent.instance.CheckItem(craftingRecipes[choosing_Item].crafting_item1.itemName, craftingRecipes[choosing_Item].req1)&& PlayerInvent.instance.CheckItem(craftingRecipes[choosing_Item].crafting_item2.itemName, craftingRecipes[choosing_Item].req2))
+            {
+                PlayerInvent.instance.UseItem(craftingRecipes[choosing_Item].crafting_item1, craftingRecipes[choosing_Item].req1);
+                PlayerInvent.instance.UseItem(craftingRecipes[choosing_Item].crafting_item2, craftingRecipes[choosing_Item].req2);
+                PlayerInvent.instance.AddItem(craftingRecipes[choosing_Item].crafting_out, craftingRecipes[choosing_Item].craft_out);
+            }
+            else
+            {
+                MesAndNoti.instance.SetNotification("Bạn không có đủ nguyên liệu");
+            }
         }
     }
     //crafting recipes
@@ -77,6 +84,6 @@ public class CraftMenuControl : MonoBehaviour
         //item sau khi craft
         public Item crafting_out;
         //so luong item sau khi craft
-        public int craft_out=1;
+        public int craft_out;
     }
 }
