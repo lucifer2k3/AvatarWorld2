@@ -40,9 +40,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5082939643990528936}
+  - component: {fileID: 1517554606192838789}
   - component: {fileID: 6855087273517835663}
-  - component: {fileID: 4846809080071691450}
   - component: {fileID: 3661016467044393996}
+  - component: {fileID: 4846809080071691450}
+  - component: {fileID: 42099495650772274}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -66,6 +68,32 @@ Transform:
   - {fileID: 7585419508468001705}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1517554606192838789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214933590833948439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: House
+    m_Hash: 0
+    m_CategoryList:
+    - m_Name: LV1
+      m_Hash: 0
+      m_Sprite: {fileID: -1601738441, guid: 55e7e52e44ee3334b93ec652f34c4bd8, type: 3}
+    - m_Name: LV2
+      m_Hash: 0
+      m_Sprite: {fileID: -336590755, guid: 55e7e52e44ee3334b93ec652f34c4bd8, type: 3}
+    - m_Name: LV3
+      m_Hash: 0
+      m_Sprite: {fileID: 1052391215, guid: 55e7e52e44ee3334b93ec652f34c4bd8, type: 3}
+  m_SpriteLibraryAsset: {fileID: 0}
 --- !u!212 &6855087273517835663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -107,7 +135,7 @@ SpriteRenderer:
   m_SortingLayerID: -1819540455
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -336590755, guid: 55e7e52e44ee3334b93ec652f34c4bd8, type: 3}
+  m_Sprite: {fileID: -1601738441, guid: 55e7e52e44ee3334b93ec652f34c4bd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,19 +146,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4846809080071691450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9214933590833948439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80431f09646d0b045b7c32890ece797f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  center: {fileID: 7585419508468001705}
 --- !u!60 &3661016467044393996
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -194,3 +209,31 @@ PolygonCollider2D:
       - {x: 3.75, y: -0.25}
       - {x: 3.6875, y: -1.3125}
   m_UseDelaunayMesh: 0
+--- !u!114 &4846809080071691450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214933590833948439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80431f09646d0b045b7c32890ece797f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 7585419508468001705}
+--- !u!114 &42099495650772274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214933590833948439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3843f0ac673d76046adf4d8cc08eaa31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HouseLevel: 2
+  spriteLibrary: {fileID: 1517554606192838789}
+  spriteRenderer: {fileID: 6855087273517835663}

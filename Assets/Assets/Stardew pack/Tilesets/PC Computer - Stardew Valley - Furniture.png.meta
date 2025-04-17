@@ -3397,10 +3397,10 @@ TextureImporter:
       name: PC Computer - Stardew Valley - Furniture_178
       rect:
         serializedVersion: 2
-        x: 90
-        y: 656
-        width: 198
-        height: 31
+        x: 224
+        y: 657
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13356,7 +13356,7 @@ TextureImporter:
         width: 32
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13377,7 +13377,7 @@ TextureImporter:
         width: 49
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13398,7 +13398,7 @@ TextureImporter:
         width: 37
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13419,7 +13419,7 @@ TextureImporter:
         width: 47
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13440,7 +13440,7 @@ TextureImporter:
         width: 31
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13461,7 +13461,7 @@ TextureImporter:
         width: 30
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13469,6 +13469,27 @@ TextureImporter:
       bones: []
       spriteID: c22eb5c37a6d0114c918490832e68b16
       internalID: -345277116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_637
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 662
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a9514ed24d58747b82129c6434de19
+      internalID: -501625656
       vertices: []
       indices: 
       edges: []
@@ -14082,6 +14103,7 @@ TextureImporter:
       PC Computer - Stardew Valley - Furniture_634: -38337951
       PC Computer - Stardew Valley - Furniture_635: 1472571062
       PC Computer - Stardew Valley - Furniture_636: -345277116
+      PC Computer - Stardew Valley - Furniture_637: -501625656
       PC Computer - Stardew Valley - Furniture_64: 1941244565
       PC Computer - Stardew Valley - Furniture_65: 550155622
       PC Computer - Stardew Valley - Furniture_66: 1049596015
