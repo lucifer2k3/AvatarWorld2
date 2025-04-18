@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -6,69 +6,66 @@ using UnityEngine;
 
 public class Tree : MonoBehaviour
 {
-    private BoxCollider2D thistree;
-    private Transform body;
-    private Vector3 mousePos;
     public float health = 8;
-    private bool fell=false;
 
-    [SerializeField]private GameObject treeBody;
-    [SerializeField]private GameObject treeRoot;
-    public Vector2 targetPosition = new Vector2(3f, -2.8f);
-    public float fallSpeed = 5;
-    private SpriteRenderer spriteRendererBody;
-    private SpriteRenderer spriteRendererRoot;
-    void Start()
+    [SerializeField] private GameObject body; // Prefab của cây
+
+    public Transform pivotPoint; // Điểm mà cây sẽ xoay quanh
+    public float rotationAngle = 90f; // Góc xoay (có thể điều chỉnh)
+    public float rotationSpeed = 100f; // Tốc độ xoay
+
+    private bool isFalling = false;
+    private float currentRotation = 0f;
+    private Vector3 initialRotation;
+
+    public void StartFalling()
     {
-        thistree = GetComponent<BoxCollider2D>();
-        body = transform.Find("Body").GetComponent<Transform>();
-
-        spriteRendererBody = transform.Find("Body").GetComponent<SpriteRenderer>();
-        spriteRendererRoot = transform.Find("Root").GetComponent<SpriteRenderer>();
-
-        spriteRendererBody.sortingOrder = (int)transform.position.y;
-        spriteRendererRoot.sortingOrder = (int)transform.position.y;
+        if (pivotPoint == null)
+        {
+            Debug.LogError("Pivot Point chưa được gán!");
+            return;
+        }
+        isFalling = true;
+        initialRotation = body.transform.eulerAngles; // Lưu lại góc ban đầu
+        currentRotation = 0f;
     }
-
-    
     void Update()
-    {   
-        
-            
+    {
+        if (isFalling)
+        {
+            // Tính toán góc xoay trong frame này
+            float step = rotationSpeed * Time.deltaTime;
+
+            // Xoay cây quanh pivot point
+            body.transform.RotateAround(pivotPoint.position, Vector3.forward, step);
+
+            // Cộng dồn góc xoay hiện tại
+            currentRotation += Mathf.Abs(step);
+
+            // Kiểm tra nếu đã xoay đủ góc
+            if (currentRotation >= rotationAngle)
+            {
+                isFalling = false;
+                // Đảm bảo góc cuối cùng chính xác là 90 độ
+                Vector3 finalRotation = initialRotation;
+                finalRotation.z -= rotationAngle; // Giả sử xoay quanh trục Z
+                //body.transform.eulerAngles = finalRotation;
+            }
+        }
+
     }
     void OnMouseDown(){
-        
-        // if (PlayerStats.instance.itemsusing.ToString() == "axe"){
-            health--;
-        //}
-        if (health<=0 && fell == true){
-            // PlayerStats.instance.wood +=2;
-            Destroy(gameObject);
-        }
-        if (health <= 3 && fell ==false)
-            {
-                StartCoroutine(FallDown());
-                fell = true;
-                // PlayerStats.instance.wood +=4;
-            }
 
-    }   
-    private IEnumerator FallDown()
-    {
-        Quaternion startRotation = body.transform.rotation;
-        Quaternion endRotation = Quaternion.Euler(0, 0, -90); 
-        float time = 0;
-        while (time <= 0.9f)
+        if (health > 0)
         {
-            time += Time.deltaTime;
-            
-            body.transform.RotateAround(transform.position,Vector3.forward,-1.18f);
-            yield return null;
-            
+            health--;
         }
-        yield return null;
-        treeBody.SetActive(false);
-        
+        if (health <= 4)
+        {
+            StartFalling();
+        }
     }
+    
+
 
 }

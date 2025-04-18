@@ -27,6 +27,19 @@ public class PlayerStats : MonoBehaviour
     {
         player_now_energy = player_Energy;
     }
-    
+    private void FixedUpdate()
+    {
+        if (player_now_energy > 50)
+        {
+            player_now_energy = 50;
+        }
+    }
+    public void Sleep()
+    {
+        if (player_now_energy < 25)
+        {
+            player_now_energy = 20;
+        }
+    }
     
 }
