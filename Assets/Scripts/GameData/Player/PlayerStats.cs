@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
@@ -16,7 +16,7 @@ public class PlayerStats : MonoBehaviour
     public float player_now_energy;
 
 
-    //t�i nguy�n
+    //tài nguyên
 
     public int choosingItem = 0;
     public float playerGold = 500;
@@ -41,5 +41,15 @@ public class PlayerStats : MonoBehaviour
             player_now_energy = 20;
         }
     }
-    
+    public void Work(int energy)
+    {
+        if (player_now_energy <= 0)
+        {
+            MesAndNoti.instance.SetNotification("Bạn đã kiệt sức, hãy nghỉ ngơi hoặc nạp lại năng lượng");
+        }
+        else
+        {
+            player_now_energy -= energy;
+        }
+    }
 }

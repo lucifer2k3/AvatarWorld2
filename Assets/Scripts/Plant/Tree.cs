@@ -18,6 +18,21 @@ public class Tree : MonoBehaviour
     private float currentRotation = 0f;
     private Vector3 initialRotation;
 
+
+    [SerializeField]private Item drop;
+    [SerializeField]private int quantity1 = 1;
+    [SerializeField] private int quantity2 = 1;
+
+    //get player position
+    private Transform playerTransform;
+    private void Start()
+    {
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        if (playerTransform == null)
+        {
+            Debug.LogError("Player không được tìm thấy trong scene!");
+        }
+    }
     public void StartFalling()
     {
         if (pivotPoint == null)
@@ -49,20 +64,33 @@ public class Tree : MonoBehaviour
                 // Đảm bảo góc cuối cùng chính xác là 90 độ
                 Vector3 finalRotation = initialRotation;
                 finalRotation.z -= rotationAngle; // Giả sử xoay quanh trục Z
+                Destroy(body); // Xóa cây sau khi đã rơi
+                PlayerInvent.instance.AddItem(drop, quantity1); // Thêm item vào inventory
                 //body.transform.eulerAngles = finalRotation;
             }
         }
 
     }
     void OnMouseDown(){
-
-        if (health > 0)
+        if (Vector2.Distance(playerTransform.position,transform.position)<5.5f)
+            {
+            if (health > 0)
+            {
+                health--;
+            }
+            if (health == 4)
+            {
+                StartFalling();
+            }
+            if (health <= 0)
+                {
+                Destroy(gameObject);
+                PlayerInvent.instance.AddItem(drop, quantity2); // Thêm item vào inventory
+                }
+            }
+        else
         {
-            health--;
-        }
-        if (health <= 4)
-        {
-            StartFalling();
+            Debug.Log("Player quá xa cây");
         }
     }
     

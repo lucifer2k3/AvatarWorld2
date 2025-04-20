@@ -24,9 +24,10 @@ public class MesAndNoti : MonoBehaviour
     {
         notificationPanel.SetActive(false);
     }
-    public void SetMessage(string str)
+    public void SetMessage(string mes,string wsender)
     {
-        message.text = str;
+        message.text = mes;
+        sender.text = wsender;
         messagePanel.SetActive(true);
     }
     public void SetNotification(string str)

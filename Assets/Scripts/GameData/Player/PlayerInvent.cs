@@ -57,6 +57,7 @@ public class PlayerInvent : MonoBehaviour
         if (Item.name == "Gold")
         {
             PlayerStats.instance.playerGold += amount;
+            ActiveReceive.instance.ShowInfo("Nhận được " + amount + " vàng");
             return;
         }
         
@@ -69,6 +70,7 @@ public class PlayerInvent : MonoBehaviour
                 {
                     QuestCheck(Item, amount);
                     item[i].amount += amount;
+                    ActiveReceive.instance.ShowInfo("Nhận được " + amount + " " + Item.itemName);
                     return;
                 }
             }
@@ -80,13 +82,14 @@ public class PlayerInvent : MonoBehaviour
             {
                 item[i] = Item;
                 item[i].amount = amount;
+                ActiveReceive.instance.ShowInfo("Nhận được " + amount + " " + Item.itemName);
                 QuestCheck(Item, amount);
                 return;
             }
         //check invent neu full
             if (i == 23)
             {
-                print("Kho do da day");
+                ActiveReceive.instance.ShowInfo("Hòm đồ đã đầy");
                 return;
             }
         }

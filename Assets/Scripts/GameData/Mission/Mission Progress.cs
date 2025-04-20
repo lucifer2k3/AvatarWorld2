@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MissionProgress : MonoBehaviour
 {
+    private bool FirstTime = true;
+
     public static MissionProgress instance;
     [Header("--0 = major,1 = robert, 2 = caroline, 3 = black smith--")]
     [SerializeField] private List<NPC_Mission_button> Npc_mission_button;
@@ -36,6 +38,7 @@ public class MissionProgress : MonoBehaviour
                 if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
                 {
                     PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
+                    StoreHouse.House_lv = 2;
                     Player_Mission_Progress++;
                     RewardCheck();
                 }
@@ -97,6 +100,7 @@ public class MissionProgress : MonoBehaviour
                 {
                     PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
                     PlayerInvent.instance.QuestRemove("Đá", 15);
+                    FarmHouse.instance.HouseLevel = 2;
                     Player_Mission_Progress++;
                     RewardCheck();
                 }
@@ -113,7 +117,21 @@ public class MissionProgress : MonoBehaviour
     {
         instance= this;
     }
-    
+    private void Start()
+    {
+        if (Player_Mission_Progress == 0)
+        {
+            if (FirstTime)
+            {
+                MesAndNoti.instance.SetMessage("Cháu yêu quý,\r\n\r\nÔng biết cháu luôn có một trái tim yêu mến đồng quê. Trang trại này là tâm huyết cả đời ông. Nay ông đã già, không còn đủ sức chăm sóc.\r\n\r\nÔng tin cháu sẽ là người kế thừa xứng đáng, biến nơi này thành một mái ấm và một trang trại trù phú. Hãy nhớ những kỷ niệm đẹp của chúng ta ở đây nhé.\r\n\r\nÔng luôn tin ở cháu.", "Ông nội");
+                FirstTime = false;
+            }
+            //else
+            //{
+            //    Player_Mission_Progress = PlayerPrefs.GetInt("Player_Mission_Progress");
+            //}
+        }
+    }
     private void FixedUpdate()
     {
         
@@ -125,10 +143,12 @@ public class MissionProgress : MonoBehaviour
                     if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
                         Npc_mission_button[i].button.SetActive(true);
+                        Npc_mission_button[i].Mark.gameObject.SetActive(true);
                     }
                     else
                     {
                         Npc_mission_button[i].button.SetActive(false);
+                        Npc_mission_button[i].Mark.gameObject.SetActive(false);
                     }
                 }
                 break;
@@ -136,6 +156,7 @@ public class MissionProgress : MonoBehaviour
                 for (int i = 0; i < Npc_mission_button.Count; i++)
                 {
                     Npc_mission_button[i].button.SetActive(false);
+                    Npc_mission_button[i].Mark.gameObject.SetActive(false);
                 }
                 if (missions[Player_Mission_Progress].progress1 >= missions[Player_Mission_Progress].require1)
                 {
@@ -161,10 +182,12 @@ public class MissionProgress : MonoBehaviour
                     if (Npc_mission_button[i].NPC_name == missions[Player_Mission_Progress].npc_name.ToString())
                     {
                         Npc_mission_button[i].button.SetActive(true);
+                        Npc_mission_button[i].Mark.gameObject.SetActive(true);
                     }
                     else
                     {
                         Npc_mission_button[i].button.SetActive(false);
+                        Npc_mission_button[i].Mark.gameObject.SetActive(false);
                     }
                 }
                 break;
@@ -234,4 +257,5 @@ public struct NPC_Mission_button
 {
     public string NPC_name;
     public GameObject button;
+    public SpriteRenderer Mark;
 }
