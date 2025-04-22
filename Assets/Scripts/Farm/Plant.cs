@@ -12,7 +12,7 @@ public class Plant : MonoBehaviour
     private SpriteRenderer thistree;    // hinh anh cua cay
     private SpriteLibrary library;      // thu vien anh dung khi cay lon
 
-    public int Product;
+    public int Product=2;
     private Tile parentTile;
     public enum plantTypes
     {

@@ -78,14 +78,15 @@ public class Tree : MonoBehaviour
             {
                 health--;
             }
-            if (health == 4)
+            if (health == 2)
             {
                 StartFalling();
             }
             if (health <= 0)
                 {
+                PlayerInvent.instance.AddItem(drop, quantity2);
                 Destroy(gameObject);
-                PlayerInvent.instance.AddItem(drop, quantity2); // Thêm item vào inventory
+                 // Thêm item vào inventory
                 }
             }
         else

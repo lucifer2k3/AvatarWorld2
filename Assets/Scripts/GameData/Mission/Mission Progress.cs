@@ -35,12 +35,12 @@ public class MissionProgress : MonoBehaviour
                 Player_Mission_Progress++;
                 break;
             case 1://nv 2
-                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
+                if (PlayerInvent.instance.CheckItem("Gỗ sồi", 6) == true)
                 {
-                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
+                    PlayerInvent.instance.QuestRemove("Gỗ sồi", 6);
                     StoreHouse.House_lv = 2;
-                    Player_Mission_Progress++;
                     RewardCheck();
+                    Player_Mission_Progress++;
                 }
                 else
                 {
@@ -48,11 +48,12 @@ public class MissionProgress : MonoBehaviour
                 }
                     break;
             case 2://nv 3
-                if (PlayerInvent.instance.CheckItem("Quặng sắt", 4) == true)
+                if (PlayerInvent.instance.CheckItem("Quặng sắt", 3) == true)
                 {
-                    PlayerInvent.instance.QuestRemove("Quặng sắt", 4);
-                    Player_Mission_Progress++;
+                    PlayerInvent.instance.QuestRemove("Quặng sắt", 3);
+                    
                     RewardCheck();
+                    Player_Mission_Progress++;
                 }
                 else
                 {
@@ -60,8 +61,9 @@ public class MissionProgress : MonoBehaviour
                 }
                 break;
             case 3://nv 4
-                Player_Mission_Progress++;
                 RewardCheck();
+                Player_Mission_Progress++;
+                
                 break;
             case 4://nv 5
                 break;
@@ -71,8 +73,7 @@ public class MissionProgress : MonoBehaviour
                 if (PlayerInvent.instance.CheckItem("Bột mì", 15) == true)
                 {
                     PlayerInvent.instance.QuestRemove("Bột mì", 15);
-                    Player_Mission_Progress++;
-                    RewardCheck();
+                    RewardCheck();Player_Mission_Progress++;
                 }
                 else
                 {
@@ -89,8 +90,9 @@ public class MissionProgress : MonoBehaviour
                 if (PlayerInvent.instance.CheckItem("Gỗ sồi", 20) == true)
                 {
                     PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
-                    Player_Mission_Progress++;
                     RewardCheck();
+                    Player_Mission_Progress++;
+                    
                 }
                 break;
             case 10://nv 11
@@ -101,8 +103,9 @@ public class MissionProgress : MonoBehaviour
                     PlayerInvent.instance.QuestRemove("Gỗ sồi", 20);
                     PlayerInvent.instance.QuestRemove("Đá", 15);
                     FarmHouse.instance.HouseLevel = 2;
-                    Player_Mission_Progress++;
                     RewardCheck();
+                    Player_Mission_Progress++;
+                    
                 }
                 else
                 {

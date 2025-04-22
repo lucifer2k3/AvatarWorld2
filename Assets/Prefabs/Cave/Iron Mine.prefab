@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropAmount: 2
   DropItem: {fileID: 11400000, guid: 277770bcd675b8244be34325add7760c, type: 2}
-  HP: 6
+  HP: 1
 --- !u!60 &1755771263391629682
 PolygonCollider2D:
   m_ObjectHideFlags: 0

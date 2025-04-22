@@ -66,7 +66,7 @@ public class PlayerInvent : MonoBehaviour
         {
             if (item[i])
             {
-                if (item[i].id == Item.id)
+                if (item[i].itemName == Item.itemName)
                 {
                     QuestCheck(Item, amount);
                     item[i].amount += amount;
@@ -89,7 +89,7 @@ public class PlayerInvent : MonoBehaviour
         //check invent neu full
             if (i == 23)
             {
-                ActiveReceive.instance.ShowInfo("Hòm đồ đã đầy");
+                ActiveReceive.instance.ShowInfo("3Hòm đồ đã đầy");
                 return;
             }
         }

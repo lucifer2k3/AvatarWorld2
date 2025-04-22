@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemWhenHavest: {fileID: 11400000, guid: 771f8680982148943abda37f61d1861d, type: 2}
+  Product: 0
   growPhase: 1
   growTimes:
   - 1

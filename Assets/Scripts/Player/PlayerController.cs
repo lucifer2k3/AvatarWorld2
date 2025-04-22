@@ -5,32 +5,58 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
+    private Animator anim;
+
     private Rigidbody2D rb;
+
     public float speed = 5f;
-    [SerializeField]public Sprite[] itemImage;
-    [SerializeField]public Image usingItemImage;
-    Vector2 move;
-    public GameObject purpleRadish;
-    void Start()
+    //[SerializeField]public Sprite[] itemImage;
+    //[SerializeField]public Image usingItemImage;
+    private bool Moving;
+
+    private Vector2 input;
+
+    private float x;
+    private float y;
+
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     
     void Update()
     {
-        move = new Vector2 (Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
-        move.Normalize();
-        animator.SetFloat("Horizontal", move.x);
-        animator.SetFloat("Vertical", move.y);
-        animator.SetFloat("Speed", move.sqrMagnitude);
-
+        GetInput();
+        Animate();
     }
-    void FixedUpdate(){
-        rb.MovePosition(rb.position+move*speed*Time.deltaTime);
+    void FixedUpdate()
+    {
+        rb.velocity = input * speed;
+    }
+    private void GetInput()
+    {
+        x = Input.GetAxisRaw("Horizontal");
+        y = Input.GetAxisRaw("Vertical");
+        input = new Vector2(x,y);
+        input.Normalize();
+    }
+    private void Animate()
+    {
+        if (input.magnitude > 0.1f || input.magnitude < -0.1f)
+        {
+            Moving = true;
+        }
+        else
+        {
+            Moving = false;
+        }
+        if (Moving)
+        {
+            anim.SetFloat("x", x);
+            anim.SetFloat("y", y);
+        }
+        anim.SetBool("IsMoving", Moving);
     }
 }

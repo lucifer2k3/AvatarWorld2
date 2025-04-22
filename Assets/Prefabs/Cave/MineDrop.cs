@@ -37,7 +37,7 @@ public class MineDrop : MonoBehaviour
             }
             else
             {
-                PlayerInvent.instance.AddItem(DropItem, Random.Range(1, dropAmount));
+                PlayerInvent.instance.AddItem(DropItem, 1);
                 Destroy(gameObject);
             }
         }
