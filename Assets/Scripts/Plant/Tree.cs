@@ -74,20 +74,32 @@ public class Tree : MonoBehaviour
     void OnMouseDown(){
         if (Vector2.Distance(playerTransform.position,transform.position)<5.5f)
             {
-            if (health > 0)
+            if (playerTransform.position.x > transform.position.x) 
             {
-                health--;
+                PlayerController.instance.axetrigger(true);
             }
-            if (health == 2)
+            else
             {
-                StartFalling();
+                PlayerController.instance.axetrigger(false);
             }
-            if (health <= 0)
+            //PlayerController.instance.axetrigger(true);
+
+            {
+                if (health > 0)
                 {
-                PlayerInvent.instance.AddItem(drop, quantity2);
-                Destroy(gameObject);
-                 // Thêm item vào inventory
+                    health--;
                 }
+            if (health == 2)
+                {
+                    StartFalling();
+                }
+                if (health <= 0)
+                {
+                    PlayerInvent.instance.AddItem(drop, quantity2);
+                    Destroy(gameObject);
+                    // Thêm item vào inventory
+                }
+            }
             }
         else
         {
