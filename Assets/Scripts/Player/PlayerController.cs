@@ -70,13 +70,47 @@ public class PlayerController : MonoBehaviour
         switch (left)
         {
             case true:
-                weapon_left_anim.SetTrigger("Weapon Trigger");
-                weapon_left_anim.SetInteger("State", 1);
+                anim.SetFloat("x", -1);
+                anim.SetFloat("y", 0);
+                weapon_left_anim.SetTrigger("Axe");
                 break;
             case false:
-                weapon_anim.SetTrigger("Weapon Trigger");
-                weapon_anim.SetInteger("State", 1);
+                anim.SetFloat("x", 1);
+                anim.SetFloat("y", 0);
+                weapon_anim.SetTrigger("Axe");
                 break;
         }
     }
+    public void hoetrigger(bool left)
+    {
+        switch (left)
+        {
+            case true:
+                anim.SetFloat("x", -1);
+                anim.SetFloat("y", 0);
+                weapon_left_anim.SetTrigger("Hoe");
+                break;
+            case false:
+                anim.SetFloat("x", 1);
+                anim.SetFloat("y", 0);
+                weapon_anim.SetTrigger("Hoe");
+                break;
+        }
+    }
+    public void pickaxetrigger(bool left)
+    {
+        switch (left)
+        {
+            case true:
+                anim.SetFloat("x", -1);
+                anim.SetFloat("y", 0);
+                weapon_left_anim.SetTrigger("PickAxe");
+                break;
+            case false:
+                anim.SetFloat("x", 1);
+                anim.SetFloat("y", 0);
+                weapon_anim.SetTrigger("PickAxe");
+                break;
+        }
+    }   
 }

@@ -25,7 +25,7 @@ public class Tree : MonoBehaviour
 
     //get player position
     private Transform playerTransform;
-    private void Start()
+    private void Awake()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         if (playerTransform == null)

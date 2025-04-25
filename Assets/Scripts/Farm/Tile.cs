@@ -6,6 +6,8 @@ using UnityEngine.U2D.Animation;
 
 public class Tile : MonoBehaviour
 {
+    private Transform playerTransform;
+
     private SpriteLibrary spriteLibrary;
     private SpriteRenderer render;
     [SerializeField]private SpriteRenderer interaction;
@@ -21,6 +23,11 @@ public class Tile : MonoBehaviour
 
     private void Awake()
     {
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        if (playerTransform == null)
+        {
+            Debug.LogError("Player không được tìm thấy trong scene!");
+        }
         this.spriteLibrary = GetComponent<SpriteLibrary>();
         this.render = GetComponent<SpriteRenderer>();
         boxCol = GetComponent<BoxCollider2D>();
@@ -96,8 +103,17 @@ public class Tile : MonoBehaviour
                     //check nang luong cua nhan vat
                     if (PlayerStats.instance.player_now_energy>0)
                     {
+                        if (playerTransform.position.x > transform.position.x)
+                        {
+                            PlayerController.instance.hoetrigger(true);
+                        }
+                        else
+                        {
+                            PlayerController.instance.hoetrigger(false);
+                        }
                         PlayerStats.instance.player_now_energy-=1;
                         canPlant = true; 
+                        
                     }
                     else
                     {

@@ -9,6 +9,8 @@ public class MineDrop : MonoBehaviour
     [SerializeField] private int HP = 6;
 
     private Transform playerPos;
+
+
     private void Awake()
     {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
@@ -31,6 +33,14 @@ public class MineDrop : MonoBehaviour
     {
         if (Vector2.Distance(playerPos.position,this.transform.position)<5f){
             PlayerStats.instance.Work(1);
+            if (playerPos.position.x > transform.position.x)
+            {
+                PlayerController.instance.pickaxetrigger(true);
+            }
+            else
+            {
+                PlayerController.instance.pickaxetrigger(false);
+            }
             if (HP > 0)
             {
                 HP--;
